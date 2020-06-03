@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Frank Rösler</title>
+    <link>https://frank-roesler.github.io/</link>
+    <description>Recent content in Home on Frank Rösler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2020 11:51:44 +0100</lastBuildDate>
+    
+	<atom:link href="https://frank-roesler.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/flatten/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/flatten/</guid>
+      <description>Flatten the curve To illustrate the &amp;ldquo;flatten the curve&amp;rdquo; strategy against Corona, I&amp;rsquo;ve coded a nice little simulation in Python. Blue dots represent healthy individuals, red dots represent infected ones. Whenever a blue dot gets too close to a red dot, it gets infected (and infectious) for a certain period of time. Globally, this dynamic leads to a wave-like phenomenon.
+The code is here: https://github.com/frank-roesler/Files/blob/master/Flatten_curve.py
+  First video: bad situation with high peak;     Second video: good situation, where the peak has been flattened by increasing the average distance between the dots.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/reconstruction/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/reconstruction/</guid>
+      <description>Image reconstruction Example of Image reconstruction through inpainting using the heat equation. Initially, 97% of the image are lost. Using the remaining pixels as pinning points for a heat flow, one can recover a great deal of the information contained in the image.
+The Matlab code is available at https://github.com/frank-roesler/Files/blob/master/Inpainting.m   </description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/turing/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/turing/</guid>
+      <description>Turing pattern Simple example of Turing pattern formation, coded in Matlab. Two solutions to a coupled PDE system compete until they reach a stable equilibrium. It is believed that this is the mechanism behind the formation of animal coat patterns.
+The Matlab code is available at https://github.com/frank-roesler/Files/blob/master/Turing_FinDiff.m   </description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/miscellaneous/</link>
+      <pubDate>Tue, 26 May 2020 15:13:25 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/miscellaneous/</guid>
+      <description>On this page I collected some small mathematical simulations that I coded as a hobby and that are nice to watch. All simulations are implemented in basic Matlab or Python and the corresponding codes are freely available on Github (choose from the menu on the left).</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://frank-roesler.github.io/links/</link>
+      <pubDate>Tue, 26 May 2020 14:32:05 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/links/</guid>
+      <description>This page contains links to recent or upcoming events and other activities and works of current interest to me.
+Cardiff Online Analysis Seminar (CAOS): During the COVID-19 restrictions, Cardiff University has set up an online version of their analysis seminar: https://jbenartzi.github.io/seminars.html
+(Related: a great number of online research seminars are listed here: https://researchseminars.org/)
+Research Projects:  COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.blog/ Jonathan Ben-Artzi (group leader): https://jbenartzi.github.io/research.html  Conferences and Workshops: Upcoming:  Conference Mathematical aspects of the physics with non-self-adjoint operators: 10 years after, Marseille, France, 7 - 11 December 2020 .</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://frank-roesler.github.io/cv/</link>
+      <pubDate>Tue, 26 May 2020 14:30:19 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/cv/</guid>
+      <description>Grants and Awards  2020: 2-year Marie Skłodowska Curie Fellowship for the project Computational Complexity in Quantum Mechanics (COCONUT) at Cardiff University.  Education and Degrees  2018-present: Research Associate / Marie Curie Fellow, School of Mathematics, Cardiff University, Cardiff, UK. 2014-2018: PhD Mathematics, Dept of Mathematical Sciences, Durham University, Durham, UK. Topic: Spectral Theory of non-selfadjoint Schrödinger Operators and homogenisation of PDEs in perforated domains. 2011-2014: MSc Physics, Heidelberg University, Heidelberg, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://frank-roesler.github.io/teaching/</link>
+      <pubDate>Tue, 26 May 2020 14:23:52 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/teaching/</guid>
+      <description>Winter term 2019/20  Lecture on Measure Theory at Cardiff University.  Handwritten set of lecture notes: Measure Theory Video capture of the entire lecture freely available online: Measure Theory Cardiff 2019    Summer term 2018  Assistant for the course &amp;ldquo;Analysis 2&amp;rdquo; by Prof. M. Růžička at the University of Freiburg.  Winter term 2017/18  Assistant for the lecture &amp;ldquo;Analysis 1&amp;rdquo; by Prof. M. Růžička at the University of Freiburg.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://frank-roesler.github.io/research/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/research/</guid>
+      <description>Publications and Preprints  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. (in preparation) Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. https://doi.org/10.1007/s00020-019-2555-x. (A Matlab implementation of the algorithm can be found here) Frank Rösler; Graph-like Domains with Dirichlet-Perforation. Preprint, arXiv:1802.00494 Frank Rösler PhD Thesis: Norm-Resolvent Estimates and Perforated Domains, Durham University, 2018. Patrick Dondl, Kirill Cherednichenko, Frank Rösler; Norm-Resolvent Convergence in Perforated Domains.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://frank-roesler.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frank-roesler.github.io/contact/</guid>
+      <description>Please use the form below if you want to get in touch.
+Your Name Email Address An email address is required.  Message   </description>
+    </item>
+    
+  </channel>
+</rss>
