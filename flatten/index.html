@@ -58,8 +58,8 @@ The code is here: https://github.com/frank-roesler/Files/blob/master/Flatten_cur
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://frank-roesler.github.io/images/banner_blackboard2.jpg'); height: 23vh;">
-    <div class="pb3-m pb6-l bg-black-60" style="height: 23vh;">
+  <header class="cover bg-top" style="background-image: url('https://frank-roesler.github.io/images/banner_blackboard2.jpg'); height: 180px;">
+    <div class="pb3-m pb6-l bg-black-60" style="height: 180px;">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://frank-roesler.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -157,39 +157,17 @@ The code is here: https://github.com/frank-roesler/Files/blob/master/Flatten_cur
 	
 		<head>
 	<style>
-		nav .narrow-dropdown {
-		  display: none;
-		  width: 100%;
+		@media (max-width: 960px) {
+			.side-menu { 
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			}
 		}
-		@media (max-width: 730px) {
-		  nav .side-menu     { display: none; }
-		  nav .narrow-dropdown { display: inline-block; }
-		}
-		
-		
-		.menu-label {
-			  list-style-type: none;
-			  margin: 0;
-			  padding: 0;
-			  background-color: lightgray;
-		 }
-		
-		li .menu-link {
-			  display: block;
-			  color: #000;
-			  padding: 18px 36px;
-			  text-decoration: none;
-		}
-		
-		 
-		li .menu-link:hover {
-			  background-color: #555;
-			  color: white;
-		 }
-		 
-		 .side-menu {
+		@media (min-width: 960px) {
+		.side-menu {
 			width: auto;
-			margin-right:   5vh;
+			margin-right:   2vh;
 			margin-left:    3vh;
 			margin-top:     10vh;
 			margin-bottom:  5vh;
@@ -198,36 +176,48 @@ The code is here: https://github.com/frank-roesler/Files/blob/master/Flatten_cur
 			 
 			 
 		}
+	}
+		 
+		 
+		 
+	.menu-label {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  background-color: lightgray;
+  }
+
+	li .menu-link {
+	  display: block;
+	  color: #000;
+	  padding: 18px 36px;
+	  text-decoration: none;
+	}
+
+	 
+	li .menu-link:hover {
+	  background-color: #555;
+	  color: white;
+	}
 	</style>
-	
 </head>
 
-<nav> 
-	<ul class="side-menu">
-		<li class="menu-label">
-			<a class="menu-link" href="/miscellaneous">Home</a>
-		</li>
-		<li class="menu-label">
-			<a class="menu-link" href="/turing">Turing pattern</a>
-		</li>
-		<li class="menu-label">
-			<a class="menu-link" href="/reconstruction">Image reconstruction</a>
-		</li>
-		<li class="menu-label">
-			<a class="menu-link" href="/flatten">Flatten the curve</a>
-		</li>
-	</ul>
-	
-	<form>
-    <select class="narrow-dropdown" onchange="window.open(this.options[this.selectedIndex].value,'_self')">
-        <option value="" selected="selected">Select</option> 
-		<option value="/miscellaneous">Home</option> 
-		<option value="/turing">Turing</option> 
-		<option value="/reconstruction">Image reconstruction</option> 
-		<option value="/flatten">Flatten the curve</option> 
-    </select>
-	</form>
-</nav>
+<ul class="side-menu">
+	<li class="menu-label">
+		<a  class="menu-link" href="/miscellaneous">Home</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/turing">Turing pattern</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/reconstruction">Image reconstruction</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/flatten">Flatten the curve</a>
+	</li>
+</ul>
+
+		
 	
 		  
       
