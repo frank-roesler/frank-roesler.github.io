@@ -151,9 +151,39 @@
 	
 		<head>
 	<style>
-		.side-menu {
+		nav .narrow-dropdown {
+		  display: none;
+		  width: 100%;
+		}
+		@media (max-width: 730px) {
+		  nav .side-menu     { display: none; }
+		  nav .narrow-dropdown { display: inline-block; }
+		}
+		
+		
+		.menu-label {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  background-color: lightgray;
+		 }
+		
+		li .menu-link {
+			  display: block;
+			  color: #000;
+			  padding: 18px 36px;
+			  text-decoration: none;
+		}
+		
+		 
+		li .menu-link:hover {
+			  background-color: #555;
+			  color: white;
+		 }
+		 
+		 .side-menu {
 			width: auto;
-			margin-right:   2vh;
+			margin-right:   5vh;
 			margin-left:    3vh;
 			margin-top:     10vh;
 			margin-bottom:  5vh;
@@ -162,49 +192,36 @@
 			 
 			 
 		}
-		 
-		 
-		 
-	.menu-label {
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-	  background-color: lightgray;
-  }
-
-	li .menu-link {
-	  display: block;
-	  color: #000;
-	  padding: 18px 36px;
-	  text-decoration: none;
-	}
-
-	 
-	li .menu-link:hover {
-	  background-color: #555;
-	  color: white;
-	}
 	</style>
+	
 </head>
 
-	<aside class="side-menu">
-		<ul>
-			<li class="menu-label">
-				<a  class="menu-link" href="/miscellaneous">Home</a>
-			</li>
-			<li class="menu-label">
-				<a class="menu-link" href="/turing">Turing pattern</a>
-			</li>
-			<li class="menu-label">
-				<a class="menu-link" href="/reconstruction">Image reconstruction</a>
-			</li>
-			<li class="menu-label">
-				<a class="menu-link" href="/flatten">Flatten the curve</a>
-			</li>
-		</p>
-
-		
-		</aside>
+<nav> 
+	<ul class="side-menu">
+		<li class="menu-label">
+			<a class="menu-link" href="/miscellaneous">Home</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/turing">Turing pattern</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/reconstruction">Image reconstruction</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/flatten">Flatten the curve</a>
+		</li>
+	</ul>
+	
+	<form>
+    <select class="narrow-dropdown" onchange="window.open(this.options[this.selectedIndex].value,'_self')">
+        <option value="" selected="selected">Select</option> 
+		<option value="/miscellaneous">Home</option> 
+		<option value="/turing">Turing</option> 
+		<option value="/reconstruction">Image reconstruction</option> 
+		<option value="/flatten">Flatten the curve</option> 
+    </select>
+	</form>
+</nav>
 	
 		  
       
