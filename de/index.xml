@@ -94,7 +94,7 @@ Der Matlab-Code ist hier abrufbar: https://github.com/frank-roesler/Files/blob/m
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/turing/</guid>
-      <description>Turing-Mechanismus Einfaches Beispiel für &amp;ldquo;Turing pattern formation&amp;rdquo;; programmiert in Matlab. Zwei Lösungen eines gekoppelten Systems partieller Differentialgleichungen konkurrieren, bis sich ein stabiles Gleichgewicht einstellt. Es wird seit langem vermutet, dass dieser Mechanismus der Entstehung von Fellzeichnung bei Tieren unterliegt.
+      <description>Turing-Mechanismus Einfaches Beispiel für &amp;ldquo;Turing pattern formation&amp;rdquo;; programmiert in Matlab. Zwei Lösungen eines gekoppelten Systems partieller Differentialgleichungen konkurrieren, bis sich ein stabiles Gleichgewicht einstellt. Es wird seit langem vermutet, dass dieser Mechanismus der Entstehung der Fellzeichnung von Tieren unterliegt.
 Der Matlab-Code ist hier verfügbar: https://github.com/frank-roesler/Files/blob/master/Turing_FinDiff.m   </description>
     </item>
     
