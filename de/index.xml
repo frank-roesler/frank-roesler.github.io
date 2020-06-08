@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Frank Rösler</title>
+    <link>https://frank-roesler.github.io/de/</link>
+    <description>Recent content in Home on Frank Rösler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 May 2020 11:51:44 +0100</lastBuildDate>
+    
+	<atom:link href="https://frank-roesler.github.io/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research/</guid>
+      <description>Publikationen und Preprints  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368 Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. https://doi.org/10.1007/s00020-019-2555-x. (A Matlab implementation of the algorithm can be found here) Frank Rösler; Graph-like Domains with Dirichlet-Perforation. Preprint, arXiv:1802.00494 Frank Rösler Doktorarbeit: Norm-Resolvent Estimates and Perforated Domains, Durham University, 2018. Patrick Dondl, Kirill Cherednichenko, Frank Rösler; Norm-Resolvent Convergence in Perforated Domains.</description>
+    </item>
+    
+    <item>
+      <title>Lehre</title>
+      <link>https://frank-roesler.github.io/de/teaching/</link>
+      <pubDate>Tue, 26 May 2020 14:23:52 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/teaching/</guid>
+      <description>Wintersemester 2019/20  Vorlesung über Maßtheorie an der Universität Cardiff.  Handgeschriebenes Vorlesungsskript: Maßtheorie Videos der gesamten Vorlesung sind frei verfügbar: Measure Theory Cardiff 2019    Sommersemester 2018  Assistent für die Vorlesung &amp;ldquo;Analysis 2&amp;rdquo; von Prof. M. Růžička an der Universität Freiburg.  Wintersemester 2017/18  Assistent für die Vorlesung &amp;ldquo;Analysis 1&amp;rdquo; von Prof. M. Růžička an der Universität Freiburg.  Sommersemester 2017  Lesekurs über den Spektralsatz für kompakte, beschränkte und unbeschränkte selbstadjungierte Operatoren auf Hilberträumen an der Universität Freiburg.</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://frank-roesler.github.io/de/cv/</link>
+      <pubDate>Tue, 26 May 2020 14:30:19 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/cv/</guid>
+      <description>Grants und Awards  2020: 2-Jahre Marie Skłodowska Curie Fellowship für das Projekt Computational Complexity in Quantum Mechanics (COCONUT) an der Universität Cardiff. 2019: LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop &amp;ldquo;Small Scales and Homogenisation&amp;rdquo;  Ausbildung und Abschlüsse  2018-: Wissenschaftlicher Mitarbeiter / Marie Curie Fellow, School of Mathematics, Cardiff University, Cardiff, UK. 2014-2018: Promotion in Mathematik, Dept of Mathematical Sciences, Durham University, Durham, UK. Thema: Spectral Theory of non-selfadjoint Schrödinger Operators and homogenisation of PDEs in perforated domains.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://frank-roesler.github.io/de/links/</link>
+      <pubDate>Tue, 26 May 2020 14:32:05 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/links/</guid>
+      <description>Diese Seite enthält Links zu aktuellen Events und Arbeiten, die für mich gegenwärtig von Interesse sind.
+Cardiff Online Analysis Seminar (CAOS): Während der COVID-19 Beschränkungen organisiert Cardiff ein online-Analysis-Seminar: https://jbenartzi.github.io/seminars.html
+(Related: Eine Große Zahl von online-Forschungsseminaren ist hier aufgelistet: https://researchseminars.org/)
+Forschungsprojekte:  COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.blog/ Jonathan Ben-Artzi (Gruppenleiter): https://jbenartzi.github.io/research.html  Konferenzen und Workshops: Anstehend:  Konferenz Mathematical aspects of the physics with non-self-adjoint operators: 10 years after, Marseille, Frankreich, 7.</description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/miscellaneous/</link>
+      <pubDate>Tue, 26 May 2020 15:13:25 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/miscellaneous/</guid>
+      <description>Hier sammle ich einige kleine mathematische Simulationen, die ich als Hobby programmiert habe. Alle Simulationen sind simple Matlab- bzw. Python-Implementierungen und die zugehörigen Codes sind frei verfügbar auf Github.</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://frank-roesler.github.io/de/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/contact/</guid>
+      <description>Bitte benutzen Sie dieses Formular, um mich zu kontaktieren.
+Dein Name Email Adresse Eine Email Adresse wird benötigt.  Nachricht   </description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/flatten/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/flatten/</guid>
+      <description>Flatten the curve Um die &amp;ldquo;flatten the curve&amp;rdquo;-Strategie gegen COVID-19 zu veranschaulichen, habe ich diese kleine Simulation in Python programmiert. Blaue Punkte stehen für gesunde Individuen, rote Punkte für infizierte. Wenn ein blauer Punkt einem roten zunahe kommt, wird er infiziert (und damit infektiös). Nach einer bestimmten Zeit genesen infizierte Punkte von alleine. Man sieht, dass diese einfache Dynamik global zu einer Art Welle führt.
+Der Code ist hier: https://github.com/frank-roesler/Files/blob/master/Flatten_curve.py</description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/reconstruction/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/reconstruction/</guid>
+      <description>Image reconstruction Beispiel für Bildrekonstruktion durch &amp;ldquo;Inpainting&amp;rdquo; mit der Wärmeleitungsgleichung. Anfangs sind 97% des Bildes verloren. Benutzt man die verbliebenen Pixel als &amp;ldquo;Randbedingung&amp;rdquo; für einen simulierten Wärmefluss, lässt sich ein großer Teil der Information des Originalbildes zurückgewinnen.
+Der Matlab-Code ist hier abrufbar: https://github.com/frank-roesler/Files/blob/master/Inpainting.m   </description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/turing/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/turing/</guid>
+      <description>Turing pattern Einfaches Beispiel für &amp;ldquo;Turing pattern formation&amp;rdquo;; programmiert in Matlab. Zwei Lösungen eines gekoppelten Systems partieller Differentialgleichungen konkurrieren, bis sich ein stabiles Gleichgewicht einstellt. Es wird seit langem vermutet, dass dieser Mechanismus der Entstehung von Fellzeichnung bei Tieren unterliegt.
+Der Matlab-Code ist hier verfügbar: https://github.com/frank-roesler/Files/blob/master/Turing_FinDiff.m   </description>
+    </item>
+    
+  </channel>
+</rss>
