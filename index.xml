@@ -101,6 +101,17 @@ The Matlab code is available at https://github.com/frank-roesler/Files/blob/mast
     </item>
     
     <item>
+      <title>SIR model fit</title>
+      <link>https://frank-roesler.github.io/sir/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/sir/</guid>
+      <description>Fit SIR model As part of my Python learning, I coded this little app, that generates simulated data of an infectious disease wave and then fits a simple SIR model. The user can choose between steepest descent and congugate gradient methods in a GUI.
+The source code is openly available at https://github.com/frank-roesler/SIR_fit
+ </description>
+    </item>
+    
+    <item>
       <title>Research</title>
       <link>https://frank-roesler.github.io/helmholtz/</link>
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
