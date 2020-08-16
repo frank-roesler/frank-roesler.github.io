@@ -70,6 +70,17 @@ Dein Name Email Adresse Eine Email Adresse wird benötigt.  Nachricht   </descri
     </item>
     
     <item>
+      <title>SIR-Modell Fit</title>
+      <link>https://frank-roesler.github.io/de/sir/</link>
+      <pubDate>Sun, 16 Aug 2020 21:06:16 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/sir/</guid>
+      <description>Fit SIR-Modell Als kleines Python-Lernprojekt habe ich dieses kleine Programm geschrieben, das simulierte Daten für eine Infektionswelle in einer population generiert und dann ein einfaches SIR-Modell fittet. Der User kann auf einer grafischen Benutzeroberfläche zwischen zwei fit-Methoden wählen (Methode des steilsten Abstiegs bzw. konjugierte Gradienten).
+Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
+ </description>
+    </item>
+    
+    <item>
       <title>Verschiedenes</title>
       <link>https://frank-roesler.github.io/de/flatten/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>

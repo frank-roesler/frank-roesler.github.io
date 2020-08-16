@@ -107,6 +107,21 @@
   </url>
   
   <url>
+    <loc>https://frank-roesler.github.io/sir/</loc>
+    <lastmod>2020-08-16T21:06:16+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/sir/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/sir/"
+                />
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/flatten/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -149,11 +164,6 @@
                 hreflang="en"
                 href="https://frank-roesler.github.io/turing/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://frank-roesler.github.io/sir/</loc>
-    <lastmod>2020-06-01T16:49:58+01:00</lastmod>
   </url>
   
   <url>
