@@ -5,18 +5,15 @@
     <link>https://frank-roesler.github.io/</link>
     <description>Recent content in Home on Frank Rösler</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 May 2020 11:51:44 +0100</lastBuildDate>
-    
-	<atom:link href="https://frank-roesler.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 26 May 2020 11:51:44 +0100</lastBuildDate><atom:link href="https://frank-roesler.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
       <link>https://frank-roesler.github.io/research/</link>
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research/</guid>
-      <description>Publications and Preprints  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. to appear (sneak peek) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368 Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. https://doi.org/10.1007/s00020-019-2555-x. (A Matlab implementation of the algorithm can be found here) Frank Rösler; Graph-like Domains with Dirichlet-Perforation.</description>
+      <description>Publications and Preprints  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Preprint, arXiv:2009.02956
+Click here for the slides of a recent talk on the subject. Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368 Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. https://doi.org/10.1007/s00020-019-2555-x. (A Matlab implementation of the algorithm can be found here) Frank Rösler; Graph-like Domains with Dirichlet-Perforation.</description>
     </item>
     
     <item>
