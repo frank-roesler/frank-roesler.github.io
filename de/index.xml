@@ -12,8 +12,10 @@
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research/</guid>
-      <description>Publikationen und Preprints  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Preprint, arXiv:2009.02956
-Hier gibt es die Folien zu einem Vortrag zu dem Thema. Eine Matlab-Implementierung des Algorithmus ist hier verfügbar Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368 Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. https://doi.</description>
+      <description>Publikationen und Preprints  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
+(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Preprint, arXiv:2104.09575.
+(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Preprint, arXiv:2009.02956
+Hier gibt es die Folien zu einem Vortrag zu dem Thema.</description>
     </item>
     
     <item>
@@ -67,7 +69,18 @@ Dein Name Email Adresse Eine Email Adresse wird benötigt.  Nachricht   </descri
     </item>
     
     <item>
-      <title>SIR-Modell Fit</title>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/perfdom/</link>
+      <pubDate>Sun, 16 Aug 2020 21:06:16 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/perfdom/</guid>
+      <description>Homogenisierung in perforierten Gebieten Diffusion in einem Gebiet mit periodisch verteilten Hindernissen kann makroskopisch durch eine reduzierte Diffusionskonstante angenähert werden. Diese sogenannte homohenisierte Konstante kann numerisch berechnet werden, indem man eine Differentialgleichung in einer einzigen Zelle löst. Die klassische Theorie wurde in diesem Artikel entwickelt.
+Zwei unterschiedliche Berechnungsmethoden habe ich in Matlab implementiert. Das Bild zeigt die Lösung der Gleichung in einer Zelle mit kreisrundem Hindernis.
+Der Quellcode ist frei verfügbar auf https://github.</description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
       <link>https://frank-roesler.github.io/de/sir/</link>
       <pubDate>Sun, 16 Aug 2020 21:06:16 +0100</pubDate>
       

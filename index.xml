@@ -12,8 +12,10 @@
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research/</guid>
-      <description>Publications and Preprints  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, in preparation. Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, in preparation. Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Preprint, arXiv:2009.02956
-Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances.</description>
+      <description>Publications and Preprints  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
+(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Preprint, arXiv:2104.09575.
+(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Preprint, arXiv:2009.02956
+Click here to download the slides of a recent talk on the subject.</description>
     </item>
     
     <item>
@@ -67,7 +69,17 @@ Your Name Email Address An email address is required.  Message   </description>
     </item>
     
     <item>
-      <title>SIR model fit</title>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/perfdom/</link>
+      <pubDate>Sun, 16 Aug 2020 21:06:16 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/perfdom/</guid>
+      <description>Periodically perforated domains Diffusion in a domain with periodically distributed obstacles can be macroscopically approximated by a reduced diffusion constant. This so-called homogenized constant can be computed numerically by solving an associated partial differential equation in a single periodic cell (the cell problem). The classical theory has been developed in this article.
+I have implemented two different methods of computing the homogenized diffusion constant for obstacles of arbitrary shape. The figure shows the solution of the cell problem for a circular obstacle.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
       <link>https://frank-roesler.github.io/sir/</link>
       <pubDate>Sun, 16 Aug 2020 21:06:16 +0100</pubDate>
       
