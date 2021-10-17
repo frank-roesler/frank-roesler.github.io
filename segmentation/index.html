@@ -26,26 +26,29 @@
     
     
     <meta property="og:title" content="Miscellaneous" />
-<meta property="og:description" content="Periodically perforated domains Diffusion in a domain with periodically distributed obstacles can be macroscopically approximated by a reduced diffusion constant. This so-called homogenized constant can be computed numerically by solving an associated partial differential equation in a single periodic cell (the cell problem). The classical theory has been developed in this article.
-I have implemented two different methods of computing the homogenized diffusion constant for obstacles of arbitrary shape. The figure shows the solution of the cell problem for a circular obstacle." />
+<meta property="og:description" content="Image Segmentation with FCNs This GitHub repo:
+https://github.com/frank-roesler/Image_Segmentation
+contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/perfdom/" />
-<meta property="article:published_time" content="2020-08-16T21:06:16+01:00" />
-<meta property="article:modified_time" content="2020-08-16T21:06:16+01:00" />
+<meta property="og:url" content="https://frank-roesler.github.io/segmentation/" />
+<meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
+<meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="name" content="Miscellaneous">
-<meta itemprop="description" content="Periodically perforated domains Diffusion in a domain with periodically distributed obstacles can be macroscopically approximated by a reduced diffusion constant. This so-called homogenized constant can be computed numerically by solving an associated partial differential equation in a single periodic cell (the cell problem). The classical theory has been developed in this article.
-I have implemented two different methods of computing the homogenized diffusion constant for obstacles of arbitrary shape. The figure shows the solution of the cell problem for a circular obstacle.">
-<meta itemprop="datePublished" content="2020-08-16T21:06:16+01:00" />
-<meta itemprop="dateModified" content="2020-08-16T21:06:16+01:00" />
-<meta itemprop="wordCount" content="90">
+<meta itemprop="description" content="Image Segmentation with FCNs This GitHub repo:
+https://github.com/frank-roesler/Image_Segmentation
+contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained.">
+<meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+<meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
+<meta itemprop="wordCount" content="131">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Miscellaneous"/>
-<meta name="twitter:description" content="Periodically perforated domains Diffusion in a domain with periodically distributed obstacles can be macroscopically approximated by a reduced diffusion constant. This so-called homogenized constant can be computed numerically by solving an associated partial differential equation in a single periodic cell (the cell problem). The classical theory has been developed in this article.
-I have implemented two different methods of computing the homogenized diffusion constant for obstacles of arbitrary shape. The figure shows the solution of the cell problem for a circular obstacle."/>
+<meta name="twitter:description" content="Image Segmentation with FCNs This GitHub repo:
+https://github.com/frank-roesler/Image_Segmentation
+contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained."/>
 
 	
   </head>
@@ -139,15 +142,6 @@ I have implemented two different methods of computing the homogenized diffusion 
 
 
 	  
-<h4></h4>
-<ul class="pl0 mr3">
-    
-    <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white no-underline white-90" href="https://frank-roesler.github.io/de/perfdom/" style="font-size:16px">de</a>
-    </li>
-    
-</ul>
-
 
     </div>
   </div>
@@ -262,14 +256,23 @@ I have implemented two different methods of computing the homogenized diffusion 
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        <h2 id="periodically-perforated-domains">Periodically perforated domains</h2>
-<p>Diffusion in a domain with periodically distributed obstacles can be macroscopically approximated by a reduced diffusion constant. This so-called <em>homogenized</em> constant can be computed numerically by solving an associated partial differential equation in a single periodic cell (the <em>cell problem</em>). The classical theory has been developed in <a href="https://www.sciencedirect.com/science/article/pii/0022247X79902117?via%3Dihub">this article</a>.<br>
-I have implemented two different methods of computing the homogenized diffusion constant for obstacles of arbitrary shape. The figure shows the solution of the cell problem for a circular obstacle.</p>
-<p>The source code is openly available at <a href="https://github.com/frank-roesler/PerfDoms">https://github.com/frank-roesler/PerfDoms</a></p>
-<figure class="center">
-    <img src="/images/perfdom.png"/> 
+        <h2 id="image-segmentation-with-fcns">Image Segmentation with FCNs</h2>
+<p>This GitHub repo:<br>
+<a href="https://github.com/frank-roesler/Image_Segmentation">https://github.com/frank-roesler/Image_Segmentation</a><br>
+contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see <a href="https://arxiv.org/abs/1411.4038),">https://arxiv.org/abs/1411.4038),</a> which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained. The goal is not to provide a powerful state-of-the-art model, but to make the basics understandable.</p>
+<p>This code was tested with the Penn-Fudan pedestrian dataset <a href="https://www.seas.upenn.edu/~jshi/ped_html/">https://www.seas.upenn.edu/~jshi/ped_html/</a>. Even though the dataset is small, the results are reasonable. More accurate results can be obtained by using more elaborate neural network architechtures (e.g. transfer learning with a pre-trained ResNet-50).</p>
+<p><figure class="center">
+    <img src="/images/seg2.png"/> 
 </figure>
 
+<figure class="center">
+    <img src="/images/seg3.png"/> 
+</figure>
+
+<figure class="center">
+    <img src="/images/seg4.png"/> 
+</figure>
+</p>
 
       </div>
     </article>
