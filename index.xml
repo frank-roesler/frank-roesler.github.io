@@ -115,9 +115,7 @@ The Matlab code is available at https://github.com/frank-roesler/Files/blob/mast
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/segmentation/</guid>
-      <description>Image Segmentation with FCNs This GitHub repo:
-https://github.com/frank-roesler/Image_Segmentation
-contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained.</description>
+      <description>Image Segmentation with FCNs My GitHub repo now contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained.</description>
     </item>
     
     <item>
