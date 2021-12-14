@@ -13,8 +13,8 @@
       
       <guid>https://frank-roesler.github.io/de/research/</guid>
       <description>Publikationen und Preprints Preprints:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
-(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Preprint, arXiv:2104.09575.
-(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368  Peer-Reviewed:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell.</description>
+(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368  Peer-Reviewed:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numerische Mathematik (noch nicht erschienen).
+Eine Matlab-Implementierung des Algorithmus gibt es hier. Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell.</description>
     </item>
     
     <item>
@@ -97,6 +97,16 @@ Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
       <guid>https://frank-roesler.github.io/de/flatten/</guid>
       <description>Flatten the curve Um die &amp;ldquo;flatten the curve&amp;rdquo;-Strategie gegen COVID-19 zu veranschaulichen, habe ich diese kleine Simulation in Python programmiert. Blaue Punkte stehen für gesunde Individuen, rote Punkte für infizierte. Wenn ein blauer Punkt einem roten zunahe kommt, wird er infiziert (und damit infektiös). Nach einer bestimmten Zeit genesen infizierte Punkte von alleine. Man sieht, dass diese einfache Dynamik global zu einer Art Welle führt.
 Der Code ist hier: https://github.com/frank-roesler/Files/blob/master/Flatten_curve.py</description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/radon/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/radon/</guid>
+      <description>Inverse Radon-Transformation Die Radon-Transformation ist eine mathematische Abbildung, mit wichtigen Anwendungen in der medizinischen Physik. Sie beschreibt die Rohdaten, die bei einer Röntgen- oder CT-Messung entstehen (sogenannte Sinogramme). Die inverse Radon-Transformation erlaubt die Rekonstruktion des ursprünglichen Bildes aus dem Sinogramm und ist damit von zentraler Bedeutung für das Erstellen von Röntgen- und CT-Bildern. Eine MATLAB-Funktion, die diese Rekonstruktion automatisch berechnet, habe ich programmiert und auf meiner GitHub-Seite veröffentlicht.
+Ursprüngliches Bild:</description>
     </item>
     
     <item>

@@ -13,8 +13,8 @@
       
       <guid>https://frank-roesler.github.io/research/</guid>
       <description>Publications and Preprints Preprints:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
-(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Preprint, arXiv:2104.09575.
-(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368  Peer-Reviewed:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell.</description>
+(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing Scattering Resonances. Preprint, arXiv:2006.03368  Peer-Reviewed:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numerische Mathematik (to appear).
+A Matlab implementation of the algorithm is available here. Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell.</description>
     </item>
     
     <item>
@@ -97,6 +97,16 @@ The source code is openly available at https://github.com/frank-roesler/SIR_fit
       <description>Flatten the curve To illustrate the &amp;ldquo;flatten the curve&amp;rdquo; strategy against COVID-19, I&amp;rsquo;ve coded this little simulation in Python. Blue dots represent healthy individuals, red dots represent infected ones. Whenever a blue dot gets too close to a red dot, it gets infected (and infectious) for a certain period of time. Globally, this dynamic leads to a wave-like phenomenon.
 The code is here: https://github.com/frank-roesler/Files/blob/master/Flatten_curve.py
   First video: bad situation with high peak;     Second video: good situation, where the peak has been flattened by increasing the average distance between the dots (compare the axis labels).</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/radon/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/radon/</guid>
+      <description>Inverse Radon-Transform The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or CT (so-called sinograms).
+The inverse Radon transform allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the inverse Radon transform of an image is openly available on my GitHub page.</description>
     </item>
     
     <item>
