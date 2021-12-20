@@ -105,8 +105,8 @@ The code is here: https://github.com/frank-roesler/Files/blob/master/Flatten_cur
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/radon/</guid>
-      <description>Inverse Radon-Transform The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or CT (so-called sinograms).
-The inverse Radon transform allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the inverse Radon transform of an image is openly available on my GitHub page.</description>
+      <description>Inverse Radon-Transform The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or computed tomography (so-called sinograms).
+The inverse Radon transform (IRT) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page.</description>
     </item>
     
     <item>

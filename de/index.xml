@@ -105,8 +105,8 @@ Der Code ist hier: https://github.com/frank-roesler/Files/blob/master/Flatten_cu
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/radon/</guid>
-      <description>Inverse Radon-Transformation Die Radon-Transformation ist eine mathematische Abbildung, mit wichtigen Anwendungen in der medizinischen Physik. Sie beschreibt die Rohdaten, die bei einer Röntgen- oder CT-Messung entstehen (sogenannte Sinogramme). Die inverse Radon-Transformation erlaubt die Rekonstruktion des ursprünglichen Bildes aus dem Sinogramm und ist damit von zentraler Bedeutung für das Erstellen von Röntgen- und CT-Bildern. Eine MATLAB-Funktion, die diese Rekonstruktion automatisch berechnet, habe ich programmiert und auf meiner GitHub-Seite veröffentlicht.
-Ursprüngliches Bild:</description>
+      <description>Inverse Radon-Transformation Die Radon-Transformation ist eine mathematische Abbildung, mit wichtigen Anwendungen in der medizinischen Physik. Sie beschreibt die Rohdaten, die bei einer Röntgen- oder CT-Messung entstehen (sogenannte Sinogramme). Die inverse Radon-Transformation (IRT) erlaubt die Rekonstruktion des ursprünglichen Bildes aus dem Sinogramm und ist damit von zentraler Bedeutung für das Erstellen von Röntgen- und CT-Bildern. Eine MATLAB-Funktion, die diese Rekonstruktion automatisch berechnet, habe ich programmiert und auf meiner GitHub-Seite veröffentlicht.
+  </description>
     </item>
     
     <item>
