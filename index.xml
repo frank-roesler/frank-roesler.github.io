@@ -121,6 +121,16 @@ The Matlab code is available at https://github.com/frank-roesler/Files/blob/mast
     
     <item>
       <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/reinforcement/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/reinforcement/</guid>
+      <description>Reinforcement Learning Reinforcement Learning is a way to teach computers solve control tasks. Deep neural networks provide a powerful tool to build reinforcement learning models. This section presents an algorithm called &amp;ldquo;Deeo Q-Network&amp;rdquo; (DQN), which I have implemented to learn to play the classical TicTacToe (X vs O) game.
+In a nutshell, a DQN algorithm assigns a value to any possible move in a given state of the game (i.e. for a given configuration of X&amp;rsquo;s and O&amp;rsquo;s on the board, how valuable will it be to place a X in any given free space).</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
       <link>https://frank-roesler.github.io/segmentation/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
