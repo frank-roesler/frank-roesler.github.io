@@ -90,6 +90,16 @@ Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
     </item>
     
     <item>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/de/reinforcement/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/reinforcement/</guid>
+      <description>Reinforcement Learning Reinforcement Learning ist eine Methode, Computern beizubringen, Kontrollaufgaben zu lösen. Neuronale Netzwerke sind hier in modernen Anwengungen ein wichtiger Baustein. Hier stelle ich einen Algorithmus namend &amp;ldquo;Deep Q-Network&amp;rdquo; (DQN) vor, den ich implementiert habe, um das klassische TicTacToe (X gegen O) Spiel zu spielen.
+Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen Nutzen zuordnet.</description>
+    </item>
+    
+    <item>
       <title>Verschiedenes</title>
       <link>https://frank-roesler.github.io/de/flatten/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
