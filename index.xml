@@ -100,6 +100,16 @@ The code is here: https://github.com/frank-roesler/Files/blob/master/Flatten_cur
     
     <item>
       <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/gan/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/gan/</guid>
+      <description>Teaching a Computer to Hallucinate A so-called Generative adversarial Network (GAN) is a combination of two neural networks (one called &amp;ldquo;generator&amp;rdquo;, the other called &amp;ldquo;discriminator&amp;rdquo;) designed to create images of a predefined category. The two networks are set up to compete against one another: first, the generator creates an image from random noise, then the discriminator compares the generated image to a fixed training set.
+The discriminator is trained to distinguish the real images (i.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
       <link>https://frank-roesler.github.io/radon/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       

@@ -90,16 +90,6 @@ Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
     </item>
     
     <item>
-      <title>Miscellaneous</title>
-      <link>https://frank-roesler.github.io/de/reinforcement/</link>
-      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
-      
-      <guid>https://frank-roesler.github.io/de/reinforcement/</guid>
-      <description>Reinforcement Learning Reinforcement Learning ist eine Methode, Computern beizubringen, Kontrollaufgaben zu lösen. Neuronale Netzwerke sind hier in modernen Anwengungen ein wichtiger Baustein. Hier stelle ich einen Algorithmus namend &amp;ldquo;Deep Q-Network&amp;rdquo; (DQN) vor, den ich implementiert habe, um das klassische TicTacToe (X gegen O) Spiel zu spielen.
-Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen Nutzen zuordnet.</description>
-    </item>
-    
-    <item>
       <title>Verschiedenes</title>
       <link>https://frank-roesler.github.io/de/flatten/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
@@ -107,6 +97,16 @@ Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfe
       <guid>https://frank-roesler.github.io/de/flatten/</guid>
       <description>Flatten the curve Um die &amp;ldquo;flatten the curve&amp;rdquo;-Strategie gegen COVID-19 zu veranschaulichen, habe ich diese kleine Simulation in Python programmiert. Blaue Punkte stehen für gesunde Individuen, rote Punkte für infizierte. Wenn ein blauer Punkt einem roten zunahe kommt, wird er infiziert (und damit infektiös). Nach einer bestimmten Zeit genesen infizierte Punkte von alleine. Man sieht, dass diese einfache Dynamik global zu einer Art Welle führt.
 Der Code ist hier: https://github.com/frank-roesler/Files/blob/master/Flatten_curve.py</description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/gan/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/gan/</guid>
+      <description>Wie lässt man einen Computer halluzinieren? Ein sogenanntes Generative adversarial Network (GAN) ist eine Kombination aus zwei neuronalen Netzen (engl. &amp;ldquo;Generator&amp;rdquo; und &amp;ldquo;Discriminator&amp;rdquo;), die kombiniert werden, um Bilder eines bestimmten Typs zu erzeugen. Die beiden Netze konkurrieren gegeneinander: Zunächst erzeugt der Generator ein Bild aus einem Zufallsvektor, danach vergleicht der Discriminator das erzeugte Bild mit einem vorher festgelegten Trainingsdatensatz.
+Der Discriminator wird darauf trainiert, die künstlichen Bilder von den echten Bildern (d.</description>
     </item>
     
     <item>
@@ -127,6 +127,16 @@ Der Code ist hier: https://github.com/frank-roesler/Files/blob/master/Flatten_cu
       <guid>https://frank-roesler.github.io/de/reconstruction/</guid>
       <description>Bildrekonstruktion Beispiel für Bildrekonstruktion durch &amp;ldquo;Inpainting&amp;rdquo; mit der Wärmeleitungsgleichung. Anfangs sind 97% des Bildes verloren. Benutzt man die verbliebenen Pixel als &amp;ldquo;Randbedingung&amp;rdquo; für einen simulierten Wärmefluss, lässt sich ein großer Teil der Information des Originalbildes zurückgewinnen.
 Der Matlab-Code ist hier abrufbar: https://github.com/frank-roesler/Files/blob/master/Inpainting.m   </description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/reinforcement/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/reinforcement/</guid>
+      <description>Reinforcement Learning Reinforcement Learning ist eine Methode, Computern beizubringen, Kontrollaufgaben zu lösen. Neuronale Netzwerke sind hier in modernen Anwengungen ein wichtiger Baustein. Hier stelle ich einen Algorithmus namend &amp;ldquo;Deep Q-Network&amp;rdquo; (DQN) vor, den ich implementiert habe, um das klassische TicTacToe (X gegen O) Spiel zu spielen.
+Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen Nutzen zuordnet.</description>
     </item>
     
     <item>

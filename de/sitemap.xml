@@ -137,21 +137,6 @@
   </url>
   
   <url>
-    <loc>https://frank-roesler.github.io/de/reinforcement/</loc>
-    <lastmod>2020-06-01T16:49:58+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://frank-roesler.github.io/reinforcement/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://frank-roesler.github.io/de/reinforcement/"
-                />
-  </url>
-  
-  <url>
     <loc>https://frank-roesler.github.io/de/flatten/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -163,6 +148,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/flatten/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://frank-roesler.github.io/de/gan/</loc>
+    <lastmod>2020-06-01T16:49:58+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/gan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/gan/"
                 />
   </url>
   
@@ -193,6 +193,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/reconstruction/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://frank-roesler.github.io/de/reinforcement/</loc>
+    <lastmod>2020-06-01T16:49:58+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/reinforcement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/reinforcement/"
                 />
   </url>
   
