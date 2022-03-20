@@ -72,7 +72,7 @@ Your Name Email Address An email address is required.  Message   </description>
       <pubDate>Sun, 16 Aug 2020 21:06:16 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/perfdom/</guid>
-      <description>Periodically perforated domains Diffusion in a domain with periodically distributed obstacles can be macroscopically approximated by a reduced diffusion constant. This so-called homogenized constant can be computed numerically by solving an associated partial differential equation in a single periodic cell (the cell problem). The classical theory has been developed in this article.
+      <description>Periodically perforated domains Diffusion in a domain with periodically distributed obstacles can be macroscopically approximated by a reduced diffusion constant. This so-called homogenized constant can be computed numerically by solving an associated partial differential equation in a single periodic cell (the so-called cell problem). The classical theory has been developed in this article.
 I have implemented two different methods of computing the homogenized diffusion constant for obstacles of arbitrary shape. The figure shows the solution of the cell problem for a circular obstacle.</description>
     </item>
     
@@ -124,7 +124,7 @@ The inverse Radon transform (IRT) allows to reconstruct the original image from 
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/reconstruction/</guid>
-      <description>Image reconstruction Example of Image reconstruction through inpainting using the heat equation. Initially, 97% of the image are lost. Using the remaining pixels as pinning points for a heat flow, one can recover a great deal of the information contained in the image.
+      <description>Image reconstruction Example of Image reconstruction through inpainting using the heat equation. Initially, 97% of the image are lost. Using the remaining pixels as pinning points for a heat flow, one can recover a great deal of the information contained in the original image.
 The Matlab code is available at https://github.com/frank-roesler/Files/blob/master/Inpainting.m   </description>
     </item>
     

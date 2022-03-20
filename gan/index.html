@@ -37,7 +37,7 @@ The discriminator is trained to distinguish the real images (i." />
 The discriminator is trained to distinguish the real images (i.">
 <meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="145">
+<meta itemprop="wordCount" content="150">
 
 
 
@@ -278,7 +278,7 @@ The discriminator is trained to distinguish the real images (i."/>
         <h2 id="teaching-a-computer-to-hallucinate">Teaching a Computer to Hallucinate</h2>
 <p>A so-called <em>Generative adversarial Network (GAN)</em> is a combination of two neural networks (one called &ldquo;generator&rdquo;, the other called &ldquo;discriminator&rdquo;) designed to create images belonging to a predefined category. The two networks are set up to compete against one another: first, the generator creates an image from random noise, then the discriminator compares the generated image to a fixed training set.<br>
 The discriminator is trained to distinguish the real images (i.e. the training set) from the forgeries, while the generator is trained to fool the discriminator. This joint training process forces the generator to produce images that are increasingly similar to the training images.<br>
-This method was introduced in the paper <a href="https://arxiv.org/pdf/1511.06434.pdf">[Radford, Metz, &amp; Chintala (2015)]</a>. Inspired by <a href="https://github.com/pytorch/examples/tree/main/dcgan">this PyTorch implementation</a>, I tried training a GAN to produce images of cats. The results are beautiful images reminiscent of impressionist painitngs.</p>
+This method was introduced in the article <a href="https://arxiv.org/pdf/1511.06434.pdf">[Radford, Metz, &amp; Chintala (2015)]</a>. Inspired by <a href="https://github.com/pytorch/examples/tree/main/dcgan">this PyTorch implementation</a>, I tried training a GAN to produce images of cats. The results are beautiful images reminiscent of impressionist painitngs (that are only slighty creepy).</p>
 <figure><a href="https://frank-roesler.github.io/images/gan_cats.png">
     <img src="/images/gan_cats.png"/> </a>
 </figure>
