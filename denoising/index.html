@@ -35,7 +35,7 @@
 <meta itemprop="description" content="Denoising Signals Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of Lorentz peaks. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (blue = real part, orange = imaginary part of the signal).">
 <meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="211">
+<meta itemprop="wordCount" content="224">
 
 
 
@@ -136,6 +136,15 @@
 
 
 	  
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="https://frank-roesler.github.io/de/denoising/" style="font-size:16px">de</a>
+    </li>
+    
+</ul>
+
 
     </div>
   </div>
@@ -273,8 +282,8 @@
     <img src="/images/denoising/examples.png"/> 
 </figure>
 
-<p>A neural network can be trained on many (randomly generated) examples like the above to reproduce the clean signal from the noisy one. My code is openly available as a Colab Notebook here: <a href="https://colab.research.google.com/drive/1-XNd5Di7p9Ah4hioiQM2rIoLASWf67FJ?usp=sharing"><code>my_notebook_on_colab</code></a>. Anyone with a Google account can run the code in the cloud and test it.<br>
-The plots below show the result of a convolutional neural net with 4 layers trained to minimize the mean square error of its output and the clean signal. For comparison, I have included a moving mean of the noisy signal (which is expected to reduce the noise somewhat). Clearly, the model outperforms the moving mean smoothing.</p>
+<p>Synthetically generated data like the above can be used to train a neural network: the network receives the noisy signal and is trained to reproduce the clean original (aka &ldquo;ground truth&rdquo;). My code is openly available as a Colab Notebook here: <a href="https://colab.research.google.com/drive/1-XNd5Di7p9Ah4hioiQM2rIoLASWf67FJ?usp=sharing"><code>my_notebook_on_colab</code></a>. Anyone can download the code and (with a Google account) run it in the cloud and test it.<br>
+The plots below show the result of a convolutional neural net with 4 layers trained to minimize the mean square error of its output and the clean signal. For comparison, I have included a moving mean of the noisy signal (which is expected to reduce the noise somewhat). Clearly, even this simple model outperforms the moving mean smoothing.</p>
 <figure>
     <img src="/images/denoising/result.png"/> 
 </figure>

@@ -91,6 +91,15 @@ Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
     
     <item>
       <title>Verschiedenes</title>
+      <link>https://frank-roesler.github.io/de/denoising/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/denoising/</guid>
+      <description>Rauschunterdrückung in Messdaten Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise Lorentz-Form. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (blau = Realteil des komplexen Signals, orange = Imaginärteil).</description>
+    </item>
+    
+    <item>
+      <title>Verschiedenes</title>
       <link>https://frank-roesler.github.io/de/flatten/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
