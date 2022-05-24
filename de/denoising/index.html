@@ -279,14 +279,14 @@
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         <h2 id="rauschunterdrückung-in-messdaten">Rauschunterdrückung in Messdaten</h2>
 <p>Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise <a href="https://de.wikipedia.org/wiki/Lorentzkurve">Lorentz-Form</a>. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (blau = Realteil des komplexen Signals, orange = Imaginärteil). Oft ist das Rauschen so stark, dass einzelne Peaks nicht mehr mit bloßem Auge zu erkennen sind.</p>
-<figure>
-    <img src="/images/denoising/examples.png"/> 
+<figure><a href="https://frank-roesler.github.io/images/denoising/examples.png">
+    <img src="/images/denoising/examples.png"/> </a>
 </figure>
 
 <p>Synthetisch generierte Daten wie die obigen eignen sich, um ein neuronales Netz zu trainieren: Das Netz nimmt ein verrauschtes Signal entgegen und wird darauf trainiert, das Original (engl. &ldquo;Ground Truth&rdquo;) zu reproduzieren. Mein Code ist als Google Colab Notebook offen verfügbar: <a href="https://colab.research.google.com/drive/1-XNd5Di7p9Ah4hioiQM2rIoLASWf67FJ?usp=sharing"><code>my_notebook_on_colab</code></a>. Jeder kann den Code herunterladen oder (mit einem Google-Account) in der Cloud ausführen.<br>
 Die folgenden Bilder veranschaulichen das Ergebnis eines colvolutional Netzes mit 4 Layers, das mit MSE-Loss-Funktion trainiert wurde. Zum Vergleich ist rechts unten das Ergebnis einer Glättung mittels &ldquo;moving mean&rdquo; eingefügt. Offensichtlich ist schon dieses simple neuronale Netz der &ldquo;moving mean&rdquo;-Methode weit überlegen.</p>
-<figure>
-    <img src="/images/denoising/result.png"/> 
+<figure><a href="https://frank-roesler.github.io/images/denoising/result.png">
+    <img src="/images/denoising/result.png"/> </a>
 </figure>
 
 
