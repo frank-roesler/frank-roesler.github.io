@@ -6,7 +6,7 @@
     
     <title>Verschiedenes | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.90.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -29,16 +29,20 @@
 <meta property="og:description" content="Reinforcement Learning Reinforcement Learning ist eine Methode, Computern beizubringen, Kontrollaufgaben zu lösen. Neuronale Netzwerke sind hier in modernen Anwengungen ein wichtiger Baustein. Hier stelle ich einen Algorithmus namend &ldquo;Deep Q-Network&rdquo; (DQN) vor, den ich implementiert habe, um das klassische TicTacToe (X gegen O) Spiel zu spielen.
 Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen Nutzen zuordnet." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/de/reinforcement/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/de/reinforcement/" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
-
 <meta itemprop="name" content="Verschiedenes">
 <meta itemprop="description" content="Reinforcement Learning Reinforcement Learning ist eine Methode, Computern beizubringen, Kontrollaufgaben zu lösen. Neuronale Netzwerke sind hier in modernen Anwengungen ein wichtiger Baustein. Hier stelle ich einen Algorithmus namend &ldquo;Deep Q-Network&rdquo; (DQN) vor, den ich implementiert habe, um das klassische TicTacToe (X gegen O) Spiel zu spielen.
-Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen Nutzen zuordnet."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen Nutzen zuordnet.">
+<meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="wordCount" content="143">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Verschiedenes"/>
 <meta name="twitter:description" content="Reinforcement Learning Reinforcement Learning ist eine Methode, Computern beizubringen, Kontrollaufgaben zu lösen. Neuronale Netzwerke sind hier in modernen Anwengungen ein wichtiger Baustein. Hier stelle ich einen Algorithmus namend &ldquo;Deep Q-Network&rdquo; (DQN) vor, den ich implementiert habe, um das klassische TicTacToe (X gegen O) Spiel zu spielen.
 Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen Nutzen zuordnet."/>
@@ -281,8 +285,9 @@ Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfe
 Kurz gesagt funktioniert ein DQN-Algorithmus, indem er jedem Zustand des Spielfeldes (d.h. jeder Anordnung von X und O) und jedem möglichen Spielzug einen <em>Nutzen</em> zuordnet. Während der Algorithmus trainiert wird, lernt das neuronal Netz, den Nutzen jedes Spielzuges in jedem Zustand vorherzusagen (Spielzüge mit hoher Gewinnwahrscheinlichkeit erhalten etwa eien großen Nutzen).<br>
 Dies funktioniert, indem der Algorithmus für erfolgreiche Züge <em>belohnt</em> wird. Nach vielen simulierten Spielen, lernt der Algorithmus, die Belohnung (engl. <em>Reward</em>) vorherzusagen.</p>
 <p>Das TicTacToe-Spiel, der DQN-Algorithmus, der Trainings-Loop und ein Validierungs-Skript sind in <em>PyTorch</em> implementiert und frei verfügbar auf <a href="https://github.com/frank-roesler/TicTacToe_DQN">https://github.com/frank-roesler/TicTacToe_DQN</a>.</p>
-<figure class="center"><a href="https://frank-roesler.github.io/images/ttt.png"><img src="/images/ttt.png"
-         alt="Beispieldiagramm einiger Statistiken während des Trainingsprozesses."/></a><figcaption>
+<figure class="center"><a href="https://frank-roesler.github.io/images/ttt.png">
+    <img src="/images/ttt.png"
+         alt="Beispieldiagramm einiger Statistiken während des Trainingsprozesses."/> </a><figcaption>
             <p>Beispieldiagramm einiger Statistiken während des Trainingsprozesses.</p>
         </figcaption>
 </figure>
