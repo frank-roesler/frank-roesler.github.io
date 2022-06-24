@@ -89,6 +89,16 @@ The source code is openly available at https://github.com/frank-roesler/SIR_fit
     
     <item>
       <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/cs/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/cs/</guid>
+      <description>Image Reconstruction via Compressed Sensing Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the Radon transform.
+The main idea behind the compressed sensing method is to exploit the fact that most images of interest are sparse in an appropriate representation, meaning that they can be compressed significantly without losing much information.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
       <link>https://frank-roesler.github.io/denoising/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
@@ -124,7 +134,7 @@ The discriminator is trained to distinguish the real images (i.</description>
       
       <guid>https://frank-roesler.github.io/radon/</guid>
       <description>Inverse Radon-Transform The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or computed tomography (so-called sinograms).
-The inverse Radon transform (IRT) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page.</description>
+The inverse Radon transform (IRT for short; sometimes also called filtered backprojection) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page.</description>
     </item>
     
     <item>

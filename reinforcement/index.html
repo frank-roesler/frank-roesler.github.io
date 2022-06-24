@@ -6,7 +6,7 @@
     
     <title>Miscellaneous | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.75.1" />
+    <meta name="generator" content="Hugo 0.90.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -29,20 +29,16 @@
 <meta property="og:description" content="Reinforcement Learning Reinforcement Learning is a way to teach computers solve control tasks. Deep neural networks provide a powerful tool to build reinforcement learning models. This section presents an algorithm called &ldquo;Deeo Q-Network&rdquo; (DQN), which I have implemented to learn to play the classical TicTacToe (X vs O) game.
 In a nutshell, a DQN algorithm assigns a value to any possible move in a given state of the game (i.e. for a given configuration of X&rsquo;s and O&rsquo;s on the board, how valuable will it be to place a X in any given free space)." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/reinforcement/" />
+<meta property="og:url" content="https://frank-roesler.github.io/reinforcement/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
+
 <meta itemprop="name" content="Miscellaneous">
 <meta itemprop="description" content="Reinforcement Learning Reinforcement Learning is a way to teach computers solve control tasks. Deep neural networks provide a powerful tool to build reinforcement learning models. This section presents an algorithm called &ldquo;Deeo Q-Network&rdquo; (DQN), which I have implemented to learn to play the classical TicTacToe (X vs O) game.
-In a nutshell, a DQN algorithm assigns a value to any possible move in a given state of the game (i.e. for a given configuration of X&rsquo;s and O&rsquo;s on the board, how valuable will it be to place a X in any given free space).">
-<meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+In a nutshell, a DQN algorithm assigns a value to any possible move in a given state of the game (i.e. for a given configuration of X&rsquo;s and O&rsquo;s on the board, how valuable will it be to place a X in any given free space)."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="wordCount" content="209">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Miscellaneous"/>
 <meta name="twitter:description" content="Reinforcement Learning Reinforcement Learning is a way to teach computers solve control tasks. Deep neural networks provide a powerful tool to build reinforcement learning models. This section presents an algorithm called &ldquo;Deeo Q-Network&rdquo; (DQN), which I have implemented to learn to play the classical TicTacToe (X vs O) game.
 In a nutshell, a DQN algorithm assigns a value to any possible move in a given state of the game (i.e. for a given configuration of X&rsquo;s and O&rsquo;s on the board, how valuable will it be to place a X in any given free space)."/>
@@ -186,7 +182,7 @@ In a nutshell, a DQN algorithm assigns a value to any possible move in a given s
 		li .menu-link {
 			  display: block;
 			  color: #000;
-			  padding: 14px 36px;
+			  padding: 14px 28px;
 			  text-decoration: none;
 		}
 		
@@ -198,11 +194,11 @@ In a nutshell, a DQN algorithm assigns a value to any possible move in a given s
 		 
 		 .side-menu {
 			width: auto;
-			margin-right:   5vh;
+			margin-right:   3vh;
 			margin-left:    3vh;
-			margin-top:     10vh;
+			margin-top:     3vh;
 			margin-bottom:  5vh;
-			font-size: 20px;
+			font-size: 16px;
 			float: left;
 			 
 			 
@@ -246,6 +242,9 @@ In a nutshell, a DQN algorithm assigns a value to any possible move in a given s
 		<li class="menu-label">
 			<a class="menu-link" href="/denoising">Denoising</a>
 		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/cs">Compressed Sensing</a>
+		</li>
 	</ul>
 	
 	<form>
@@ -262,6 +261,7 @@ In a nutshell, a DQN algorithm assigns a value to any possible move in a given s
 		<option value="/reinforcement">Reinforcement Learning</option>
 		<option value="/gan">Generative Adversarial Network</option>
 		<option value="/denoising">Denoising</option>
+		<option value="/cs">Compressed Sensing</option>
     </select>
 	</form>
 </nav>
@@ -284,9 +284,8 @@ In a nutshell, a DQN algorithm assigns a value to any possible move in a given s
 In a nutshell, a DQN algorithm assigns a value to any possible move in a given state of the game (i.e. for a given configuration of X&rsquo;s and O&rsquo;s on the board, how valuable will it be to place a X in any given free space). During training, the neural net learns to predict high values for moves that are likely to lead to victory and low values for moves that are not.<br>
 The learning process involves playing a large number of simulated games. During these games, any move that turns out to be successful (i.e. leads to victory) entails a <em>reward</em> for the algorithm. After a large number of simulated games, the algorithm learns to predict the expected reward of any given game move.</p>
 <p>The TicTacToe game, the DQN model, the training loop and a test script that evaluates the trained model are written in PyTorch and are openly available at <a href="https://github.com/frank-roesler/TicTacToe_DQN">https://github.com/frank-roesler/TicTacToe_DQN</a></p>
-<figure class="center"><a href="https://frank-roesler.github.io/images/ttt.png">
-    <img src="/images/ttt.png"
-         alt="Example training outcome for the DQN agent"/> </a><figcaption>
+<figure class="center"><a href="https://frank-roesler.github.io/images/ttt.png"><img src="/images/ttt.png"
+         alt="Example training outcome for the DQN agent"/></a><figcaption>
             <p>Example training outcome for the DQN agent</p>
         </figcaption>
 </figure>
@@ -329,6 +328,19 @@ The learning process involves playing a large number of simulated games. During 
 </div>
   </div>
 </footer>
+
+
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
 
     
 

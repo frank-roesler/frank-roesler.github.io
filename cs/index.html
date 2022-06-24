@@ -26,19 +26,22 @@
     
     
     <meta property="og:title" content="Miscellaneous" />
-<meta property="og:description" content="Image Segmentation with FCNs My GitHub repo now contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained." />
+<meta property="og:description" content="Image Reconstruction via Compressed Sensing Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the Radon transform.
+The main idea behind the compressed sensing method is to exploit the fact that most images of interest are sparse in an appropriate representation, meaning that they can be compressed significantly without losing much information." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/segmentation/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/cs/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
 
 <meta itemprop="name" content="Miscellaneous">
-<meta itemprop="description" content="Image Segmentation with FCNs My GitHub repo now contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+<meta itemprop="description" content="Image Reconstruction via Compressed Sensing Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the Radon transform.
+The main idea behind the compressed sensing method is to exploit the fact that most images of interest are sparse in an appropriate representation, meaning that they can be compressed significantly without losing much information."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="146">
+<meta itemprop="wordCount" content="400">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Miscellaneous"/>
-<meta name="twitter:description" content="Image Segmentation with FCNs My GitHub repo now contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see https://arxiv.org/abs/1411.4038), which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained."/>
+<meta name="twitter:description" content="Image Reconstruction via Compressed Sensing Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the Radon transform.
+The main idea behind the compressed sensing method is to exploit the fact that most images of interest are sparse in an appropriate representation, meaning that they can be compressed significantly without losing much information."/>
 
 	
   </head>
@@ -132,15 +135,6 @@
 
 
 	  
-<h4></h4>
-<ul class="pl0 mr3">
-    
-    <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white no-underline white-90" href="https://frank-roesler.github.io/de/segmentation/" style="font-size:16px">de</a>
-    </li>
-    
-</ul>
-
 
     </div>
   </div>
@@ -276,19 +270,27 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        <h2 id="image-segmentation-with-fcns">Image Segmentation with FCNs</h2>
-<p>My <a href="https://github.com/frank-roesler/Image_Segmentation">GitHub repo</a> now contains a collection of codes includes a PyTorch implementation of the fully convolutional (FCN) version of Alexnet (see <a href="https://arxiv.org/abs/1411.4038)">https://arxiv.org/abs/1411.4038)</a>, which detects objects in images. The code in this package has been written with one goal in mind: keeping it simple. The model is written only for 1 type of object to be detected (in addition to background), and all functions and classes are explicit; nothing is pre-trained. The goal is not to provide a powerful state-of-the-art model, but to make the basics clear.</p>
-<p>This code was tested with the <a href="https://www.seas.upenn.edu/~jshi/ped_html/">Penn-Fudan pedestrian dataset</a>, as well as cat images from the <a href="https://cocodataset.org/">COCO dataset</a>. Even though the dataset is small, the results are reasonable. More accurate results can be obtained by using more elaborate neural network architechtures (e.g. transfer learning with a pre-trained ResNet-50).</p>
-<p><figure class="center"><img src="/images/seg2.png"/>
+        <h2 id="image-reconstruction-via-compressed-sensing">Image Reconstruction via Compressed Sensing</h2>
+<p>Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the <a href="/radon">Radon transform</a>.<br>
+The main idea behind the compressed sensing method is to exploit the fact that most images of interest are <em>sparse</em> in an appropriate representation, meaning that they can be compressed significantly without losing much information. The following figure illustrates this phenomenon using the Fourier representation of an image. The image on the right-hand side contains exactly the same amount of information as the image on the left hand side, yet most pixels on the right hand side are almost zero. This principle, in fact, underlies modern image compression standards like JPEG. The following figure illustrates Fourier sparsity for the so-called <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6062681">GLPU phantom</a> image.</p>
+<figure><a href="https://frank-roesler.github.io/images/compressed_sensing/original_ft_scaled.png"><img src="/images/compressed_sensing/original_ft_scaled.png"/></a>
 </figure>
 
-<figure class="center"><img src="/images/seg3.png"/>
+<p>Suppose now that we have performed a CT scan and measured a sinogram. We would like to reconstruct the original image from the sinogram, as explained <a href="/radon">here</a>. Since the Radon transform is linear, the reconstruction problem can be considered as a matrix inversion problem
+$$Ax=y.$$
+n practice, however, one faces two challenges: first, the measured image is typically noisy, which generally reduces the quality of the reconstruction. Second, the fact that only a finite number of angles can be measured, so that the reconstruction problem is underdetermined: there are generally many images $x$ that produce the sinogram $y$. Mathematically, this translates into the problem
+$$Ax + e = y,\tag{1}$$
+where $e$ represents the noise and $A$ is a non-invertible matrix (typically not even a square matrix).<br>
+Compressed sensing tackles this issue by considering all possible solutions $x$ to (1) and choosing the unique one $\hat x$ with the sparsest Fourier representation (or any other transform of your choice. Fourier is by no means the only reasonable chioce here). Mathematically, this amounts to solving the minimization problem
+$$\min_{x\in\mathbb{C}^{N\times N}} \Vert\Phi^* x\Vert_{l^1} \quad \text{subject to} \quad \Vert Ax-y\Vert_{l^2}&lt;\|e\|_{l^2}, \tag{2}$$
+where (in our case) $\Phi$ denotes the Fourier transform. In fact, it can be shown that minimizing the $l^1$ norm of a vector promotes its sparsity.</p>
+<figure><a href="https://frank-roesler.github.io/images/compressed_sensing/cs.png"><img src="/images/compressed_sensing/cs.png"/></a>
 </figure>
 
-<figure class="center"><img src="/images/seg4.png"/>
+<p>In many situations, compressed sensing can outperform the classical reconstruction via filtered backprojection. The following figure shows a comparison between compressed sensing (left) and filtered backprojection (right) in the presence of strong noise $e$. As can be seen, the reconstruction via compressed sensing has substantially higher quality.</p>
+<figure><a href="https://frank-roesler.github.io/images/compressed_sensing/comparison.png"><img src="/images/compressed_sensing/comparison.png"/></a>
 </figure>
-<br>
-(Images taken from the COCO dataset: <a href="https://cocodataset.org/">https://cocodataset.org/</a>)</p>
+
 
       </div>
     </article>

@@ -6,7 +6,7 @@
     
     <title>Miscellaneous | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.75.1" />
+    <meta name="generator" content="Hugo 0.90.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -27,25 +27,21 @@
     
     <meta property="og:title" content="Miscellaneous" />
 <meta property="og:description" content="Inverse Radon-Transform The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or computed tomography (so-called sinograms).
-The inverse Radon transform (IRT) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page." />
+The inverse Radon transform (IRT for short; sometimes also called filtered backprojection) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/radon/" />
+<meta property="og:url" content="https://frank-roesler.github.io/radon/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
+
 <meta itemprop="name" content="Miscellaneous">
 <meta itemprop="description" content="Inverse Radon-Transform The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or computed tomography (so-called sinograms).
-The inverse Radon transform (IRT) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page.">
-<meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+The inverse Radon transform (IRT for short; sometimes also called filtered backprojection) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="74">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="wordCount" content="81">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Miscellaneous"/>
 <meta name="twitter:description" content="Inverse Radon-Transform The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or computed tomography (so-called sinograms).
-The inverse Radon transform (IRT) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page."/>
+The inverse Radon transform (IRT for short; sometimes also called filtered backprojection) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my GitHub page."/>
 
 	
   </head>
@@ -186,7 +182,7 @@ The inverse Radon transform (IRT) allows to reconstruct the original image from 
 		li .menu-link {
 			  display: block;
 			  color: #000;
-			  padding: 14px 36px;
+			  padding: 14px 28px;
 			  text-decoration: none;
 		}
 		
@@ -198,11 +194,11 @@ The inverse Radon transform (IRT) allows to reconstruct the original image from 
 		 
 		 .side-menu {
 			width: auto;
-			margin-right:   5vh;
+			margin-right:   3vh;
 			margin-left:    3vh;
-			margin-top:     10vh;
+			margin-top:     3vh;
 			margin-bottom:  5vh;
-			font-size: 20px;
+			font-size: 16px;
 			float: left;
 			 
 			 
@@ -246,6 +242,9 @@ The inverse Radon transform (IRT) allows to reconstruct the original image from 
 		<li class="menu-label">
 			<a class="menu-link" href="/denoising">Denoising</a>
 		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/cs">Compressed Sensing</a>
+		</li>
 	</ul>
 	
 	<form>
@@ -262,6 +261,7 @@ The inverse Radon transform (IRT) allows to reconstruct the original image from 
 		<option value="/reinforcement">Reinforcement Learning</option>
 		<option value="/gan">Generative Adversarial Network</option>
 		<option value="/denoising">Denoising</option>
+		<option value="/cs">Compressed Sensing</option>
     </select>
 	</form>
 </nav>
@@ -281,13 +281,10 @@ The inverse Radon transform (IRT) allows to reconstruct the original image from 
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         <h2 id="inverse-radon-transform">Inverse Radon-Transform</h2>
 <p>The Radon transform is a mathematical mapping that has important applications in medical physics. It describes the raw data measured during an X-Ray or computed tomography (so-called <a href="https://en.wikipedia.org/wiki/Radon_transform#/media/File:Sinogram_-_Two_Square_Indicator_Phantom.svg">sinograms</a>).<br>
-The <em>inverse</em> Radon transform (IRT) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my <a href="https://github.com/frank-roesler/Inverse-Radon-transform">GitHub page</a>.</p>
-<figure><a href="https://frank-roesler.github.io/images/radon_transp.png">
-    <img src="/images/radon_transp.png"/> </a>
+The <em>inverse</em> Radon transform (IRT for short; sometimes also called <em>filtered backprojection</em>) allows to reconstruct the original image from the sinogram and is the key ingredient in obtaining high-quality X-Ray or CT images. A MATLAB function that automatically computes the IRT of an image is openly available on my <a href="https://github.com/frank-roesler/Inverse-Radon-transform">GitHub page</a>.</p>
+<figure><a href="https://frank-roesler.github.io/images/radon_transp.png"><img src="/images/radon_transp.png"/></a>
 </figure>
 
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 
       </div>
     </article>
@@ -326,6 +323,19 @@ The <em>inverse</em> Radon transform (IRT) allows to reconstruct the original im
 </div>
   </div>
 </footer>
+
+
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
 
     
 
