@@ -284,7 +284,7 @@ where $e$ represents the noise and $A$ is a non-invertible matrix (typically not
 Compressed sensing tackles this issue by considering all possible solutions $x$ to (1) and choosing the unique one $\hat x$ with the sparsest Fourier representation (or any other transform of your choice. Fourier is by no means the only reasonable chioce here). Mathematically, this amounts to solving the minimization problem
 $$\min_{x\in\mathbb{C}^{N\times N}} \Vert\Phi^* x\Vert_{l^1} \quad \text{subject to} \quad \Vert Ax-y\Vert_{l^2}&lt;\|e\|_{l^2}, \tag{2}$$
 where (in our case) $\Phi$ denotes the Fourier transform. In fact, it can be shown that minimizing the $l^1$ norm of a vector promotes its sparsity.</p>
-<figure><a href="https://frank-roesler.github.io/images/compressed_sensing/cs.png"><img src="/images/compressed_sensing/cs2.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/compressed_sensing/cs2.png"><img src="/images/compressed_sensing/cs2.png"/></a>
 </figure>
 
 <p>In many situations, compressed sensing can outperform the classical reconstruction via filtered backprojection. The following figure shows a comparison between compressed sensing (left) and filtered backprojection (right) in the presence of strong noise $e$. As can be seen, the reconstruction via compressed sensing has substantially higher quality.</p>
