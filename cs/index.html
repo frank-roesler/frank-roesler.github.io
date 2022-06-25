@@ -37,7 +37,7 @@ The main idea behind the compressed sensing method is to exploit the fact that m
 <meta itemprop="description" content="Image Reconstruction via Compressed Sensing Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the Radon transform.
 The main idea behind the compressed sensing method is to exploit the fact that most images of interest are sparse in an appropriate representation, meaning that they can be compressed significantly without losing much information."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="418">
+<meta itemprop="wordCount" content="414">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Miscellaneous"/>
 <meta name="twitter:description" content="Image Reconstruction via Compressed Sensing Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the Radon transform.
@@ -272,13 +272,14 @@ The main idea behind the compressed sensing method is to exploit the fact that m
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         <h2 id="image-reconstruction-via-compressed-sensing">Image Reconstruction via Compressed Sensing</h2>
 <p>Compressed Sensing is now the state-of-the-art method in many applications that require images to be reconstructed from measured data. One such example is given by X-Ray CT measurements and the <a href="/radon">Radon transform</a>.<br>
-The main idea behind the compressed sensing method is to exploit the fact that most images of interest are <em>sparse</em> in an appropriate representation, meaning that they can be compressed significantly without losing much information. The following figure illustrates this phenomenon using the Fourier representation of an image. The image on the right-hand side contains exactly the same amount of information as the image on the left hand side, yet most pixels on the right hand side are almost zero. This principle, in fact, underlies modern image compression standards like JPEG. The following figure illustrates Fourier sparsity for the so-called <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6062681">GLPU phantom</a> image.</p>
+The main idea behind the compressed sensing method is to exploit the fact that most images of interest are <em>sparse</em> in an appropriate representation, meaning that they can be compressed significantly without losing much information. The following figure illustrates this phenomenon using the Fourier representation of the so-called <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6062681">GLPU phantom</a> image. The image on the right-hand side contains exactly the same amount of information as the image on the left hand side, yet most pixels on the right hand side are almost zero. This principle, in fact, underlies modern image compression standards like JPEG.</p>
 <figure><a href="https://frank-roesler.github.io/images/compressed_sensing/original_ft_scaled.png"><img src="/images/compressed_sensing/original_ft_scaled.png"/></a>
 </figure>
 
-<p>Suppose now that we have performed a CT scan and measured a sinogram. We would like to reconstruct the original image from the sinogram, as explained <a href="/radon">here</a>. Since the Radon transform is linear, the reconstruction problem can be considered as a matrix inversion problem
+<p>Suppose now that we have performed a CT scan and measured a sinogram
+$y$. We would like to reconstruct the original image from the sinogram, as I explained in an <a href="/radon">earlier post</a>. Since the Radon transform is linear, the reconstruction problem can be considered as a matrix inversion problem
 $$Ax=y.$$
-n practice, however, one faces two challenges: first, the measured image is typically noisy, which generally reduces the quality of the reconstruction. Second, the fact that only a finite number of angles can be measured, so that the reconstruction problem is underdetermined: there are generally many images $x$ that produce the sinogram $y$. Mathematically, this translates into the problem
+In practice, however, one faces two challenges: first, the measured image is typically noisy, which generally reduces the quality of the reconstruction. Second, the fact that only a finite number of angles can be measured, so that the reconstruction problem is underdetermined: there are generally many images $x$ that produce the sinogram $y$. Mathematically, this translates into the problem
 $$Ax + e = y,\tag{1}$$
 where $e$ represents the noise and $A$ is a non-invertible matrix (typically not even a square matrix).<br>
 Compressed sensing tackles this issue by considering all possible solutions $x$ to (1) and choosing the unique one $\hat x$ with the sparsest Fourier representation (or any other transform of your choice. Fourier is by no means the only reasonable chioce here). Mathematically, this amounts to solving the minimization problem
