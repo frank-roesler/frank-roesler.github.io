@@ -278,7 +278,7 @@
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         <h2 id="denoising-signals">Denoising Signals</h2>
 <p>Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of <a href="https://de.wikipedia.org/wiki/Lorentzkurve">Lorentz peaks</a>. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (blue = real part, orange = imaginary part of the signal). In real life, any measured signal will not be given by a clean, smooth line, but by a noisy one, in which the individual peaks can often hardly be seen with the naked eye.</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/examples.png"><img src="/images/denoising/examples.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/denoising/gt.png"><img src="/images/denoising/gt.png"/></a>
 </figure>
 
 <p>Synthetically generated data like the above can be used to train a neural network: the network receives the noisy signal and is trained to reproduce the clean original (aka &ldquo;ground truth&rdquo;). The training architecture is illustrated in the figure below.</p>
@@ -286,7 +286,7 @@
 </figure>
 
 <p>My code is openly available as a Colab Notebook here: <a href="https://colab.research.google.com/drive/1wEljoKaEuV4WR-MtUWSFjBejXchJ5oJh?usp=sharing"><code>my_notebook</code></a>. Anyone can download the code and (with a Google account) run it in the cloud and test it. The plots below show the result of a convolutional neural net with 4 layers trained to minimize the mean square error of its output and the clean signal. Clearly, the neural net reconstructs the original signal well, as can be seen by plotting the difference of the neural net output and the ground truth (bottom right).</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/result.png"><img src="/images/denoising/result.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/denoising/comparison.png"><img src="/images/denoising/comparison.png"/></a>
 </figure>
 
 
