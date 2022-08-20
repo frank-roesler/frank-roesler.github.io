@@ -103,7 +103,7 @@ The main idea behind the compressed sensing method is to exploit the fact that m
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/denoising/</guid>
-      <description>Denoising Signals Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of Lorentz peaks. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (blue = real part, orange = imaginary part of the signal).</description>
+      <description>Denoising Signals Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of Lorentz peaks. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (darker blue or red = real part, brighter blue or red = imaginary part of the signal).</description>
     </item>
     
     <item>
