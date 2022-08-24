@@ -90,12 +90,21 @@ Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
     </item>
     
     <item>
-      <title>Verschiedenes</title>
+      <title>Miscellaneous</title>
+      <link>https://frank-roesler.github.io/de/cs/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/cs/</guid>
+      <description>Image Reconstruction via Compressed Sensing Compressed Sensing ist mittlerweile die State-of-the-Art-Methode zur Bildrekonstruktion aus gemessenen Daten. Ein solches Beispiel sind Röntgen-CT-Messungen und die Radontransformation. Die Hauptidee hinter Compressed Sensing liegt in der Beobachtung, dass die meisten Bilder von Interesse in einer angemessenen Darstellung dünn besetzt (engl. sparse) sind. Dies bedeutet, dass sie deutlich komprimiert werden können, ohne viel Information zu verlieren. Das nächste Bild veranschaulicht dieses Phänomen für die Fourier-Darstellung eines sog.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
       <link>https://frank-roesler.github.io/de/denoising/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/denoising/</guid>
-      <description>Rauschunterdrückung in Messdaten Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise Lorentz-Form. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (blau = Realteil des komplexen Signals, orange = Imaginärteil).</description>
+      <description>Rauschunterdrückung in Messdaten Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise Lorentz-Form. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (dunkel = Realteil des komplexen Signals, hell = Imaginärteil).</description>
     </item>
     
     <item>
