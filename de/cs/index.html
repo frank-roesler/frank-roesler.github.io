@@ -283,7 +283,7 @@ Die Hauptidee hinter Compressed Sensing liegt in der Beobachtung, dass die meist
 <figure><a href="https://frank-roesler.github.io/images/compressed_sensing/original_ft_scaled.png"><img src="/images/compressed_sensing/original_ft_scaled.png"/></a>
 </figure>
 
-<p>Nehmen wir als nächstes an, wir hätten einen CT scan durchgeführt und ein Sinogramm $y$ gemessen. Wir wollen das Originalbild aus dem Sinogramm rekonstruieren, wie bereits in einem <a href="%5Cde%5Cradon">früheren Post</a> erklärt. Da die Radontransformation linear ist, kann das Rekonstruktionsproblem als Matrixinversion betrachtet werden:
+<p>Nehmen wir als nächstes an, wir hätten einen CT scan durchgeführt und ein Sinogramm $y$ gemessen. Wir wollen das Originalbild aus dem Sinogramm rekonstruieren, wie bereits in einem <a href="/de/radon">früheren Post</a> erklärt. Da die Radontransformation linear ist, kann das Rekonstruktionsproblem als Matrixinversion betrachtet werden:
 $$Ax=y.\tag{1}$$
 Dies wäre auf einem Computer schnell und einfach zu lösen, doch in der Realität stellen sich zwei Probleme: Erstens ist das gemessene Sinogramm typischerweise verrauscht, was die Qualität des rekonstruierten Bildes $x$ beeinträchtigt. Zweitens kann in der Praxis bei einem CT nur eine endliche Anzahl an Winkeln gemessen werden, wodurch das Rekonstruktionsproblem unterbestimmt ist: Es existieren viele Bilder $x$, die das Sinogramm $y$ erzeugen. Tatsächlich sieht Problem (1) also wie folgt aus:
 $$Ax + e = y,\tag{2}$$
