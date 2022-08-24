@@ -95,7 +95,7 @@ Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/cs/</guid>
-      <description>Image Reconstruction via Compressed Sensing Compressed Sensing ist mittlerweile die State-of-the-Art-Methode zur Bildrekonstruktion aus gemessenen Daten. Ein solches Beispiel sind Röntgen-CT-Messungen und die Radontransformation. Die Hauptidee hinter Compressed Sensing liegt in der Beobachtung, dass die meisten Bilder von Interesse in einer angemessenen Darstellung dünn besetzt (engl. sparse) sind. Dies bedeutet, dass sie deutlich komprimiert werden können, ohne viel Information zu verlieren. Das nächste Bild veranschaulicht dieses Phänomen für die Fourier-Darstellung eines sog.</description>
+      <description>Bildrekonstruction via Compressed Sensing Compressed Sensing ist mittlerweile die State-of-the-Art-Methode zur Bildrekonstruktion aus gemessenen Daten. Ein solches Beispiel sind Röntgen-CT-Messungen und die Radontransformation. Die Hauptidee hinter Compressed Sensing liegt in der Beobachtung, dass die meisten Bilder von Interesse in einer angemessenen Darstellung dünn besetzt (engl. sparse) sind. Dies bedeutet, dass sie deutlich komprimiert werden können, ohne viel Information zu verlieren. Das nächste Bild veranschaulicht dieses Phänomen für die Fourier-Darstellung eines sog.</description>
     </item>
     
     <item>
