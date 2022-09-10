@@ -1,0 +1,15 @@
+baseURL = "https://frank-roesler.github.io/"
+title = "Frank Rösler"
+theme = "ananke"
+	
+[languages.en]
+	weight = 1
+	languageName = "English"
+	contentDir = "content/english"
+[languages.de]
+	weight = 2
+	languageName = "German"
+	contentDir = "content/german"
+    
+[params]
+  linkedin = "https://www.linkedin.com/in/frank-r%C3%B6sler-92ba241a0/?challengeId=AQGRWG6LDABMYQAAAXJgJkmswXXnWb9VNRJBaZ9Gq54XUuQprNLyCWIRKePEwAUX8PeGxR0Y9lmMjjBEuFRNyKz3786E_oeOMw&submissionId=49642922-a07b-1316-1290-2b6baebd0d06"

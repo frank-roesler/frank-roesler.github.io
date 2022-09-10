@@ -1,0 +1,72 @@
+<head>
+	<style>
+		@media (max-width: 960px) {
+			.side-menu { 
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				/*text-align: center;*/
+			}
+			li .menu-link {
+				display: block;
+				color: #000;
+				padding: 10px 20px;
+				text-decoration: none;
+			}
+		}
+		@media (min-width: 960px) {
+			.side-menu {
+				width: auto;
+				margin-right:   2vh;
+				margin-left:    3vh;
+				margin-top:     10vh;
+				margin-bottom:  5vh;
+				font-size: 20px;
+				float: left;
+				/*font-family: 'Lato', sans-serif;*/
+				/*background-color: blue;*/
+			}
+			li .menu-link {
+				display: block;
+				color: #000;
+				padding: 18px 36px;
+				text-decoration: none;
+			}
+		}
+	.menu-label {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  background-color: lightgray;
+  }
+
+	/* Change the link color on hover */
+	li .menu-link:hover {
+	  background-color: #555;
+	  color: white;
+	}
+	</style>
+</head>
+
+<ul class="side-menu">
+	<li class="menu-label">
+		<a  class="menu-link" href="/miscellaneous">Home</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/turing">Turing pattern</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/reconstruction">Image reconstruction</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/flatten">Flatten the curve</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/sir">SIR model fit</a>
+	</li>
+	<li class="menu-label">
+		<a class="menu-link" href="/perfdom">Perforated Domains</a>
+	</li>
+</ul>
+
+		
