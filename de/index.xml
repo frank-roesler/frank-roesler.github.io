@@ -12,9 +12,10 @@
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research/</guid>
-      <description>Publikationen und Preprints Preprints:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
+      <description>Hier ist eine aktuelle Liste meiner Forschungsartikel. Im Menu links gibt es zu jeder Arbeit einen kurzen Überblick.
+Publikationen und Preprints Preprints:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
 (Eine Matlab-Implementierung des Algorithmus gibt es hier.) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
-(Eine Matlab-Implementierung des Algorithmus gibt es hier)  Peer-Reviewed:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS) (accepted), 2022. Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer.</description>
+(Eine Matlab-Implementierung des Algorithmus gibt es hier)  Peer-Reviewed:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler.</description>
     </item>
     
     <item>
@@ -45,11 +46,11 @@
 Cardiff Online Analysis Seminar (CAOS): Während der COVID-19 Beschränkungen organisiert Cardiff ein online-Analysis-Seminar: https://jbenartzi.github.io/seminars.html
 (Related: Eine Große Zahl von online-Forschungsseminaren ist hier aufgelistet: https://researchseminars.org/)
 Springer E-Books: Springer hat kürzlich über 400 E-Books kostenlos zum Download zur Verfügung gestellt: https://www.reddit.com/r/FreeEBOOKS/comments/g34xi5/408_free_ebooks_from_springer/
-Forschungsprojekte:  COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.blog/ Jonathan Ben-Artzi (Gruppenleiter): https://jbenartzi.github.io/research.html  Konferenzen und Workshops: Anstehend:  International Workshop on Operator Theory and its Applications 6.</description>
+Forschungsprojekte:  COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.blog/ Jonathan Ben-Artzi (Gruppenleiter): https://jbenartzi.github.io/research.html  Konferenzen und Workshops: Anstehend:  June 19-23, 2022, Stockholm (Sweden): Analysis and mathematical physics – AMP2022 (in memory of Sergey Naboko)  Vergangen:  International Workshop on Operator Theory and its Applications 6.</description>
     </item>
     
     <item>
-      <title>Verschiedenes</title>
+      <title>Hobbyprojekte</title>
       <link>https://frank-roesler.github.io/de/miscellaneous/</link>
       <pubDate>Tue, 26 May 2020 15:13:25 +0100</pubDate>
       
@@ -175,6 +176,100 @@ Dieser Code wurde an dem &amp;ldquo;Penn-Fudan&amp;rdquo;-Fußgänger-Datensatz 
       <guid>https://frank-roesler.github.io/de/turing/</guid>
       <description>Turing-Mechanismus Einfaches Beispiel für &amp;ldquo;Turing pattern formation&amp;rdquo;; programmiert in Matlab. Zwei Lösungen eines gekoppelten Systems partieller Differentialgleichungen konkurrieren, bis sich ein stabiles Gleichgewicht einstellt. Es wird seit langem vermutet, dass dieser Mechanismus der Entstehung der Fellzeichnung von Tieren unterliegt.
 Der Matlab-Code ist hier verfügbar: https://github.com/frank-roesler/Files/blob/master/Turing_FinDiff.m   </description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_graphs/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_graphs/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+A Strange Vertex Condition Coming from Nowhere Research article:  Frank Rösler; A Strange Vertex Condition Coming from Nowhere. SIAM J. Math. Anal., 53(3), 3098&amp;ndash;3122, 2021  Overview: This is one of my single author papers in the field of asymptotic analysis. It is concerned with the combined effect of two domain properties: thin geometry and perforation.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_helmholtz/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_helmholtz/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Computing the Sound of the Sea in a Seashell Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Found. Comput. Math., 2021.
+Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here  Overview: This work considers the scatering of waves by obstacles in 2 dimensions.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_inverse/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_inverse/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Reconstructing a Potential From its Scattering Data Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
+(A Matlab implementation of the algorithm is available here)  Overview: The so-called spectral problem for a Hamiltonian operator $\mathsf{-\frac{d^2}{dx^2}+q}$ consists of finding its spectrum given the potential function $\mathsf q$. In certain cases (e.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_perfdom/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_perfdom/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Homogenisation in Perforated Domains Research article:  Patrick Dondl, Kirill Cherednichenko, Frank Rösler; Norm-Resolvent Convergence in Perforated Domains. Asymptotic Analysis, vol. 110, no. 3-4, pp. 163-184, 2018  Overview: A perforated domain is a domain, from which a periodic arrangement of balls is removed, where both the distance $\mathsf \epsilon$ and the radii $\mathsf{r_\epsilon}$ of the balls are much smaller than the diameter of the domain, as shown in the following figure.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_periodic/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_periodic/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022).
+A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals. The spectra of periodic Hamiltonians are known to have a band structure, which provides a mathematical explanation for the existence of physical phenomena like conducting, insulating and semiconducting materials.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_pseudospectrum/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_pseudospectrum/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Pseudospectra of Non-Hermitian Hamiltonians Research article:  Patrick W. Dondl, Patrick Dorey, Frank Rösler; A Bound on the Pseudospectrum for a Class of Non-normal Schrödinger Operators. Appl. Math. Res. Express 2016.  Overview: This was the first project of my PhD. The work is concerned with the Schrödinger equation with complex-valued potentials. In general, the eigenvalues (or the spectrum) of such operators could be any complex number, however, some potentials exhibit special symmetries (called PT-symmetry), which constrain their eigenvalues to lie on the real axis.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_resonances/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_resonances/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &amp;ldquo;almost bound states&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_rough_domains/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_rough_domains/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Computing Vibration Modes of Fractal Drums Research article:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
+(A Matlab implementation of the algorithm is available here)  Overview: In this recent research project my collaborator Alexei Stepanenko and I studied computational aspects of a classical problem in spectral theory: Computing the eigenmodes of the 2d surface of a drum.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_selfadjoint/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_selfadjoint/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels.</description>
     </item>
     
   </channel>
