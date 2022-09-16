@@ -196,7 +196,7 @@ A Strange Vertex Condition Coming from Nowhere Research article:  Frank Rösler;
       <guid>https://frank-roesler.github.io/de/research_helmholtz/</guid>
       <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Computing the Sound of the Sea in a Seashell Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Found. Comput. Math., 2021.
-Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here  Overview: This work considers the scatering of waves by obstacles in 2 dimensions.</description>
+Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here  Overview: This work considers the scattering of waves by obstacles in 2 dimensions.</description>
     </item>
     
     <item>
@@ -228,7 +228,7 @@ Homogenisation in Perforated Domains Research article:  Patrick Dondl, Kirill Ch
       <guid>https://frank-roesler.github.io/de/research_periodic/</guid>
       <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022).
-A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals. The spectra of periodic Hamiltonians are known to have a band structure, which provides a mathematical explanation for the existence of physical phenomena like conducting, insulating and semiconducting materials.</description>
+A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals. The spectra of Hamiltonians, which are periodic with respect to some lattice $\mathsf L$, are known to have a band structure, which provides a mathematical explanation for the existence of physical phenomena like conducting, insulating and semiconducting materials.</description>
     </item>
     
     <item>

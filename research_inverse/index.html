@@ -37,7 +37,7 @@
 <meta itemprop="description" content="Reconstructing a Potential From its Scattering Data Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
 (A Matlab implementation of the algorithm is available here)  Overview: The so-called spectral problem for a Hamiltonian operator $\mathsf{-\frac{d^2}{dx^2}&#43;q}$ consists of finding its spectrum given the potential function $\mathsf q$. In certain cases (e.g. if $\mathsf{q(x)=x^2}$ is the Harmonic Oscillator potential, or the equation is considered on a bounded interval $\mathsf{[a,b]}$), the spectrum is given by the set of eigenvalues, i."><meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="dateModified" content="2020-05-26T11:53:04+01:00" />
-<meta itemprop="wordCount" content="379">
+<meta itemprop="wordCount" content="382">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Research"/>
 <meta name="twitter:description" content="Reconstructing a Potential From its Scattering Data Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
@@ -280,22 +280,30 @@
 (A Matlab implementation of the algorithm is available <a href="https://github.com/frank-roesler/inverse_SCI">here</a>)</li>
 </ul>
 <h3 id="overview">Overview:</h3>
-<p>The so-called <em>spectral problem</em> for a Hamiltonian operator $\mathsf{-\frac{d^2}{dx^2}+q}$ consists of finding its spectrum given the potential function $\mathsf q$. In certain cases (e.g. if $\mathsf{q(x)=x^2}$ is the <a href="https://en.wikipedia.org/wiki/Harmonic_oscillator">Harmonic Oscillator</a> potential, or the equation is considered on a bounded interval $\mathsf{[a,b]}$), the spectrum is given by the set of <em>eigenvalues</em>, i.e. all points $\mathsf\lambda$ such that
+<p>The so-called <em>spectral problem</em> for a <a href="/research_selfadjoint">Hamiltonian operator</a> $\mathsf{-\frac{d^2}{dx^2}+q}$ consists of finding its spectrum given the potential function $\mathsf q$. In certain cases (e.g. if $\mathsf{q(x)=x^2}$ is the <a href="https://en.wikipedia.org/wiki/Harmonic_oscillator">Harmonic Oscillator</a> potential, or the equation is considered on a bounded interval $\mathsf{[a,b]}$), the spectrum is given by the set of <em>eigenvalues</em>, i.e. all points $\mathsf\lambda$ such that
 $$\mathsf{\bigg(-\frac{d^2}{dx^2}+q\bigg)\psi = \lambda\psi}$$
 for some function $\mathsf{\psi\in L^2(\mathbb R)}$, called <em>eigenfunction</em>.</p>
-<p>The <em>inverse spectral problem</em> asks the reverse question: can one reconstruct the potential $\mathsf q$ from the spectrum? It turns that this is indeed possible &ndash; if in addition the $\mathsf{L^2}$ norms of the corresponding eigenfunctions are provided. More precisely, if two sequences of numbers $\mathsf{\lambda_n}$, $\mathsf{\|\psi_n\|_{L^2}}$ are given with
+<p>The <em>inverse spectral problem</em> asks the reverse question: can one reconstruct the potential $\mathsf q$ from the spectrum of its Hamiltonian? It turns out that this is indeed possible &ndash; if in addition the $\mathsf{L^2}$ norms of the corresponding eigenfunctions are provided. More precisely, if two infinite sequences of numbers $\mathsf{\lambda_n}$, $\mathsf{\|\psi_n\|_{L^2}}$ are given with
 $$
 \mathsf{\lambda_n^{\frac12} \sim n + \frac{\omega}{\pi n}}
 $$
 $$
 \mathsf{\frac{1}{\|\psi_n\|_{L^2}^2} \sim \frac{2}{\pi}}
 $$
-as $\mathsf{n\to\infty}$, then the potential $\mathsf q$ is uniquely determined by these sequences (see [Freiling-Yurko. <em>Inverse Sturm-Liouville Problems and Their Applications.</em> Nova Science Pub Inc., 2001]). The sequences $\mathsf{\lambda_n}$, $\mathsf{\|\psi_n\|_{L^2}}$ are commonly referred to as <em>spectral data</em>.</p>
+as $\mathsf{n\to\infty}$, then the potential $\mathsf q$ is uniquely determined by these sequences.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> The sequences $\mathsf{\lambda_n}$, $\mathsf{\|\psi_n\|_{L^2}}$ are commonly referred to as <em>spectral data</em>.</p>
 <p>A more difficult question is whether the function $\mathsf q$ can be <em>computed</em> from these two sequences using a computer algorithm. Since any computer can work only with a finite set of numbers at any given time, one can never recover the potential <em>exactly</em> from the infinite spectral data. Rather, one needs to truncate them and attempt to compute the potential from finite subsequences $\mathsf{\lambda_1,\dots,\lambda_N}$, $\mathsf{\|\psi_1\|_{L^2},\dots,\|\psi_N\|_{L^2}}$. This yields an approximate potnetial $\mathsf{q_N}$, which is expected to converge to the actual potential $\mathsf q$, as $\mathsf{N\to\infty}$.<br>
-In our research article we study precisely how the potential can be recovered from such finite subsequences and how the approximation error, introduced by the truncation, can be controlled. We explicitly construct a computer algorithm that computes the potential from the truncated spectral data. The figure below shows some example results for three different potentials $\mathsf{q^{(1)}}$, $\mathsf{q^{(2)}}$, $\mathsf{q^{(3)}}$. The first line shows the results of the approximation procedure for a truncation length of $\mathsf{N=9}$, the second line for $\mathsf{N=29}$. One can clearly see that the approximation improves as $\mathsf N$ is increased.</p>
+In our research article we study precisely how the potential can be recovered from such finite subsequences and how the approximation error, introduced by the truncation, can be controlled. We explicitly construct a computer algorithm that computes the potential from the truncated spectral data. The figure below shows some example results for three different potentials $\mathsf{q^{(1)}}$, $\mathsf{q^{(2)}}$, $\mathsf{q^{(3)}}$. The first line shows the results of the approximation procedure for a truncation length of $\mathsf{N=9}$, the second line for $\mathsf{N=29}$. As one can see, the approximation improves as $\mathsf N$ is increased.</p>
 <figure><a href="https://frank-roesler.github.io/images/research/inverse_results.png"><img src="/images/research/inverse_results.png"/></a>
 </figure>
 
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>[Freiling-Yurko. <em>Inverse Sturm-Liouville Problems and Their Applications.</em> Nova Science Pub Inc., 2001]&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
       </div>
     </article>

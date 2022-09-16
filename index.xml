@@ -194,7 +194,7 @@ Thin Geometry: Consider the Laplacian $\mathsf{-\Delta}$ on a domain $\mathsf{\O
       
       <guid>https://frank-roesler.github.io/research_helmholtz/</guid>
       <description>Computing the Sound of the Sea in a Seashell Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Found. Comput. Math., 2021.
-Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here  Overview: This work considers the scatering of waves by obstacles in 2 dimensions. The mathematical basis for this phenomenon is the Laplacian operator $$\mathsf{H = -\Delta \quad\textsf{ on }\quad \mathbb R^2\setminus U,}$$ where $\mathsf U$ denotes the obstacle and we assume zero boundary conditions on the boundary of $\mathsf U$.</description>
+Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here  Overview: This work considers the scattering of waves by obstacles in 2 dimensions. The mathematical basis for this phenomenon is the Laplacian operator $$\mathsf{H = -\Delta \quad\textsf{ on }\quad \mathbb R^2\setminus U,}$$ where $\mathsf U$ denotes the obstacle and we assume zero boundary conditions on the boundary of $\mathsf U$.</description>
     </item>
     
     <item>
@@ -223,7 +223,7 @@ Click here to download the slides of a recent talk on the subject. A Matlab pack
       
       <guid>https://frank-roesler.github.io/research_periodic/</guid>
       <description>Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022).
-A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals. The spectra of periodic Hamiltonians are known to have a band structure, which provides a mathematical explanation for the existence of physical phenomena like conducting, insulating and semiconducting materials.</description>
+A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals. The spectra of Hamiltonians, which are periodic with respect to some lattice $\mathsf L$, are known to have a band structure, which provides a mathematical explanation for the existence of physical phenomena like conducting, insulating and semiconducting materials.</description>
     </item>
     
     <item>
