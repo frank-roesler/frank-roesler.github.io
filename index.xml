@@ -13,8 +13,8 @@
       
       <guid>https://frank-roesler.github.io/research/</guid>
       <description>This page contains an up-to-date list of my publications. Please choose from the menu on the left for a brief overview of each research project.
-  Publications and Preprints Preprints:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
-(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.</description>
+  Publications and Preprints Preprints:    Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, in preparation. (A Matlab implementation of the algorithm is available here)   Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
+(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler.</description>
     </item>
     
     <item>
@@ -212,7 +212,7 @@ Click here to download the slides of a recent talk on the subject. A Matlab pack
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_kg/</guid>
-      <description>Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels.</description>
+      <description>Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, in preparation. (A Matlab implementation of the algorithm is available here)  Overview: The computational spectral problem in quantum mechanics is slowly becoming more and more well understood. Particularly the numerical complexity of the classical (nonrelativistic) theory that goes back to Schrödinger and Heisenberg has been studied in a number of different situations by a number of different authors (including myself and my collaborators), see here, here or here.</description>
     </item>
     
     <item>
