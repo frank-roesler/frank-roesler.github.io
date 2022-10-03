@@ -13,9 +13,8 @@
       
       <guid>https://frank-roesler.github.io/research/</guid>
       <description>This page contains an up-to-date list of my publications. Please choose from the menu on the left for a brief overview of each research project.
-Publications and Preprints Preprints:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
-(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
-(A Matlab implementation of the algorithm is available here)  Peer-Reviewed:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler.</description>
+  Publications and Preprints Preprints:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
+(A Matlab implementation of the algorithm is available here) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.</description>
     </item>
     
     <item>
@@ -205,6 +204,15 @@ Click here to download the slides of a recent talk on the subject. A Matlab pack
       <guid>https://frank-roesler.github.io/research_inverse/</guid>
       <description>Reconstructing a Potential From its Scattering Data Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
 (A Matlab implementation of the algorithm is available here)  Overview: The so-called spectral problem for a Hamiltonian operator $\mathsf{-\frac{d^2}{dx^2}+q}$ consists of finding its spectrum given the potential function $\mathsf q$. In certain cases (e.g. if $\mathsf{q(x)=x^2}$ is the Harmonic Oscillator potential, or the equation is considered on a bounded interval $\mathsf{[a,b]}$), the spectrum is given by the set of eigenvalues, i.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://frank-roesler.github.io/research_kg/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/research_kg/</guid>
+      <description>Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels.</description>
     </item>
     
     <item>
