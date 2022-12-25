@@ -26,19 +26,19 @@
     
     
     <meta property="og:title" content="Hobby Projects" />
-<meta property="og:description" content="Denoising Signals Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of Lorentz peaks. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (darker blue or red = real part, brighter blue or red = imaginary part of the signal)." />
+<meta property="og:description" content="Deep Learning in MRI Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/denoising/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/bloch/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
 
 <meta itemprop="name" content="Hobby Projects">
-<meta itemprop="description" content="Denoising Signals Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of Lorentz peaks. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (darker blue or red = real part, brighter blue or red = imaginary part of the signal)."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+<meta itemprop="description" content="Deep Learning in MRI Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="274">
+<meta itemprop="wordCount" content="594">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hobby Projects"/>
-<meta name="twitter:description" content="Denoising Signals Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of Lorentz peaks. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (darker blue or red = real part, brighter blue or red = imaginary part of the signal)."/>
+<meta name="twitter:description" content="Deep Learning in MRI Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)."/>
 
 	
   </head>
@@ -132,15 +132,6 @@
 
 
 	  
-<h4></h4>
-<ul class="pl0 mr3">
-    
-    <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white no-underline white-90" href="https://frank-roesler.github.io/de/denoising/" style="font-size:16px">de</a>
-    </li>
-    
-</ul>
-
 
     </div>
   </div>
@@ -282,20 +273,29 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        <h2 id="denoising-signals">Denoising Signals</h2>
-<p>Methods from Machine Learning can be used in signal processing to improve the quality of noisy signals. A toy example that I have coded in PyTorch suggests that this method works well in situations where the signal has the form of <a href="https://de.wikipedia.org/wiki/Lorentzkurve">Lorentz peaks</a>. Such signals are commonly found in spectroscopy data. Qualitatively, such signals look like the following image (darker blue or red = real part, brighter blue or red = imaginary part of the signal). In real life, any measured signal will not be given by a clean, smooth line, but by a noisy one, in which the individual peaks can often hardly be seen with the naked eye.</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/gt.png"><img src="/images/denoising/gt.png"/></a>
+        <h2 id="deep-learning-in-mri">Deep Learning in MRI</h2>
+<h4 id="nuclear-magnetic-resonance">Nuclear magnetic resonance</h4>
+<p>In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by <a href="https://en.wikipedia.org/wiki/Physics_of_magnetic_resonance_imaging#Nuclear_magnetism">radio frequency pulse</a>. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID). The shape of the RF pulse is crucial in determining the frequency range to be excited. In MRI, the ability to excite only a specific, narrow frequency range is crucial. In fact, this is necessary in order to obtain spatial information, which can finally result in medically useful images.<br>
+However, the relationship between the shape of the pulse and the corresponding frequency response is far from trivial. It can be modeled mathematically by the so-called <a href="https://en.wikipedia.org/wiki/Bloch_equations">Bloch Equations</a>:</p>
+<p>$$\mathsf{\frac{d M_x(t)}{dt} = -\Delta\omega M_y(t) - \gamma B_{1,y}(t)M_z(t) - \frac{M_x(t)}{T_2}  }$$
+$$\mathsf{\frac{d M_y(t)}{dt} = -\Delta\omega M_x(t) + \gamma B_{1,x}(t)M_z(t) - \frac{M_y(t)}{T_2}  }$$
+$$\mathsf{\frac{d M_z(t)}{dt} = \gamma B_{1,y}(t)M_x(t) - \gamma B_{1,x}(t)M_y(t) - \frac{M_z(t) - M_z^0}{T_1}  }.$$</p>
+<p>Here, $\gamma$ is a physical constant known as the <a href="https://en.wikipedia.org/wiki/Gyromagnetic_ratio">gyromagnetic ratio</a> and $B_1$ is the magnetic field corresponding to the applied RF pulse. Moreover, $\mathsf{\Delta\omega}$ denotes the deviation in frequency from the <a href="https://en.wikipedia.org/wiki/Larmor_precession#Larmor_frequency">Larmor frequency</a> of the tissue. Ideally, a RF pulse should be able to excite $\mathsf{M_x}$, $\mathsf{M_y}$, $\mathsf{M_z}$ only in a narrow band around $\mathsf{\Delta\omega=0}$.</p>
+<h4 id="numerical-modelling">Numerical modelling</h4>
+<p>I have written a numerical solver for the Bloch equations in Python, which allows to understand both qualitative and quantitative features of MR pulse sequences. The code is open source and available on <a href="https://github.com/frank-roesler/bloch_solver">https://github.com/frank-roesler/bloch_solver</a>. The following figure illustrates the on-resonance effect ($\mathsf{\Delta\omega=0}$) of a sinc shaped RF pulse on the magnetisation $\mathbf M$. The component $\mathsf{M_y}$ gets excited after each of the pulses, after which it decays exponentially. Observe how the first pulse achieves maximal excitation (i.e. $\mathsf{M_y}=1$), while all subsequent pulses only achieve partial excitation (middle plot), due to incomplete $\mathsf T_1$ recovery. This is exactly what is expected theoretically and observed experimentally (see <a href="https://en.wikipedia.org/wiki/Physics_of_magnetic_resonance_imaging#Resonance_and_relaxation">here</a>, for example).</p>
+<figure><a href="/images/bloch_figures/bloch_t.png"><img src="/images/bloch_figures/bloch_t.png"/></a>
 </figure>
 
-<p>Synthetically generated data like the above can be used to train a neural network: the network receives the noisy signal and is trained to reproduce the clean original (aka &ldquo;ground truth&rdquo;). The training architecture is illustrated in the figure below.</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/cnn.png"><img src="/images/denoising/cnn.png"/></a>
+<h4 id="spin-echo-and-field-gradients">Spin echo and field gradients</h4>
+<p>The code can be used to explore more qualitative features of MRI pulse sequences. All modern imaging sequences exploit an effect known as <a href="https://en.wikipedia.org/wiki/Spin_echo">&ldquo;spin echo&rdquo;</a>. This effect allows to partially reverse the $\mathsf{T_2}$ through clever usage of RF pulses and magnetic field gradients. The idea is to re-align nuclear spins that have gotten out of phase through magnetic field inhomogeneities. This can either be achieved via a so-called 180º RF pulse, or through two opposite magnetic field gradients. The following figure illustrates the former case. An initial pulse excites the magnetisation, after which it decays due to field inhomogeneities (modeled here by a constant gradient, for simplicity). After a time TE another pulse (the 180º pulse) is applied. The numerics shows another peak appearing seemingly out of nowhere at timt 2TE after initial excitation. This is known in MRI as &ldquo;spin echo&rdquo;.</p>
+<figure><a href="/images/bloch_figures/spin_echo_t.png"><img src="/images/bloch_figures/spin_echo_t.png"/></a>
 </figure>
 
-<p>My code is openly available as a Colab Notebook here: <a href="https://colab.research.google.com/drive/1wEljoKaEuV4WR-MtUWSFjBejXchJ5oJh?usp=sharing"><code>my_notebook</code></a>. Anyone can download the code and (with a Google account) run it in the cloud and test it. The plots below show the result of a convolutional neural net with 6 layers trained to minimize the mean square error of its output and the clean signal. Clearly, the neural net reconstructs the original signal well, as can be seen by plotting the difference of the neural net output and the ground truth (bottom right).</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/comparison.png"><img src="/images/denoising/comparison.png"/></a>
+<p>The latter case, known as &ldquo;gradient echo&rdquo; is illustrated in the following figure. Here, rather than a second RF pulse, a magnetic field gradient is applied in two opposite directions. The initial gradient causes dephasing of the spins, leading to rapid signal decay, while the second gradient achieves a rephasing, which recovers the original signal.</p>
+<figure><a href="/images/bloch_figures/gradient_echo_t.png"><img src="/images/bloch_figures/gradient_echo_t.png"/></a>
 </figure>
 
-<p>This project is part of an ongoing collaboration (more details here on our recent <a href="https://www.ismrm.org/index.php?gf-download=2022%2F08%2FISMRM-Diff_Workshop_2022_ADoering.pdf&amp;form-id=1341&amp;field-id=16&amp;hash=66281781958d5482202467a2c3b303a1a7d9c32327990656deee3fa54f9af27b">abstract</a>). A more up-to-date version of our Python code is available on the project&rsquo;s GitHub page: <a href="https://github.com/frank-roesler/MRspecNET">https://github.com/frank-roesler/MRspecNET</a> (this is still work in progress).</p>
+<p>All these effects can be observed experimentally using actual MRI scanners. The Bloch equations and some basic numerics allow us to understand and predict them and all we need is a personal Laptop!</p>
 
       </div>
     </article>

@@ -89,6 +89,15 @@ The source code is openly available at https://github.com/frank-roesler/SIR_fit
     
     <item>
       <title>Hobby Projects</title>
+      <link>https://frank-roesler.github.io/bloch/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/bloch/</guid>
+      <description>Deep Learning in MRI Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &amp;ldquo;free induction decay&amp;rdquo; (FID).</description>
+    </item>
+    
+    <item>
+      <title>Hobby Projects</title>
       <link>https://frank-roesler.github.io/cs/</link>
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
