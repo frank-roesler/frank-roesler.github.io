@@ -26,19 +26,19 @@
     
     
     <meta property="og:title" content="Hobby Projects" />
-<meta property="og:description" content="Deep Learning in MRI Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)." />
+<meta property="og:description" content="Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://frank-roesler.github.io/bloch/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
 
 <meta itemprop="name" content="Hobby Projects">
-<meta itemprop="description" content="Deep Learning in MRI Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+<meta itemprop="description" content="Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="594">
+<meta itemprop="wordCount" content="593">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hobby Projects"/>
-<meta name="twitter:description" content="Deep Learning in MRI Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)."/>
+<meta name="twitter:description" content="Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID)."/>
 
 	
   </head>
@@ -234,7 +234,7 @@
 			<a class="menu-link" href="/cs">Compressed Sensing</a>
 		</li>
 		<li class="menu-label">
-			<a class="menu-link" href="/bloch">Deep Learning in MRI</a>
+			<a class="menu-link" href="/bloch">Modelling MRI Pulses</a>
 		</li>
 	</ul>
 	
@@ -253,7 +253,7 @@
 		<option value="/gan">Generative Adversarial Network</option>
 		<option value="/denoising">Denoising via ML</option>
 		<option value="/cs">Compressed Sensing</option>
-		<option value="/bloch">Deep Learning in MRI</option>
+		<option value="/bloch">Modelling MRI Pulses</option>
     </select>
 	</form>
 </nav>
@@ -273,7 +273,7 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        <h2 id="deep-learning-in-mri">Deep Learning in MRI</h2>
+        <h2 id="modelling-mri-pulses">Modelling MRI Pulses</h2>
 <h4 id="nuclear-magnetic-resonance">Nuclear magnetic resonance</h4>
 <p>In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by <a href="https://en.wikipedia.org/wiki/Physics_of_magnetic_resonance_imaging#Nuclear_magnetism">radio frequency pulse</a>. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &ldquo;free induction decay&rdquo; (FID). The shape of the RF pulse is crucial in determining the frequency range to be excited. In MRI, the ability to excite only a specific, narrow frequency range is crucial. In fact, this is necessary in order to obtain spatial information, which can finally result in medically useful images.<br>
 However, the relationship between the shape of the pulse and the corresponding frequency response is far from trivial. It can be modeled mathematically by the so-called <a href="https://en.wikipedia.org/wiki/Bloch_equations">Bloch Equations</a>:</p>
