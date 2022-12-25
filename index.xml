@@ -53,7 +53,8 @@ Springer E-Books: Springer have recently released over 400 ebooks for free on li
       <pubDate>Tue, 26 May 2020 15:13:25 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/miscellaneous/</guid>
-      <description>On this page I collected some small mathematical simulations that I coded as a hobby and that are nice to watch (choose from the menu). All simulations are implemented in basic Matlab or Python and the corresponding codes are freely available on Github.</description>
+      <description>On this page I collected some small mathematical simulations that I coded as a hobby and that are nice to watch (choose from the menu). All simulations are implemented in basic Matlab or Python and the corresponding codes are freely available on Github.
+      </description>
     </item>
     
     <item>
@@ -94,6 +95,15 @@ The source code is openly available at https://github.com/frank-roesler/SIR_fit
       
       <guid>https://frank-roesler.github.io/bloch/</guid>
       <description>Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &amp;ldquo;free induction decay&amp;rdquo; (FID).</description>
+    </item>
+    
+    <item>
+      <title>Hobby Projects</title>
+      <link>https://frank-roesler.github.io/bloch2/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/bloch2/</guid>
+      <description>Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0. It is often desired (e.g. for slice selection) to have a pulse, which excites a rectangular frequency profile of a certain width $\delta$.</description>
     </item>
     
     <item>
