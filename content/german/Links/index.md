@@ -32,12 +32,12 @@ Konferenzen und Workshops:
 
 ### Anstehend:
 
-*	[International Workshop on Operator Theory and its Applications](https://iwota2022.urk.edu.pl/) 6.-10. September 2022, Krakau, Polen.
-*	15th International Conference on Mathematical and Numerical Aspects of Wave Propagation: [Waves 2022](https://waves2022.apps.math.cnrs.fr/) 25. - 29. Juli 2022, Paris, Frankreich.
-
+*	June 19-22, 2023, Stockholm (Schweden): [Analysis and mathematical physics](https://staff.math.su.se/kurasov/AMP2022/AMP2022.html) – AMP2022 (in memory of Sergey Naboko)
 
 ### Vergangen:
 
+*	[International Workshop on Operator Theory and its Applications](https://iwota2022.urk.edu.pl/) 6.-10. September 2022, Krakau, Polen.
+*	15th International Conference on Mathematical and Numerical Aspects of Wave Propagation: [Waves 2022](https://waves2022.apps.math.cnrs.fr/) 25. - 29. Juli 2022, Paris, Frankreich.
 *	[Bern Data Science Day](https://www.dsl.unibe.ch/events/bdsd2022/), 6 May 2022, Bern, CH.
 *	[Bern Winter School on Machine Learning](https://www.math.unibe.ch/continuing_education/bern_winter_school_on_machine_learning/index_eng.html) 24. – 28. Januar 2022, Mürren, CH.
 *	[8th European Congress of Mathematics](https://8ecm.si/) 20. - 26. Juni 2021, Portorož, Slovenien 

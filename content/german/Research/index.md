@@ -5,12 +5,19 @@ omit_header_text: true
 date: 2020-05-26T11:53:04+01:00
 draft: false
 menu: "main"
+research_menu: "german"
 weight: 2
 ---
+
+Hier ist eine aktuelle Liste meiner Forschungsartikel. Im Menu links gibt es zu jeder Arbeit einen kurzen &Uuml;berblick.
+
+{{< figure src="/images/research/collage2.png" link="/images/research/collage2.png" >}}
 
 Publikationen und Preprints
 --------------------------
 #### Preprints:
+*   Frank R&ouml;sler, Christiane Tretter; [Computing Klein-Gordon Eigenvalues,](/images/slides_kg.pdf) *in Arbeit*.
+(Eine Matlab-Implementierung des Algorithmus gibt es [hier](https://github.com/frank-roesler/spectral_klein_gordon))
 *	Frank R&ouml;sler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://arxiv.org/abs/2104.09444), *Preprint*, arXiv:2104.09444.  
 	(Eine Matlab-Implementierung des Algorithmus gibt es [hier](https://github.com/frank-roesler/PixelSpectra).)
 *	Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Universal algorithms for solving inverse spectral problems](https://arxiv.org/abs/2203.13078), *Preprint*, arXiv:2203.13078.  

@@ -1,0 +1,101 @@
+<head>
+	<style>
+		nav .narrow-dropdown {
+		  display: none;
+		  width: 100%;
+		}
+		@media (max-width: 960px) {
+		  nav .side-menu     { display: none; }
+		  nav .narrow-dropdown { display: inline-block; }
+		}
+		
+		
+		.menu-label {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  background-color: lightgray;
+		 }
+		
+		li .menu-link {
+			  display: block;
+			  color: #000;
+			  padding: 14px 28px;
+			  text-decoration: none;
+		}
+		
+		/* Change the link color on hover */
+		li .menu-link:hover {
+			  background-color: #555;
+			  color: white;
+		 }
+		 
+		 .side-menu {
+			width: auto;
+			margin-right:   3vh;
+			margin-left:    3vh;
+			margin-top:     3vh;
+			margin-bottom:  5vh;
+			font-size: 16px;
+			float: left;
+			/*font-family: 'Lato', sans-serif;*/
+			/*background-color: blue;*/
+		}
+	</style>
+	
+</head>
+
+<nav> 
+	<ul class="side-menu">
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research">Home</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_kg"><b>Neu:</b> Relativistische Spektren</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_rough_domains"><b>Neu: </b>Fractal Drums</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_inverse"><b>Neu: </b>Inverse Spektralprobleme</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_resonances">Quantenresonanzen</a>
+		</li>
+		<li class="menu-label">
+		<a class="menu-link" href="/de/research_periodic">Periodische Hamiltonians</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_helmholtz">Helmholtz-Resonatoren</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_graphs">D&uuml;nne por&ouml;se Medien</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_selfadjoint">Schr&ouml;dinger-Eigenwerte</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_perfdom">Perforierte Gebiete</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/de/research_pseudospectrum">Pseudospektren</a>
+		</li>
+	</ul>
+	
+	<form>
+    <select class="narrow-dropdown" onchange="window.open(this.options[this.selectedIndex].value,'_self')">
+        <option value="" selected="selected">Auswahl</option> 
+		<option value="/de/research">Home</option> 
+		<option value="/de/research_kg"><b>Neu:</b> Relativistische Spektren</option> 
+		<option value="/de/research_rough_domains"><b>Neu:</b>Fractal Drums</option> 
+		<option value="/de/research_inverse"><b>Neu:</b> Inverse Spektralprobleme</option> 
+		<option value="/de/research_resonances">Quantenresonanzen</option> 
+		<option value="/de/research_periodic">Periodische Hamiltonians</option>
+		<option value="/de/research_helmholtz">Helmholtz-Resonatoren</option>
+		<option value="/de/research_graphs">D&uuml;nne por&ouml;se Medien</option>
+		<option value="/de/research_selfadjoint">Schr&ouml;dinger-Eigenwerte</option>
+		<option value="/de/research_perfdom">Perforierte Gebiete</option>
+		<option value="/de/research_pseudospectrum">Pseudospektren</option>
+    </select>
+	</form>
+</nav>

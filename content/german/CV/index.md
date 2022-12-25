@@ -16,13 +16,15 @@ Grants und Preise
 
 Ausbildung und Abschlüsse
 -------------------------
-*   _2018-:_ **Wissenschaftlicher Mitarbeiter / Marie Curie Fellow**, School of Mathematics, Cardiff University, Cardiff, UK.
+*   _seit 2022:_ **Wissenschaftlicher Mitarbeiter**, Departement Mathematik und Statistik, Universit&auml;t Bern, Bern, Schweiz.
+*   _2018-2022:_ **Wissenschaftlicher Mitarbeiter / Marie Curie Fellow**, School of Mathematics, Cardiff University, Cardiff, UK.
 *   _2014-2018:_ **Promotion in Mathematik**, Dept of Mathematical Sciences, Durham University, Durham, UK. _Thema:_ [Spectral Theory of non-selfadjoint Schr&ouml;dinger Operators and homogenisation of PDEs in perforated domains.](ht&ouml;tp://etheses.dur.ac.uk/12736/)
 *   _2011-2014_: **MSc Physik**, Universität Heidelberg, Deutschland. **Masterarbeit**, Institut für theoretische Physik, Heidelberg, Deutschland. _Thema_: [Surface Operators in Chern-Simons Theory.](https://frankroesler.files.wordpress.com/2019/07/ma_frank_roesler.pdf)
 *   _2008–2011:_ **BSc Physik**, Universität Heidelberg, Deutschland. **Bachelorarbeit**, Institut für theoretische Physik, Heidelberg, Deutschland. _Thema_:  Distributionen und Wellenfrontmengen.
 
 Akademische Vorträge
 --------------------
+*	_Sep. 2022:_ **Vortrag**,  IWOTA-2022, [International workshop on operator theory and applications](https://iwota2022.urk.edu.pl/programm.html), Krakau, Polen.
 *   _Feb. 2022:_ **Seminarvortrag**, Imperial College, London, UK.
 *   _Nov. 2021:_ **[Kolloquiumsvortrag](https://www.math.unibe.ch/unibe/portal/fak_naturwis/a_dept_math/a_inst_math/content/e19399/e590660/e637481/e637490/e1143962/Roesler_eng.pdf)**, Universität Bern, Schweiz.
 *	_Jun. 2021:_ **Vortrag**, [8th European Congress of Mathematics](https://www.8ecm.si/presentations#show-content-1841), Portorož, Slowenien (online).

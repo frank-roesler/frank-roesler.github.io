@@ -1,0 +1,101 @@
+<head>
+	<style>
+		nav .narrow-dropdown {
+		  display: none;
+		  width: 100%;
+		}
+		@media (max-width: 960px) {
+		  nav .side-menu     { display: none; }
+		  nav .narrow-dropdown { display: inline-block; }
+		}
+		
+		
+		.menu-label {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  background-color: lightgray;
+		 }
+		
+		li .menu-link {
+			  display: block;
+			  color: #000;
+			  padding: 14px 28px;
+			  text-decoration: none;
+		}
+		
+		/* Change the link color on hover */
+		li .menu-link:hover {
+			  background-color: #555;
+			  color: white;
+		 }
+		 
+		 .side-menu {
+			width: auto;
+			margin-right:   3vh;
+			margin-left:    3vh;
+			margin-top:     3vh;
+			margin-bottom:  5vh;
+			font-size: 16px;
+			float: left;
+			/*font-family: 'Lato', sans-serif;*/
+			/*background-color: blue;*/
+		}
+	</style>
+	
+</head>
+
+<nav> 
+	<ul class="side-menu">
+		<li class="menu-label">
+			<a class="menu-link" href="/research">Home</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_kg"><b>New:</b> Relativistic Spectra</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_rough_domains"><b>New:</b> Fractal Drums</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_inverse"><b>New:</b> Inverse Spectral Problems</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_resonances">Quantum Resonances</a>
+		</li>
+		<li class="menu-label">
+		<a class="menu-link" href="/research_periodic">Periodic Hamiltonians</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_helmholtz">Helmholtz Resonators</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_graphs">Thin Porous Media</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_selfadjoint">Schrödinger Eigenvalues</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_perfdom">Perforated Domains</a>
+		</li>
+		<li class="menu-label">
+			<a class="menu-link" href="/research_pseudospectrum">Pseudospectra</a>
+		</li>
+	</ul>
+	
+	<form>
+    <select class="narrow-dropdown" onchange="window.open(this.options[this.selectedIndex].value,'_self')">
+        <option value="" selected="selected">Select</option> 
+		<option value="/research">Home</option> 
+		<option value="/research_kg"><b>New:</b> Relativistic Spectra</option> 
+		<option value="/research_rough_domains"><b>New:</b> Fractal Drums</option> 
+		<option value="/research_inverse"><b>New:</b> Inverse Spectral Problems</option> 
+		<option value="/research_resonances">Quantum Resonances</option> 
+		<option value="/research_periodic">Periodic Hamiltonians</option>
+		<option value="/research_helmholtz">Helmholtz Resonators</option>
+		<option value="/research_graphs">Thin Porous Media</option>
+		<option value="/research_selfadjoint">Schrödinger Eigenvalues</option>
+		<option value="/research_perfdom">Perforated Domains</option>
+		<option value="/research_pseudospectrum">Pseudospectra</option>
+    </select>
+	</form>
+</nav>

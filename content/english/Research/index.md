@@ -5,18 +5,25 @@ omit_header_text: true
 date: 2020-05-26T11:53:04+01:00
 draft: false
 menu: "main"
+research_menu: "english"
 weight: 2
 ---
+
+This page contains an up-to-date list of my publications. Please choose from the menu on the left for a brief overview of each research project.
+
+{{< figure src="/images/research/collage2.png" link="/images/research/collage2.png" >}}
 
 Publications and Preprints
 --------------------------
 #### Preprints:
+*	Frank R&ouml;sler, Christiane Tretter; [Computing Klein-Gordon Eigenvalues,](/images/slides_kg.pdf) *in preparation*.
+(A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/spectral_klein_gordon))
 *	Frank R&ouml;sler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://arxiv.org/abs/2104.09444), *Preprint*, arXiv:2104.09444.  
 	(A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/PixelSpectra))
 *	Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Universal algorithms for solving inverse spectral problems](https://arxiv.org/abs/2203.13078), *Preprint*, arXiv:2203.13078.  
 	(A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/inverse_SCI))
 #### Peer-Reviewed:
-*   Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Computing scattering resonances](https://arxiv.org/abs/2006.03368). J. Eur. Math. Soc. (JEMS) (accepted), 2022.
+*   Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Computing scattering resonances](https://ems.press/journals/jems/articles/7274199). J. Eur. Math. Soc. (JEMS), 2022.
 *   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Universal Algorithms for Computing Spectra of Periodic Operators](https://link.springer.com/article/10.1007/s00211-021-01265-w), *Numer. Math. (2022)*.  
 A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/PeriodicSpectra).
 *   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Computing the Sound of the Sea in a Seashell](https://link.springer.com/article/10.1007%2Fs10208-021-09509-9). *Found. Comput. Math.*, 2021.  

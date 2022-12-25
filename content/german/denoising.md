@@ -1,5 +1,5 @@
 ---
-title: "Miscellaneous"
+title: "Hobbyprojekte"
 featured_image: '/images/banner_blackboard2.jpg'
 omit_header_text: true
 date: 2020-06-01T16:49:58+01:00
