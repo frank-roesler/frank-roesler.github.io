@@ -221,7 +221,7 @@ Click here to download the slides of a recent talk on the subject. A Matlab pack
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_kg/</guid>
-      <description>Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, in preparation. (A Matlab implementation of the algorithm is available here)  Overview: The computational spectral problem in quantum mechanics is slowly becoming more and more well understood. Particularly the numerical complexity of the classical (nonrelativistic) theory that goes back to Schrödinger and Heisenberg has been studied in a number of different situations by a number of different authors (including myself and my collaborators), see here, here or here.</description>
+      <description>Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, preprint. (A Matlab implementation of the algorithm is available here. A recent presentation on the topic is also available online)  Overview: The computational spectral problem in quantum mechanics is becoming more and more well understood. Particularly the numerical complexity of the classical (nonrelativistic) theory that goes back to Schrödinger and Heisenberg has been studied in a number of different situations by a number of different authors (including myself and my collaborators), see here, here or here.</description>
     </item>
     
     <item>
