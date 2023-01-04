@@ -35,7 +35,7 @@
 <meta itemprop="name" content="Hobby Projects">
 <meta itemprop="description" content="Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0. It is often desired (e.g. for slice selection) to have a pulse, which excites a rectangular frequency profile of a certain width $\delta$."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
-<meta itemprop="wordCount" content="260">
+<meta itemprop="wordCount" content="261">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hobby Projects"/>
 <meta name="twitter:description" content="Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0. It is often desired (e.g. for slice selection) to have a pulse, which excites a rectangular frequency profile of a certain width $\delta$."/>
@@ -132,6 +132,15 @@
 
 
 	  
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="https://frank-roesler.github.io/de/bloch2/" style="font-size:16px">de</a>
+    </li>
+    
+</ul>
+
 
     </div>
   </div>
@@ -279,7 +288,7 @@
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         <h2 id="deep-learning-for-mri-pulse-sequences">Deep Learning for MRI Pulse Sequences</h2>
 <h4 id="frequency-profile-of-rf-pulse">Frequency profile of RF pulse</h4>
-<p>As explained in <a href="/bloch">this post</a>, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0. It is often desired (e.g. for slice selection) to have a pulse, which excites a rectangular frequency profile of a certain width $\delta$. That is, <em>only</em> frequencies in the range $\mathsf{\Delta\omega\in [-\delta,+\delta]}$ will be selectively excited uniformly. Heuristically, pulse shapes can be found, which approximately achieve this. One prominent shape is the <em>sinc pulse</em>, given by $\mathsf{B_{1,x}(t)\sim sin(t)/t}$. The following figure shows the frequency profile corresponding to a sinc pulse. As can be seen, it is approximately rectangular, but not perfect.</p>
+<p>As explained in <a href="/bloch">this post</a>, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0. It is often desired (e.g. for slice selection) to have a pulse, which excites a rectangular frequency profile of a certain width $\delta$. That is, <em>only</em> frequencies in the range $\mathsf{\Delta\omega\in [-\delta,+\delta]}$ are to be selectively excited uniformly. Heuristically, pulse shapes can be found, which approximately achieve this. One prominent shape is the <em>sinc pulse</em>, given by $\mathsf{B_{1,x}(t)\sim sin(t)/t}$. The following figure shows the frequency profile corresponding to a sinc pulse. As can be seen, it is approximately rectangular, but not perfect.</p>
 <figure><a href="/images/bloch_figures/freq_plot_sinc.png"><img src="/images/bloch_figures/freq_plot_sinc.png"/></a>
 </figure>
 
@@ -298,7 +307,7 @@ The process of adapting a pulse shape to better match a specific frequency profi
     <footer class="bg-gray bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://frank-roesler.github.io/" >
-    &copy;  Frank Rösler 2022 
+    &copy;  Frank Rösler 2023 
   </a>
     <div>
 

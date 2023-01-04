@@ -118,6 +118,32 @@
                 href="https://frank-roesler.github.io/de/sir/"
                 />
   </url><url>
+    <loc>https://frank-roesler.github.io/de/bloch/</loc>
+    <lastmod>2020-06-01T16:49:58+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/bloch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/bloch/"
+                />
+  </url><url>
+    <loc>https://frank-roesler.github.io/de/bloch2/</loc>
+    <lastmod>2020-06-01T16:49:58+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/bloch2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/bloch2/"
+                />
+  </url><url>
     <loc>https://frank-roesler.github.io/de/cs/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link

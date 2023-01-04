@@ -23,7 +23,7 @@
       <pubDate>Tue, 26 May 2020 14:23:52 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/teaching/</guid>
-      <description>Wintersemester 2019/20  Vorlesung über Maßtheorie an der Universität Cardiff.  Handgeschriebenes Vorlesungsskript: Maßtheorie Videos der gesamten Vorlesung sind frei verfügbar: Measure Theory Cardiff 2019    Sommersemester 2018  Assistent für die Vorlesung &amp;ldquo;Analysis 2&amp;rdquo; von Prof. M. Růžička an der Universität Freiburg.  Wintersemester 2017/18  Assistent für die Vorlesung &amp;ldquo;Analysis 1&amp;rdquo; von Prof. M. Růžička an der Universität Freiburg.  Sommersemester 2017  Lesekurs über den Spektralsatz für kompakte, beschränkte und unbeschränkte selbstadjungierte Operatoren auf Hilberträumen an der Universität Freiburg.</description>
+      <description>Frühjahr 2023  Seminar über Sobolevräume an der Universiät Bern. Assistent für Mathematik II für Naturwissenschaftler an der Universiät Bern.  Herbst 2022/23  Assistent für Funktionalanalysis an der Universiät Bern. Assistent für Mathematik I für Naturwissenschaftler a an der Universiät Bern.  Wintersemester 2019/20  Vorlesung über Maßtheorie an der Universität Cardiff.  Handgeschriebenes Vorlesungsskript: Maßtheorie Videos der gesamten Vorlesung sind frei verfügbar: Measure Theory Cardiff 2019    Sommersemester 2018  Assistent für die Vorlesung &amp;ldquo;Analysis 2&amp;rdquo; von Prof.</description>
     </item>
     
     <item>
@@ -87,6 +87,26 @@ Der Quellcode ist frei verfügbar auf https://github.</description>
       <description>Fit SIR-Modell Als kleines Python-Lernprojekt habe ich dieses kleine Programm geschrieben, das simulierte Daten für eine Infektionswelle in einer population generiert und dann ein einfaches SIR-Modell fittet. Der User kann auf einer grafischen Benutzeroberfläche zwischen zwei fit-Methoden wählen (Methode des steilsten Abstiegs bzw. konjugierte Gradienten).
 Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
  </description>
+    </item>
+    
+    <item>
+      <title>Hobbyprojekte</title>
+      <link>https://frank-roesler.github.io/de/bloch/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/bloch/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $ B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{ M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$.</description>
+    </item>
+    
+    <item>
+      <title>Hobbyprojekte</title>
+      <link>https://frank-roesler.github.io/de/bloch2/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/bloch2/</guid>
+      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
+Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0.</description>
     </item>
     
     <item>

@@ -23,7 +23,7 @@
       <pubDate>Tue, 26 May 2020 14:23:52 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/teaching/</guid>
-      <description>Winter term 2019/20  Lecture on Measure Theory at Cardiff University.  Handwritten set of lecture notes: Measure Theory Video capture of the entire lecture freely available online: Measure Theory Cardiff 2019    Summer term 2018  Assistant for the course &amp;ldquo;Analysis 2&amp;rdquo; by Prof. M. Růžička at the University of Freiburg.  Winter term 2017/18  Assistant for the lecture &amp;ldquo;Analysis 1&amp;rdquo; by Prof. M. Růžička at the University of Freiburg.</description>
+      <description>Spring term 2023  Hosting seminar on Sobolev Spaces at University of Bern. Assistant for Mathematics for Scientists II at University of Bern.  Fall term 2022/23  Assistant for Functional Analysis at University of Bern. Assistant for Mathematics for Scientists I at University of Bern.  Winter term 2019/20  Lecture on Measure Theory at Cardiff University.  Handwritten set of lecture notes: Measure Theory Video capture of the entire lecture freely available online: Measure Theory Cardiff 2019    Summer term 2018  Assistant for the course &amp;ldquo;Analysis 2&amp;rdquo; by Prof.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@ Springer E-Books: Springer have recently released over 400 ebooks for free on li
       <pubDate>Tue, 26 May 2020 15:13:25 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/miscellaneous/</guid>
-      <description>On this page I collected some small mathematical simulations that I coded as a hobby and that are nice to watch (choose from the menu). All simulations are implemented in basic Matlab or Python and the corresponding codes are freely available on Github.
+      <description>On this page I collected some small mathematical simulations that I coded as a hobby and that are nice to watch (choose from the menu). All simulations come with accessible implementations in Matlab or Python and the corresponding codes are freely available on Github.
        </description>
     </item>
     
@@ -94,7 +94,7 @@ The source code is openly available at https://github.com/frank-roesler/SIR_fit
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/bloch/</guid>
-      <description>Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $\mathbf B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{\mathbf M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &amp;ldquo;free induction decay&amp;rdquo; (FID).</description>
+      <description>Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $ B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{ M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$. This measurable signal is known in MRI as &amp;ldquo;free induction decay&amp;rdquo; (FID).</description>
     </item>
     
     <item>
