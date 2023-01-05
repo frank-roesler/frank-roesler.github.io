@@ -96,8 +96,7 @@ Der Quellcode ist frei verfügbar auf https://github.com/frank-roesler/SIR_fit
       <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/bloch/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Modelling MRI Pulses Nuclear magnetic resonance In Magnetic Resonance Imaging (MRI) the nuclear spins in our body are placed in a strong homogeneous magnetic field $ B_0$ excited into a rotational state by radio frequency pulse. Once excited by an RF pulse, the nuclear spins rotate in phase, producing a measurable macroscopic magnetisation $\mathsf{ M(t)}$, which decays over time according to tissue-specific time scales called $\mathsf{T_1}$ and $\mathsf{T_2}$.</description>
+      <description>Modellierung von MRT-Pulsen Kernspinresonanz In der Magnetresonanztomographie (MRT) werden die Spins der Atomkerne in unserem Körper in ein starkes homogenes Magnetfeld $\mathsf{B_0}$ gebracht und durch einen Radiofrequenzpuls (RF) angeregt. Nach der Anregung rotieren die Spins gemeinsam in Phase und produzieren eine messbare makroskopische Magnetisierung $\mathsf{M(t)}$, die in der Zeit nach dem RF-Puls wieder zerfällt. Dieses messbare Signal wird in der MRT als &amp;ldquo;free induction decay&amp;rdquo; (FID) bezeichnet. Die Form des RF-Pulses ist zentral für die Kontrolle des angeregten Frequenzbereichs.</description>
     </item>
     
     <item>
