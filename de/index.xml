@@ -14,8 +14,8 @@
       <guid>https://frank-roesler.github.io/de/research/</guid>
       <description>Hier ist eine aktuelle Liste meiner Forschungsartikel. Im Menu links gibt es zu jeder Arbeit einen kurzen Überblick.
   Publikationen und Preprints Preprints:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, Preprint.
-(Eine Matlab-Implementierung des Algorithmus gibt es hier) Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444.
-(Eine Matlab-Implementierung des Algorithmus gibt es hier.) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.</description>
+(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
+(Eine Matlab-Implementierung des Algorithmus gibt es hier)  Peer-Reviewed:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Math.</description>
     </item>
     
     <item>
@@ -195,6 +195,15 @@ Dieser Code wurde an dem &amp;ldquo;Penn-Fudan&amp;rdquo;-Fußgänger-Datensatz 
       <guid>https://frank-roesler.github.io/de/turing/</guid>
       <description>Turing-Mechanismus Einfaches Beispiel für &amp;ldquo;Turing pattern formation&amp;rdquo;; programmiert in Matlab. Zwei Lösungen eines gekoppelten Systems partieller Differentialgleichungen konkurrieren, bis sich ein stabiles Gleichgewicht einstellt. Es wird seit langem vermutet, dass dieser Mechanismus der Entstehung der Fellzeichnung von Tieren unterliegt.
 Der Matlab-Code ist hier verfügbar: https://github.com/frank-roesler/Files/blob/master/Turing_FinDiff.m   </description>
+    </item>
+    
+    <item>
+      <title>Rezepte</title>
+      <link>https://frank-roesler.github.io/de/rezept/</link>
+      <pubDate>Mon, 01 Jun 2020 16:49:58 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/rezept/</guid>
+      <description>Focaccia Rezept Zutaten:  400g Mehl 330ml Wasser 4-5g Hefe 1 geh. TL Salz Olivenöl  Zubereitung:  Bei kaltem Wetter: Backofen auf 50º stellen, 1-2 Minuten vorheizen lassen, dann ausschalten. Mehl, 300ml Wasser, Hefe und einen Schuss Olivenöl zu einem glatten Teig verkneten, dann im ausgeschalteten Backofen abgedeckt 20-30min ruhen lassen. Salz und 30ml Wasser hinzufügen und nochmal gut durchkneten. Dann:  1:10h abgedeckt im ausgeschalteten Backofen gehen lassen, eine Runde falten (siehe Video), 1:10h abgedeckt im ausgeschalteten Backofen gehen lassen, eine Runde falten, 1:10h abgedeckt im ausgeschalteten Backofen gehen lassen, eine Runde falten.</description>
     </item>
     
     <item>
