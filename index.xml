@@ -212,7 +212,7 @@ Thin Geometry: Consider the Laplacian $\mathsf{-\Delta}$ on a domain $\mathsf{\O
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_helmholtz/</guid>
-      <description>Computing the Sound of the Sea in a Seashell Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Found. Comput. Math., 2021. (supported by the European Union�s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here  Overview: This work considers the scattering of waves by obstacles in 2 dimensions.</description>
+      <description>Computing the Sound of the Sea in a Seashell Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Found. Comput. Math., 2021. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) Click here to download the slides of a recent talk on the subject. A Matlab package based on the article is available here  Overview: This work considers the scattering of waves by obstacles in 2 dimensions.</description>
     </item>
     
     <item>
@@ -221,7 +221,7 @@ Thin Geometry: Consider the Laplacian $\mathsf{-\Delta}$ on a domain $\mathsf{\O
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_inverse/</guid>
-      <description>Reconstructing a Potential From its Scattering Data Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078. (supported by the European Union�s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: The so-called spectral problem for a Hamiltonian operator $\mathsf{-\frac{d^2}{dx^2}+q}$ consists of finding its spectrum given the potential function $\mathsf q$.</description>
+      <description>Reconstructing a Potential From its Scattering Data Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: The so-called spectral problem for a Hamiltonian operator $\mathsf{-\frac{d^2}{dx^2}+q}$ consists of finding its spectrum given the potential function $\mathsf q$.</description>
     </item>
     
     <item>
@@ -230,7 +230,7 @@ Thin Geometry: Consider the Laplacian $\mathsf{-\Delta}$ on a domain $\mathsf{\O
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_kg/</guid>
-      <description>Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, preprint. (supported by the European Union�s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here. A recent presentation on the topic is also available online)  Overview: The computational spectral problem in quantum mechanics is becoming more and more well understood.</description>
+      <description>Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, preprint. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here. A recent presentation on the topic is also available online)  Overview: The computational spectral problem in quantum mechanics is becoming more and more well understood.</description>
     </item>
     
     <item>
@@ -248,7 +248,7 @@ Thin Geometry: Consider the Laplacian $\mathsf{-\Delta}$ on a domain $\mathsf{\O
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_periodic/</guid>
-      <description>Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). ((supported by the European Union�s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.)) A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals.</description>
+      <description>Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). ((supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.)) A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals.</description>
     </item>
     
     <item>
@@ -266,7 +266,7 @@ Thin Geometry: Consider the Laplacian $\mathsf{-\Delta}$ on a domain $\mathsf{\O
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_resonances/</guid>
-      <description>Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union�s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &amp;ldquo;almost bound states&amp;rdquo;.</description>
+      <description>Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &amp;ldquo;almost bound states&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -275,7 +275,7 @@ Thin Geometry: Consider the Laplacian $\mathsf{-\Delta}$ on a domain $\mathsf{\O
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/research_rough_domains/</guid>
-      <description>Computing Vibration Modes of Fractal Drums Research article:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444. (supported by the European Union�s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: In this recent research project my collaborator Alexei Stepanenko and I studied computational aspects of a classical problem in spectral theory: Computing the eigenmodes of the 2d surface of a drum.</description>
+      <description>Computing Vibration Modes of Fractal Drums Research article:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: In this recent research project my collaborator Alexei Stepanenko and I studied computational aspects of a classical problem in spectral theory: Computing the eigenmodes of the 2d surface of a drum.</description>
     </item>
     
     <item>
