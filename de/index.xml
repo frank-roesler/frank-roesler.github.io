@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 26 May 2020 11:51:44 +0100</lastBuildDate><atom:link href="https://frank-roesler.github.io/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Forschung</title>
+      <title>Arbeit</title>
+      <link>https://frank-roesler.github.io/de/work/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/work/</guid>
+      <description>Auf dieser Seite stelle ich kurze Beschreibungen der Data Science-Projekte zusammen, an denen ich arbeite oder gearbeitet habe. Das Menü links gibt einen Überblick.</description>
+    </item>
+    
+    <item>
+      <title>Mathematische Forschung</title>
       <link>https://frank-roesler.github.io/de/research/</link>
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
@@ -33,7 +42,7 @@
       <pubDate>Tue, 26 May 2020 14:30:19 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/cv/</guid>
-      <description>Grants und Preise  2020: 2-Jahre Marie Skłodowska Curie Fellowship für das Projekt Computational Complexity in Quantum Mechanics (COCONUT) an der Universität Cardiff. 2019: LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop &amp;ldquo;Small Scales and Homogenisation&amp;rdquo; 2015: EPS Poster Prize, verliehen von der European Physical Society, im Rahmen des Workshops Pseudo-Hermitian Hamiltonians in Quantum Physics.  Ausbildung und Abschlüsse  seit 2022: Wissenschaftlicher Mitarbeiter, Departement Mathematik und Statistik, Universität Bern, Bern, Schweiz.</description>
+      <description>Grants und Preise  2020: 2-Jahre Marie Skłodowska Curie Fellowship für das Projekt Computational Complexity in Quantum Mechanics (COCONUT) an der Universität Cardiff. 2019: LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop &amp;ldquo;Small Scales and Homogenisation&amp;rdquo; 2015: EPS Poster Prize, verliehen von der European Physical Society, im Rahmen des Workshops Pseudo-Hermitian Hamiltonians in Quantum Physics.  Arbeitserfahrung  seit 2023: Data Scientist, Abteilung Risiko- und Standortanalyse, Fraunhofer IIS/SCS, Nürnberg, Deutschland.</description>
     </item>
     
     <item>
@@ -46,7 +55,7 @@
 Cardiff Online Analysis Seminar (CAOS): Während der COVID-19 Beschränkungen organisiert Cardiff ein online-Analysis-Seminar: https://jbenartzi.github.io/seminars.html
 (Related: Eine Große Zahl von online-Forschungsseminaren ist hier aufgelistet: https://researchseminars.org/)
 Springer E-Books: Springer hat kürzlich über 400 E-Books kostenlos zum Download zur Verfügung gestellt: https://www.reddit.com/r/FreeEBOOKS/comments/g34xi5/408_free_ebooks_from_springer/
-Forschungsprojekte:  COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.blog/ Jonathan Ben-Artzi (Gruppenleiter): https://jbenartzi.github.io/research.html  Konferenzen und Workshops: Anstehend:  June 19-22, 2023, Stockholm (Schweden): Analysis and mathematical physics – AMP2022 (in memory of Sergey Naboko)  Vergangen:  International Workshop on Operator Theory and its Applications 6.</description>
+Forschungsprojekte:  SIDING: Schienenanschluss-Identifikation durch intelligente Geolokalisierung ARGOS Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.</description>
     </item>
     
     <item>
@@ -204,6 +213,26 @@ Der Matlab-Code ist hier verfügbar: https://github.com/frank-roesler/Files/blob
       
       <guid>https://frank-roesler.github.io/de/rezept/</guid>
       <description>Focaccia Rezept Zutaten:  400g Weizenmehl 330ml Wasser 4-5g frische Hefe 1 geh. TL Salz Olivenöl  Zubereitung:  Bei kaltem Wetter: Backofen auf 50º stellen, 1-2 Minuten vorheizen lassen, dann ausschalten. Mehl, 300ml Wasser, Hefe und einen Schuss Olivenöl zu einem glatten Teig verkneten, dann im ausgeschalteten Backofen abgedeckt 20-30min ruhen lassen. Salz und 30ml Wasser hinzufügen und nochmal gut durchkneten. Dann:  1:10h abgedeckt im ausgeschalteten Backofen gehen lassen, eine Runde falten (siehe Video), 1:10h abgedeckt im ausgeschalteten Backofen gehen lassen, eine Runde falten, 1:10h abgedeckt im ausgeschalteten Backofen gehen lassen, eine Runde falten.</description>
+    </item>
+    
+    <item>
+      <title>Arbeit</title>
+      <link>https://frank-roesler.github.io/de/work_argos/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/work_argos/</guid>
+      <description>ARGOS - Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme  [Bilder wurden erzeugt mit dem KI-Tool DALL-E 2]
+  Die Erkennung von Industriebrachflächen ist in einem dicht besiedeltem Land wie Deutschland von besonders großer Bedeutung. Bodenfläche ist ein rares Gut und der Klima- und Umweltschutz verlangt die Schonung der noch vorhandenen Grünflächen. Es ist daher sinnvoll, für Bauvorhaben in der Industrie bereits vorhandene, aber nicht mehr genutzte Flächen zu nutzen.</description>
+    </item>
+    
+    <item>
+      <title>Arbeit</title>
+      <link>https://frank-roesler.github.io/de/work_siding/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/work_siding/</guid>
+      <description>SIDING - Schienenanschluss-Identifikation durch intelligente Geolokalisierung  [Bilder wurden erzeugt mit dem KI-Tool DALL-E 2]
+  Eine wichtige Maßnahme zur Reduktion der CO2-Emmissionen in Deutschland ist die Verlagerung von Güterverkehr auf die Schiene. Produzierende Unternehmen benötigen hierzu Zugangspunkte zum Schienennetz der Deutschen Bahn. Viele solche Gleisanschlüsse liegen auf dem Gelände privater Unternehmen und sind in keinem zentralen Register zu finden. Das Projekt SIDING nutzt Satellitenbilder und automatisierte Bilderkennung mittels Machine Learning, um private Gleisanschlüsse aus der Luft zu detektieren.</description>
     </item>
     
     <item>

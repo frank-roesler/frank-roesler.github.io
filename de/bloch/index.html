@@ -6,7 +6,7 @@
     
     <title>Hobbyprojekte | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.90.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -28,15 +28,19 @@
     <meta property="og:title" content="Hobbyprojekte" />
 <meta property="og:description" content="Modellierung von MRT-Pulsen Kernspinresonanz In der Magnetresonanztomographie (MRT) werden die Spins der Atomkerne in unserem Körper in ein starkes homogenes Magnetfeld $\mathsf{B_0}$ gebracht und durch einen Radiofrequenzpuls (RF) angeregt. Nach der Anregung rotieren die Spins gemeinsam in Phase und produzieren eine messbare makroskopische Magnetisierung $\mathsf{M(t)}$, die in der Zeit nach dem RF-Puls wieder zerfällt. Dieses messbare Signal wird in der MRT als &ldquo;free induction decay&rdquo; (FID) bezeichnet. Die Form des RF-Pulses ist zentral für die Kontrolle des angeregten Frequenzbereichs." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/de/bloch/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/de/bloch/" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
-
 <meta itemprop="name" content="Hobbyprojekte">
-<meta itemprop="description" content="Modellierung von MRT-Pulsen Kernspinresonanz In der Magnetresonanztomographie (MRT) werden die Spins der Atomkerne in unserem Körper in ein starkes homogenes Magnetfeld $\mathsf{B_0}$ gebracht und durch einen Radiofrequenzpuls (RF) angeregt. Nach der Anregung rotieren die Spins gemeinsam in Phase und produzieren eine messbare makroskopische Magnetisierung $\mathsf{M(t)}$, die in der Zeit nach dem RF-Puls wieder zerfällt. Dieses messbare Signal wird in der MRT als &ldquo;free induction decay&rdquo; (FID) bezeichnet. Die Form des RF-Pulses ist zentral für die Kontrolle des angeregten Frequenzbereichs."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+<meta itemprop="description" content="Modellierung von MRT-Pulsen Kernspinresonanz In der Magnetresonanztomographie (MRT) werden die Spins der Atomkerne in unserem Körper in ein starkes homogenes Magnetfeld $\mathsf{B_0}$ gebracht und durch einen Radiofrequenzpuls (RF) angeregt. Nach der Anregung rotieren die Spins gemeinsam in Phase und produzieren eine messbare makroskopische Magnetisierung $\mathsf{M(t)}$, die in der Zeit nach dem RF-Puls wieder zerfällt. Dieses messbare Signal wird in der MRT als &ldquo;free induction decay&rdquo; (FID) bezeichnet. Die Form des RF-Pulses ist zentral für die Kontrolle des angeregten Frequenzbereichs.">
+<meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="wordCount" content="571">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hobbyprojekte"/>
 <meta name="twitter:description" content="Modellierung von MRT-Pulsen Kernspinresonanz In der Magnetresonanztomographie (MRT) werden die Spins der Atomkerne in unserem Körper in ein starkes homogenes Magnetfeld $\mathsf{B_0}$ gebracht und durch einen Radiofrequenzpuls (RF) angeregt. Nach der Anregung rotieren die Spins gemeinsam in Phase und produzieren eine messbare makroskopische Magnetisierung $\mathsf{M(t)}$, die in der Zeit nach dem RF-Puls wieder zerfällt. Dieses messbare Signal wird in der MRT als &ldquo;free induction decay&rdquo; (FID) bezeichnet. Die Form des RF-Pulses ist zentral für die Kontrolle des angeregten Frequenzbereichs."/>
 
@@ -68,8 +72,14 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung page">
-              Forschung
+            <a class="hover-white no-underline white-90" href="/de/work/" title="Arbeit page">
+              Arbeit
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Mathematische Forschung page">
+              Mathematische Forschung
             </a>
           </li>
           
@@ -274,6 +284,8 @@
 	
 	
 	
+	
+	
 		  
       
   <div class="flex-l mt2 mw8 center">
@@ -298,16 +310,19 @@ $$\mathsf{\frac{d M_z(t)}{dt} = \gamma B_{1,y}(t)M_x(t) - \gamma B_{1,x}(t)M_y(t
 <p>Hierbei bezeichnet $\gamma$ eine physikalische Konstante, das <a href="https://de.wikipedia.org/wiki/Gyromagnetisches_Verh%C3%A4ltnis">gyromagnetische Verhältnis</a> und $\mathsf{B_1}$ das Magnetfeld des angelegten RF-Pulses. $\mathsf{\Delta\omega}$ bezeichnet die Abweichung von der <a href="https://de.wikipedia.org/wiki/Larmorpr%C3%A4zession">Larmorfrequenz</a> des Gewebes. Idealerweise sollte ein RF-Puls in der Lage sein, die Komponenten $\mathsf{M_x}$, $\mathsf{M_y}$, $\mathsf{M_z}$ nur in einem schmalen Bereich um $\mathsf{\Delta\omega=0}$ anzuregen.</p>
 <h4 id="numerische-modellierung">Numerische Modellierung</h4>
 <p>Die Bloch-Gleichungen lassen sich numerisch lösen. Eine der gängigen Lösungsmethoden habe ich in Python implementiert. Sie ermöglicht sowohl ein qualitatives, als auch ein quantitatives Verständnis von MRT-Sequenzen. Der Code ist open source und auf <a href="https://github.com/frank-roesler/bloch_solver">github.com/frank-roesler/bloch_solver</a> frei verfügbar. Die folgende Grafik illustriert den Effekt eines <a href="https://de.wikipedia.org/wiki/Sinc-Funktion">sinc-förmigen</a> RF-Pulses auf die Magnetisierung $\mathsf M$ für $\mathsf{\Delta\omega=0}$. Die Komponente $\mathsf{M_y}$ wird nach jedem Puls angeregt, wonach sie exponentiell zerfällt. Man beachte, dass der erste Puls (etwa zur Zeit 200ms) eine maximale Anregung erreicht (d.h. $\mathsf{M_y}=1$), wobei alle folgenden Pulse aufgrund der unvollständigen $\mathsf T_1$-Regeneration nur eine <em>teilweise</em> Anregung erreichen. Dies ist genau das Verhalten, das man theoretisch erwartet und in Messungen sieht. (siehe z.B. <a href="https://en.wikipedia.org/wiki/Physics_of_magnetic_resonance_imaging#Resonance_and_relaxation">hier</a>).</p>
-<figure><a href="/images/bloch_figures/bloch.png"><img src="/images/bloch_figures/bloch.png"/></a>
+<figure><a href="/images/bloch_figures/bloch.png">
+    <img src="/images/bloch_figures/bloch.png"/> </a>
 </figure>
 
 <h4 id="spin-echo-und-feldgradienten">Spin Echo und Feldgradienten</h4>
 <p>Der Python-Code ermöglicht auch die qualitative Illustration von komplexeren MRT-Sequenzen. Die meisten modernen Sequenzen nutzen einen Effekt namens <a href="https://de.wikipedia.org/wiki/Spin-Echo">&ldquo;Spin Echo&rdquo;</a>. Dieser Effekt erlaubt es, den $\mathsf{T_2}$-Zerfall teilweise umzukehren, indem man RF-Pulse und magnetische Feldgradienten clever kombiniert. Die zentrale Idee besteht darin, die Spins, die durch ein inhomogenes Magnetfeld außer Phase geraten sind, wieder in eine Linie zu bringen. Dies kann entweder durch einen sogenannten 180º RF-Puls erreicht werden, oder durch zwei entgegengesetzte Feldgradienten. Das folgende Bild illustriert den ersten Fall. Ein erster Puls regt die Magnetisierung an, wonach sie durch Inhomogenitäten im Magnetfeld (hier einfachheitshalber modelliert durch einen konstanten Gradienten) wieder zerfällt. Nach einer Zeit $\mathsf{T_E/2}$ wird ein weiterer Puls (der 180º-Puls) angelegt. Die Numerik zeigt einen zweiten Peak in der Magnetisierung (orange), der zur Zeit $\mathsf{T_E}$ scheinbar aus dem Nichts entsteht. Dies wird in der MRT als &ldquo;Spin-Echo bezeichnet&rdquo;.</p>
-<figure><a href="/images/bloch_figures/spin_echo.png"><img src="/images/bloch_figures/spin_echo.png"/></a>
+<figure><a href="/images/bloch_figures/spin_echo.png">
+    <img src="/images/bloch_figures/spin_echo.png"/> </a>
 </figure>
 
 <p>Der zweite Fall, das &ldquo;Gradientenecho&rdquo;, ist im letzten Bild unten illustriert. Anstatt eines zweiten RF-Pulses wird hier ein magnetischer Feldgradient angelegt, erst in positive Richtung, dann in negative. Der erste (positive) Gradient verursacht eine Dephasierung der Spins, welche zu rapidem Signalverlust führt. Der zweite (negative) Gradient kehrt diesen Effekt um, verursacht also eine <em>Rephasierung</em>. Wie erwartet, kehrt das Signal während des zweiten Gradienten zurück (orangener Peak).</p>
-<figure><a href="/images/bloch_figures/gradient_echo.png"><img src="/images/bloch_figures/gradient_echo.png"/></a>
+<figure><a href="/images/bloch_figures/gradient_echo.png">
+    <img src="/images/bloch_figures/gradient_echo.png"/> </a>
 </figure>
 
 <p>All diese Effekte lassen sich an einem MRT-Gerät tatsächlich experimentell beobachten. Die Bloch-Gleichungen (zusammen mit ein bisschen Numerik) erlauben es uns, sie zu verstehen und vorherzusagen und alles, was wir dazu benötigen, ist ein Laptop!</p>

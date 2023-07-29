@@ -6,7 +6,7 @@
     
     <title>Hobbyprojekte | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.90.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -28,15 +28,19 @@
     <meta property="og:title" content="Hobbyprojekte" />
 <meta property="og:description" content="Rauschunterdrückung in Messdaten Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise Lorentz-Form. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (dunkel = Realteil des komplexen Signals, hell = Imaginärteil)." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/de/denoising/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/de/denoising/" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
-
 <meta itemprop="name" content="Hobbyprojekte">
-<meta itemprop="description" content="Rauschunterdrückung in Messdaten Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise Lorentz-Form. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (dunkel = Realteil des komplexen Signals, hell = Imaginärteil)."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+<meta itemprop="description" content="Rauschunterdrückung in Messdaten Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise Lorentz-Form. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (dunkel = Realteil des komplexen Signals, hell = Imaginärteil).">
+<meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="wordCount" content="221">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hobbyprojekte"/>
 <meta name="twitter:description" content="Rauschunterdrückung in Messdaten Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise Lorentz-Form. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (dunkel = Realteil des komplexen Signals, hell = Imaginärteil)."/>
 
@@ -68,8 +72,14 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung page">
-              Forschung
+            <a class="hover-white no-underline white-90" href="/de/work/" title="Arbeit page">
+              Arbeit
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Mathematische Forschung page">
+              Mathematische Forschung
             </a>
           </li>
           
@@ -274,6 +284,8 @@
 	
 	
 	
+	
+	
 		  
       
   <div class="flex-l mt2 mw8 center">
@@ -289,16 +301,19 @@
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         <h2 id="rauschunterdrückung-in-messdaten">Rauschunterdrückung in Messdaten</h2>
 <p>Methoden des maschinellen Lernens können in der Signalverarbeitung eingesetzt werden, um die Qualität von verrauschten Signalen zu verbessern. Ein Beispiel, das ich in PyTorch programmiert habe, legt nahe, dass diese Methode für Spektrosopie-Signale gut funktioniert. Solche Signale haben typischerweise <a href="https://de.wikipedia.org/wiki/Lorentzkurve">Lorentz-Form</a>. Reale Messdaten sind allerdings nie identisch mit der glatten Kurve, die die Theorie vorhersagt, sondern vielmehr verrauscht, wie das folgende Bild qualitativ zeigt (dunkel = Realteil des komplexen Signals, hell = Imaginärteil). Oft ist das Rauschen so stark, dass einzelne Peaks nicht mehr mit bloßem Auge zu erkennen sind.</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/gt.png"><img src="/images/denoising/gt.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/denoising/gt.png">
+    <img src="/images/denoising/gt.png"/> </a>
 </figure>
 
 <p>Synthetisch generierte Daten wie die obigen eignen sich, um ein neuronales Netz zu trainieren: Das Netz nimmt ein verrauschtes Signal entgegen und wird darauf trainiert, das Original (engl. “Ground Truth”) zu reproduzieren. Die Trainingsarchitektur ist im nächsten Bild veranschaulicht.</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/cnn.png"><img src="/images/denoising/cnn.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/denoising/cnn.png">
+    <img src="/images/denoising/cnn.png"/> </a>
 </figure>
 
 <p>Mein Code ist als Google Colab Notebook offen verfügbar:  <a href="https://colab.research.google.com/drive/1wEljoKaEuV4WR-MtUWSFjBejXchJ5oJh?usp=sharing"><code>my_notebook</code></a>. Jeder kann den Code herunterladen oder (mit einem Google-Account) in der Cloud ausführen.
 Die folgenden Bilder veranschaulichen das Ergebnis eines colvolutional Netzes mit 6 Layers, das mit MSE-Loss-Funktion trainiert wurde. Offensichtlich rekonstruiert das neuronale Netz die Originaldaten gut, wie das Schaubild des Approximationsfehlers (rechts unten) zeigt.</p>
-<figure><a href="https://frank-roesler.github.io/images/denoising/comparison.png"><img src="/images/denoising/comparison.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/denoising/comparison.png">
+    <img src="/images/denoising/comparison.png"/> </a>
 </figure>
 
 <p>Dieses Projekt ist Teil einer größeren Kollaboration (mehr Details gibt es in unserem kürzlichen <a href="https://www.ismrm.org/index.php?gf-download=2022%2F08%2FISMRM-Diff_Workshop_2022_ADoering.pdf&amp;form-id=1341&amp;field-id=16&amp;hash=66281781958d5482202467a2c3b303a1a7d9c32327990656deee3fa54f9af27b">Abstract</a>). Eine jüngere Version des Python Codes gibt es auf meiner GitHub-Seite: <a href="https://github.com/frank-roesler/MRspecNET">https://github.com/frank-roesler/MRspecNET</a> (dieser Code ist noch work in progress).</p>

@@ -6,7 +6,7 @@
     
     <title>Forschung | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.90.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -29,16 +29,20 @@
 <meta property="og:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &ldquo;almost bound states&rdquo;." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/de/research_resonances/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/de/research_resonances/" />
 <meta property="article:published_time" content="2020-05-26T11:53:04+01:00" />
 <meta property="article:modified_time" content="2020-05-26T11:53:04+01:00" />
-
 <meta itemprop="name" content="Forschung">
 <meta itemprop="description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &ldquo;almost bound states&rdquo;."><meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
+Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &ldquo;almost bound states&rdquo;.">
+<meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="dateModified" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="wordCount" content="337">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Forschung"/>
 <meta name="twitter:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &ldquo;almost bound states&rdquo;."/>
@@ -71,8 +75,14 @@ Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artz
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung page">
-              Forschung
+            <a class="hover-white no-underline white-90" href="/de/work/" title="Arbeit page">
+              Arbeit
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Mathematische Forschung page">
+              Mathematische Forschung
             </a>
           </li>
           
@@ -264,6 +274,8 @@ Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artz
 	</form>
 </nav>
 	
+	
+	
 		  
       
   <div class="flex-l mt2 mw8 center">
@@ -289,7 +301,8 @@ Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artz
 Consider the Hamiltonian $\mathsf{H=-\frac{d^2}{dx^2}+q}$ on the half line $\mathbb R_+$ with boundary condition $\mathsf{\phi(0)=0}$. Via the <a href="https://en.wikipedia.org/wiki/Spectral_theory_of_ordinary_differential_equations#Spectral_theorem_and_Titchmarsh%E2%80%93Kodaira_formula">Weyl-Kodaira formula</a>, the spectral density $\mathsf\rho$ is related to the so-called Weyl solution $\mathsf\psi$ (which satisfies $\mathsf{(H-z^2)\psi=0}$ and $\mathsf{\psi(x,z)\sim e^{izx}}$ as $\mathsf{x\to\infty}$) by the formula $\mathsf{\pi\rho(z^2) = \frac{z}{|\psi(0,z)|^2}}$.<br>
 It can be shown that maxima of $\mathsf{\rho(z)}$ are the &ldquo;imprints on the real axis&rdquo; of poles of the analytic continuation of the function $\mathsf{\frac{z}{|\psi(0,z)|^2}}$ lying in the lower half plane. In the mathematical literature, the term &ldquo;resonances&rdquo; is often used to describe these poles, rather than the maxima of $\rho$.<br>
 In the above research paper, we devised a numerical algorithm that, given a potential function $\mathsf q$, can compute the locations of its scattering resonances in the complex plane. The algorithm identifies the resonances as the poles of a certain nonnegative function on the complex plane, which can be computed algorithmically. An approximation of these zeros can thus be obtained by returning all points in the complex plane, where this function is larger than a given threshold value. This will yield a collection of small discs in the complex plane, in which the poles lie. The figure below shows the output of our algorithm for a Gaussian potential well.</p>
-<figure><a href="https://frank-roesler.github.io/images/research/resonances.png"><img src="/images/research/resonances.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/research/resonances.png">
+    <img src="/images/research/resonances.png"/> </a>
 </figure>
 
 

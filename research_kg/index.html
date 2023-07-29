@@ -6,7 +6,7 @@
     
     <title>Research | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.90.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -28,15 +28,19 @@
     <meta property="og:title" content="Research" />
 <meta property="og:description" content="Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, preprint. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here. A recent presentation on the topic is also available online)  Overview: The computational spectral problem in quantum mechanics is becoming more and more well understood." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/research_kg/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/research_kg/" />
 <meta property="article:published_time" content="2020-05-26T11:53:04+01:00" />
 <meta property="article:modified_time" content="2020-05-26T11:53:04+01:00" />
-
 <meta itemprop="name" content="Research">
-<meta itemprop="description" content="Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, preprint. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here. A recent presentation on the topic is also available online)  Overview: The computational spectral problem in quantum mechanics is becoming more and more well understood."><meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
+<meta itemprop="description" content="Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, preprint. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here. A recent presentation on the topic is also available online)  Overview: The computational spectral problem in quantum mechanics is becoming more and more well understood.">
+<meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="dateModified" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="wordCount" content="570">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Research"/>
 <meta name="twitter:description" content="Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, preprint. (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here. A recent presentation on the topic is also available online)  Overview: The computational spectral problem in quantum mechanics is becoming more and more well understood."/>
 
@@ -68,8 +72,8 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
-              Research
+            <a class="hover-white no-underline white-90" href="/research/" title="Research in Maths page">
+              Research in Maths
             </a>
           </li>
           
@@ -261,6 +265,8 @@
 	</form>
 </nav>
 	
+	
+	
 		  
       
   <div class="flex-l mt2 mw8 center">
@@ -288,7 +294,8 @@ $$\mathsf{\left( - \Bigl( -i \hbar\frac \partial {\partial t} - e \varphi
 where $\mathsf{c}$ denotes the speed of light and $\mathsf{\hbar}$ is Planck&rsquo;s constant. If we separate time by setting $\mathsf{\psi(x,t) =: e^{i\lambda/\hbar t} u(x)}$, $\mathsf{x\in\mathbb R^d}$, $\mathsf{t\in\mathbb R}$, normalize $\mathsf{c}$ to $\mathsf{1}$, let $\mathsf{V}$ be the multiplication operator by $\mathsf{e\varphi}$, the above equation simplifies to
 $$ \mathsf{(-\Delta+m^2)u = (V-\lambda)^2u. \tag{1}}$$
 Solving the above equation amounts to finding a pair $\mathsf{\lambda\in\mathbb C}$, $\mathsf{u\in L^2(\mathbb R^2)}$ such that $(1)$ holds, where $\mathsf V$ is a known function. This problem is reminiscent of the Schrödinger eigenvalue problem, with one major difference: the potential function $\mathsf V$ and the spectral parameter $\mathsf{\lambda}$ enter quadratically, rather than linearly! This renders the problem not only physically, but also mathematically non-classical: one cannot simply transfer results from the nonrelativistic theory, but needs to come up with novel solution techniques.<br>
-<figure><a href="/images/research/kg_result.png"><img src="/images/research/kg_result.png"/></a>
+<figure><a href="/images/research/kg_result.png">
+    <img src="/images/research/kg_result.png"/> </a>
 </figure>
 
 We developed a numerical algorithm, based on an abstract, mathematical understanding of equation $(1)$, which automatically computes its eigenvalues $\lambda$ in the complex plane, given a set of point values $\mathsf{V(x)}$ of the potential. The algorithm can be implemented and run on a laptop and its output is guaranteed to converge to the correct set of eigenvalues of the Klein-Gordon equation. The mathematical strategy behind our algorithm is to find an operator related to $\mathsf{(-\Delta+m^2)-(V-\lambda)^2}$, which can be well approximated by a finite size matrix $\mathsf{K(\lambda)}$, and identify the approximate eigenvalues as the poles of its Fredholm inverse $\mathsf{(I+K(\lambda))^{-1}}$. The above figure shows the output of the algorithm for a smoothed square well potential. As can be seen, it returns 8 approximate eigenvalues in the complex plane, 6 of which are non-real. This non-reality of the eigenvalues, even when the potential is real-valued is a truly relativistic effect: it would be impossible for the Schrödinger equation. In the physics community, this is known as the <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.57.315"><em>Schiff-Snyder-Weinberg Effect</em></a>.</p>

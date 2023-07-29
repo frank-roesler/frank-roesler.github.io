@@ -6,7 +6,7 @@
     
     <title>Forschung | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.90.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -29,16 +29,20 @@
 <meta property="og:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta&#43;V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/de/research_periodic/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://frank-roesler.github.io/de/research_periodic/" />
 <meta property="article:published_time" content="2020-05-26T11:53:04+01:00" />
 <meta property="article:modified_time" content="2020-05-26T11:53:04+01:00" />
-
 <meta itemprop="name" content="Forschung">
 <meta itemprop="description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta&#43;V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals."><meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
+Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta&#43;V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals.">
+<meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="dateModified" content="2020-05-26T11:53:04+01:00" />
-<meta itemprop="wordCount" content="697">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="wordCount" content="698">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Forschung"/>
 <meta name="twitter:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). (supported by the European Union&rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta&#43;V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals."/>
@@ -71,8 +75,14 @@ Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, M
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung page">
-              Forschung
+            <a class="hover-white no-underline white-90" href="/de/work/" title="Arbeit page">
+              Arbeit
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Mathematische Forschung page">
+              Mathematische Forschung
             </a>
           </li>
           
@@ -264,6 +274,8 @@ Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, M
 	</form>
 </nav>
 	
+	
+	
 		  
       
   <div class="flex-l mt2 mw8 center">
@@ -289,12 +301,12 @@ A Matlab implementation of the algorithm is available <a href="https://github.co
 Their discrete analogues, which are obtained by replacing the derivatives in $\mathsf{-\Delta}$ by their finite difference approximations $\mathsf{\frac{\partial f(x)}{\partial x_i} \approx \frac{f(x+h_i)-f(x)}{h_i}}$, are of similar physical importance. Due to their discrete nature, such operators are generally more accessible for numerical algorithms than continuous operators. A notable physical application is the spectrum of graphene (a 2-dimensional material consisting of carbon atoms at the vertices of a hexagonal lattice) which has gained considerable attention in the analysis community in recent years. The general structure of periodic discrete Hamiltonians are infinite matrices of the form
 $$
 \mathsf
-A = \begin{pmatrix} \ddots &amp; \ddots &amp; \ddots &amp; &amp; &amp; &amp; \\
-&amp; \mathsf{c_0} &amp; \mathsf{a_0} &amp; \mathsf{b_0} &amp; &amp; &amp; \mathsf 0&amp; &amp; \\
-&amp; &amp; \mathsf{c_1} &amp; \mathsf{a_1} &amp; \mathsf{b_1} &amp; &amp; &amp; &amp; \\
-&amp; &amp; &amp; \ddots &amp; \ddots &amp; \ddots &amp; &amp; &amp; \\
-&amp; &amp; &amp; &amp; \mathsf{c_{N-1}} &amp; \mathsf{a_{N-1}} &amp; \mathsf{b_{N-1}} &amp; &amp; \\
-&amp; &amp;\mathsf 0 &amp; &amp; &amp; \mathsf{c_0} &amp; \mathsf{a_0} &amp; \mathsf{b_0} &amp; \\
+A = \begin{pmatrix} \ddots &amp; \ddots &amp; \ddots &amp; &amp; &amp; &amp; \\<br>
+&amp; \mathsf{c_0} &amp; \mathsf{a_0} &amp; \mathsf{b_0} &amp; &amp; &amp; \mathsf 0&amp; &amp; \\<br>
+&amp; &amp; \mathsf{c_1} &amp; \mathsf{a_1} &amp; \mathsf{b_1} &amp; &amp; &amp; &amp; \\<br>
+&amp; &amp; &amp; \ddots &amp; \ddots &amp; \ddots &amp; &amp; &amp; \\<br>
+&amp; &amp; &amp; &amp; \mathsf{c_{N-1}} &amp; \mathsf{a_{N-1}} &amp; \mathsf{b_{N-1}} &amp; &amp; \\<br>
+&amp; &amp;\mathsf 0 &amp; &amp; &amp; \mathsf{c_0} &amp; \mathsf{a_0} &amp; \mathsf{b_0} &amp; \\<br>
 &amp; &amp; &amp; &amp; &amp; &amp; \ddots &amp; \ddots &amp; \ddots
 \end{pmatrix}
 \tag{1}
@@ -309,24 +321,27 @@ The following figure shows our numerical approximation of these curves for an op
 $$ \mathsf{(a_i) = (1, 0, 1, 0, 2)} $$
 $$ \mathsf{(b_i) = (-1, -2, 1, 3\mathrm i, -5)} $$
 $$ \mathsf{(c_i) = (2\mathrm i, -3\mathrm i, 2\mathrm i, 0, \mathrm i) }$$
-<figure><a href="https://frank-roesler.github.io/images/research/periodic1.png"><img src="/images/research/periodic1.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/research/periodic1.png">
+    <img src="/images/research/periodic1.png"/> </a>
 </figure>
 
-In order to tackle the <em>continuous</em> problem numerically, a Fourier basis on $\mathsf{Q^*}$ can be used. This has the advantage that the matrix elements of $\mathsf{-\Delta}$ in this basis can be calculated explicitly. The matrix elements of the potential $\mathsf V$ can be computed via standard numerical quadrature  schemes. Finally, the compactness of the resolvents of $\mathsf{\widetilde H(\theta)}$ can be used to prove that <a href="https://arxiv.org/pdf/math/0302145.pdf">spectral pollution issues</a> are absent and the procedure will yield the correct spectrum. The result will again be a subset of the complex plane, parameterised by $\mathsf\theta$, but in general this set will not be bounded. We implemented the numerical procedure described above in MATLAB, which yields an algorithm that can be applied to periodic potentials of arbitrary shape. As a case study, we considered the 1d operator
+In order to tackle the *continuous* problem numerically, a Fourier basis on $\mathsf{Q^*}$ can be used. This has the advantage that the matrix elements of $\mathsf{-\Delta}$ in this basis can be calculated explicitly. The matrix elements of the potential $\mathsf V$ can be computed via standard numerical quadrature  schemes. Finally, the compactness of the resolvents of $\mathsf{\widetilde H(\theta)}$ can be used to prove that <a href="https://arxiv.org/pdf/math/0302145.pdf">spectral pollution issues</a> are absent and the procedure will yield the correct spectrum. The result will again be a subset of the complex plane, parameterised by $\mathsf\theta$, but in general this set will not be bounded. We implemented the numerical procedure described above in MATLAB, which yields an algorithm that can be applied to periodic potentials of arbitrary shape. As a case study, we considered the 1d operator
 $$\mathsf{H_\mu = -\frac{d^2}{dx^2} + \mu\cos(2\pi x),}$$
 where $\mu$ can be any fixed complex number. One can prove theoretically that the spectrum of $\mathsf{H_q}$ always consists of a union of straight lines and arcs, as in the following figure.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
-<figure><a href="https://frank-roesler.github.io/images/research/periodic2.png"><img src="/images/research/periodic2.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/research/periodic2.png">
+    <img src="/images/research/periodic2.png"/> </a>
 </figure>
 
 Below we show the output of our own algorithm, applied to the operator $\mathsf{H_\mu}$, for 3 different values of the parameter $\mathsf\mu$. Our results clearly exhibit the qualitative features from the figure above.
-<figure><a href="https://frank-roesler.github.io/images/research/periodic3.png"><img src="/images/research/periodic3.png"/></a>
+<figure><a href="https://frank-roesler.github.io/images/research/periodic3.png">
+    <img src="/images/research/periodic3.png"/> </a>
 </figure>
 </p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>[Shin. <em>On the shape of spectra for non-self-adjoint periodic Schrodinger operators.</em> J. Phys. A, 37(34):8287-8291, 2004]&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>[Shin. <em>On the shape of spectra for non-self-adjoint periodic Schrodinger operators.</em> J. Phys. A, 37(34):8287-8291, 2004] <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>

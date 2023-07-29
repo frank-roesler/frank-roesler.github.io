@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://frank-roesler.github.io/de/</loc>
     <lastmod>2020-05-26T11:51:44+01:00</lastmod>
@@ -14,7 +15,14 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://frank-roesler.github.io/de/work/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -27,7 +35,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/teaching/</loc>
     <lastmod>2020-05-26T14:23:52+01:00</lastmod>
     <xhtml:link
@@ -40,7 +50,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/teaching/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/cv/</loc>
     <lastmod>2020-05-26T14:30:19+01:00</lastmod>
     <xhtml:link
@@ -53,7 +65,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/cv/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/links/</loc>
     <lastmod>2020-05-26T14:32:05+01:00</lastmod>
     <xhtml:link
@@ -66,7 +80,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/links/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/miscellaneous/</loc>
     <lastmod>2020-05-26T15:13:25+01:00</lastmod>
     <xhtml:link
@@ -79,7 +95,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/miscellaneous/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -91,7 +109,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/contact/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/perfdom/</loc>
     <lastmod>2020-08-16T21:06:16+01:00</lastmod>
     <xhtml:link
@@ -104,7 +124,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/perfdom/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/sir/</loc>
     <lastmod>2020-08-16T21:06:16+01:00</lastmod>
     <xhtml:link
@@ -117,7 +139,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/sir/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/bloch/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -130,7 +154,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/bloch/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/bloch2/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -143,7 +169,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/bloch2/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/cs/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -156,7 +184,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/cs/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/denoising/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -169,7 +199,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/denoising/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/flatten/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -182,7 +214,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/flatten/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/gan/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -195,7 +229,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/gan/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/radon/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -208,7 +244,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/radon/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/reconstruction/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -221,7 +259,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/reconstruction/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/reinforcement/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -234,7 +274,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/reinforcement/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/segmentation/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -247,7 +289,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/segmentation/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/turing/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
     <xhtml:link
@@ -260,10 +304,24 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/turing/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/rezept/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://frank-roesler.github.io/de/work_argos/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frank-roesler.github.io/de/work_siding/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_graphs/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -276,7 +334,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_graphs/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_helmholtz/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -289,7 +349,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_helmholtz/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_inverse/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -302,7 +364,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_inverse/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_kg/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -315,7 +379,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_kg/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_perfdom/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -328,7 +394,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_perfdom/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_periodic/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -341,7 +409,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_periodic/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_pseudospectrum/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -354,7 +424,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_pseudospectrum/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_resonances/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -367,7 +439,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_resonances/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_rough_domains/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -380,7 +454,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_rough_domains/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/research_selfadjoint/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -393,7 +469,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_selfadjoint/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -405,7 +483,9 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://frank-roesler.github.io/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -418,4 +498,5 @@
                 href="https://frank-roesler.github.io/de/tags/"
                 />
   </url>
+  
 </urlset>
