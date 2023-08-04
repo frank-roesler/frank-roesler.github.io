@@ -6,7 +6,7 @@
     
     <title>Hobbyprojekte | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.75.1" />
+    <meta name="generator" content="Hugo 0.90.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -29,20 +29,16 @@
 <meta property="og:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/de/bloch2/" />
+<meta property="og:url" content="https://frank-roesler.github.io/de/bloch2/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2020-06-01T16:49:58+01:00" />
 <meta property="article:modified_time" content="2020-06-01T16:49:58+01:00" />
+
 <meta itemprop="name" content="Hobbyprojekte">
 <meta itemprop="description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0.">
-<meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
+Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0."><meta itemprop="datePublished" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="dateModified" content="2020-06-01T16:49:58+01:00" />
 <meta itemprop="wordCount" content="274">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hobbyprojekte"/>
 <meta name="twitter:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained in this post, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0."/>
@@ -306,15 +302,13 @@ Deep Learning for MRI Pulse Sequences Frequency profile of RF pulse As explained
 <h2 id="deep-learning-for-mri-pulse-sequences">Deep Learning for MRI Pulse Sequences</h2>
 <h4 id="frequency-profile-of-rf-pulse">Frequency profile of RF pulse</h4>
 <p>As explained in <a href="/bloch">this post</a>, the excitation response of nuclear spins with respect to a radiofrequency (RF) pulse is modeled by the Bloch equations, which can be solved numerically. The frequency profile excited by a given pulse can be obtained by solving the equations for a range of values of $\mathsf{\Delta\omega}$ around 0. It is often desired (e.g. for slice selection) to have a pulse, which excites a rectangular frequency profile of a certain width $\delta$. That is, <em>only</em> frequencies in the range $\mathsf{\Delta\omega\in [-\delta,+\delta]}$ are to be selectively excited uniformly. Heuristically, pulse shapes can be found, which approximately achieve this. One prominent shape is the <em>sinc pulse</em>, given by $\mathsf{B_{1,x}(t)\sim sin(t)/t}$. The following figure shows the frequency profile corresponding to a sinc pulse. As can be seen, it is approximately rectangular, but not perfect.</p>
-<figure><a href="/images/bloch_figures/freq_plot_sinc.png">
-    <img src="/images/bloch_figures/freq_plot_sinc.png"/> </a>
+<figure><a href="/images/bloch_figures/freq_plot_sinc.png"><img src="/images/bloch_figures/freq_plot_sinc.png"/></a>
 </figure>
 
 <h4 id="deep-learning-yields-new-pulse-shapes">Deep Learning yields new pulse shapes</h4>
 <p>The task of finding new pulse shapes that better approximate a rectangular profile is highly non-trivial. One possible solution to this issue is provided by machine learning with artificial neural networks:<br>
 The process of adapting a pulse shape to better match a specific frequency profile can be understood as training a model function. A neural network turns out to be a natural choice for such a model function, since it can approximate pretty much any shape. Furthermore, neural nets can be trained efficiently, even on personal laptops. The figure below shows a pulse shape obtained by training a neural network, together with its frequency profile. The improvement is apparent.
-<figure><a href="/images/bloch_figures/freq_plot.png">
-    <img src="/images/bloch_figures/freq_plot.png"/> </a>
+<figure><a href="/images/bloch_figures/freq_plot.png"><img src="/images/bloch_figures/freq_plot.png"/></a>
 </figure>
 </p>
 

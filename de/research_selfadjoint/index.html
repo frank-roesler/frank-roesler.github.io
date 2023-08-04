@@ -6,7 +6,7 @@
     
     <title>Forschung | Frank Rösler</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.75.1" />
+    <meta name="generator" content="Hugo 0.90.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -29,20 +29,16 @@
 <meta property="og:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://frank-roesler.github.io/de/research_selfadjoint/" />
+<meta property="og:url" content="https://frank-roesler.github.io/de/research_selfadjoint/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2020-05-26T11:53:04+01:00" />
 <meta property="article:modified_time" content="2020-05-26T11:53:04+01:00" />
+
 <meta itemprop="name" content="Forschung">
 <meta itemprop="description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels.">
-<meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
+Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels."><meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="dateModified" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="wordCount" content="337">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Forschung"/>
 <meta name="twitter:description" content="Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
 Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels."/>
@@ -302,8 +298,7 @@ $$
 \mathsf{-\Delta \psi + V\psi = \lambda\psi} \tag{1}
 $$
 <em>holds</em>. The scalar function $\mathsf V$ in the above equation describes the potential energy of the system (e.g. due to an electric field, in which the particle moves). In most practical applications, this equation cannot be solved analytically and numerical solution methods need to be applied. For potentials, which are both smooth and real-valued, there exist methods, which are efficient and mostly reliable (note however the issue of <a href="https://arxiv.org/pdf/math/0302145.pdf">spectral pollution</a>). However, for complex-valued potentials, the computational eigenvalue problem becomes considerably more difficult and finding robust, reliable numerical algorithms that apply to a large class of potentials becomes a major challenge. In my article above, I contruct a new algorithm, which is taylored to precisely this situation. The procedure is guaranteed to converge to the correct solution of $(1)$ for any potential $\mathsf{V(x)}$, which decays to 0 as $\mathsf{|x|\to\infty}$.<br>
-<figure><a href="/images/research/sch_gauss.png">
-    <img src="/images/research/sch_gauss.png"/> </a>
+<figure><a href="/images/research/sch_gauss.png"><img src="/images/research/sch_gauss.png"/></a>
 </figure>
 
 The mathematical idea behind the algorithm is to replace the differential operator $\mathsf{-\Delta+V}$ by a matrix approximation and compute its <a href="/research_pseudospectrum">pseudospectrum</a>, whose singularities coincide with the eigenvalues. The convergence proofs use the so-called <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022123620300525">essential numerical range</a> to control spectral pollution. The figure above shows a sample output of the algorithm, implemented in MATLAB, for a complex valued potential. The algorithm correctly approximates the continuous spectrum on the ppositive real axis, as well as two eigenvalues at approximately $\mathsf{2\pm 3.9i}$.</p>
