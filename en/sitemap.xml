@@ -261,6 +261,32 @@
                 href="https://frank-roesler.github.io/turing/"
                 />
   </url><url>
+    <loc>https://frank-roesler.github.io/work_argos/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/work_argos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/work_argos/"
+                />
+  </url><url>
+    <loc>https://frank-roesler.github.io/work_siding/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/work_siding/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/work_siding/"
+                />
+  </url><url>
     <loc>https://frank-roesler.github.io/research_graphs/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -389,6 +415,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://frank-roesler.github.io/research_selfadjoint/"
+                />
+  </url><url>
+    <loc>https://frank-roesler.github.io/research_sms/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/research_sms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/research_sms/"
                 />
   </url><url>
     <loc>https://frank-roesler.github.io/categories/</loc>

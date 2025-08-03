@@ -15,9 +15,6 @@
                 href="https://frank-roesler.github.io/de/"
                 />
   </url><url>
-    <loc>https://frank-roesler.github.io/de/work/</loc>
-    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
-  </url><url>
     <loc>https://frank-roesler.github.io/de/research/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -267,12 +264,6 @@
     <loc>https://frank-roesler.github.io/de/rezept/</loc>
     <lastmod>2020-06-01T16:49:58+01:00</lastmod>
   </url><url>
-    <loc>https://frank-roesler.github.io/de/work_argos/</loc>
-    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
-  </url><url>
-    <loc>https://frank-roesler.github.io/de/work_siding/</loc>
-    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
-  </url><url>
     <loc>https://frank-roesler.github.io/de/research_graphs/</loc>
     <lastmod>2020-05-26T11:53:04+01:00</lastmod>
     <xhtml:link
@@ -402,6 +393,48 @@
                 hreflang="de"
                 href="https://frank-roesler.github.io/de/research_selfadjoint/"
                 />
+  </url><url>
+    <loc>https://frank-roesler.github.io/de/research_sms/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/research_sms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/research_sms/"
+                />
+  </url><url>
+    <loc>https://frank-roesler.github.io/de/work_argos/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/work_argos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/work_argos/"
+                />
+  </url><url>
+    <loc>https://frank-roesler.github.io/de/work_siding/</loc>
+    <lastmod>2020-05-26T11:53:04+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://frank-roesler.github.io/work_siding/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://frank-roesler.github.io/de/work_siding/"
+                />
+  </url><url>
+    <loc>https://frank-roesler.github.io/de/work/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://frank-roesler.github.io/de/categories/</loc>
     <xhtml:link

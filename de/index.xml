@@ -7,24 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 26 May 2020 11:51:44 +0100</lastBuildDate><atom:link href="https://frank-roesler.github.io/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arbeit</title>
-      <link>https://frank-roesler.github.io/de/work/</link>
-      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
-      
-      <guid>https://frank-roesler.github.io/de/work/</guid>
-      <description>Auf dieser Seite stelle ich kurze Beschreibungen der Data Science-Projekte zusammen, an denen ich arbeite oder gearbeitet habe. Das Menü links gibt einen Überblick.</description>
-    </item>
-    
-    <item>
-      <title>Mathematische Forschung</title>
+      <title>Forschung</title>
       <link>https://frank-roesler.github.io/de/research/</link>
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research/</guid>
       <description>Hier ist eine aktuelle Liste meiner Forschungsartikel. Im Menu links gibt es zu jeder Arbeit einen kurzen Überblick.
-  Publikationen und Preprints Preprints:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, Preprint.
-(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078.
-(Eine Matlab-Implementierung des Algorithmus gibt es hier)  Peer-Reviewed:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Math.</description>
+  Publikationen  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Spectra, IMA Journal of Numerical Analysis, Volume 45, Issue 2, March 2025, Pages 734-776.
+(Eine Matlab-Implementierung des Algorithmus gibt es hier) Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. On the complexity of the inverse Sturm-Liouville problem, Pure and Applied Analysis 5, 895-925 (2023).</description>
     </item>
     
     <item>
@@ -42,7 +32,7 @@
       <pubDate>Tue, 26 May 2020 14:30:19 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/cv/</guid>
-      <description>Grants und Preise  2020: 2-Jahre Marie Skłodowska Curie Fellowship für das Projekt Computational Complexity in Quantum Mechanics (COCONUT) an der Universität Cardiff. 2019: LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop &amp;ldquo;Small Scales and Homogenisation&amp;rdquo; 2015: EPS Poster Prize, verliehen von der European Physical Society, im Rahmen des Workshops Pseudo-Hermitian Hamiltonians in Quantum Physics.  Arbeitserfahrung  seit 2023: Data Scientist, Abteilung Risiko- und Standortanalyse, Fraunhofer IIS/SCS, Nürnberg, Deutschland.</description>
+      <description>Grants und Preise  2020: 2-Jahre Marie Skłodowska Curie Fellowship für das Projekt Computational Complexity in Quantum Mechanics (COCONUT) an der Universität Cardiff. 2019: LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop &amp;ldquo;Small Scales and Homogenisation&amp;rdquo; 2015: EPS Poster Prize, verliehen von der European Physical Society, im Rahmen des Workshops Pseudo-Hermitian Hamiltonians in Quantum Physics.  Arbeitserfahrung  seit 2024: Softwareentwickler / Aktuar, Produktintegration Leben, Nürnberger Versicherung, Nürnberg, Deutschland.</description>
     </item>
     
     <item>
@@ -52,10 +42,7 @@
       
       <guid>https://frank-roesler.github.io/de/links/</guid>
       <description>Diese Seite enthält Links zu aktuellen Events und Arbeiten, die für mich gegenwärtig von Interesse sind.
-Cardiff Online Analysis Seminar (CAOS): Während der COVID-19 Beschränkungen organisiert Cardiff ein online-Analysis-Seminar: https://jbenartzi.github.io/seminars.html
-(Related: Eine Große Zahl von online-Forschungsseminaren ist hier aufgelistet: https://researchseminars.org/)
-Springer E-Books: Springer hat kürzlich über 400 E-Books kostenlos zum Download zur Verfügung gestellt: https://www.reddit.com/r/FreeEBOOKS/comments/g34xi5/408_free_ebooks_from_springer/
-Forschungsprojekte:  SIDING: Schienenanschluss-Identifikation durch intelligente Geolokalisierung ARGOS Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.</description>
+Forschungsprojekte:  SIDING: Schienenanschluss-Identifikation durch intelligente Geolokalisierung ARGOS Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme COCONUT: Computational Complexity in Quantum Mechanics SNF-Projekt Non-selfadjoint problems in spectral theory and mathematical physics QUEST@Cardiff: https://cardiffquest.blog/  Konferenzen und Workshops (Mathematik):  Eine Große Zahl von online-Forschungsseminaren ist hier aufgelistet: https://researchseminars.org/ Cardiff Analysis Seminar an der Universität Cardiff. Spectral Theory in the Clouds, Intergalactic seminar on spectral theory and differential geometry, Jeden Montag, 17 Uhr GMT.</description>
     </item>
     
     <item>
@@ -216,33 +203,13 @@ Der Matlab-Code ist hier verfügbar: https://github.com/frank-roesler/Files/blob
     </item>
     
     <item>
-      <title>Arbeit</title>
-      <link>https://frank-roesler.github.io/de/work_argos/</link>
-      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
-      
-      <guid>https://frank-roesler.github.io/de/work_argos/</guid>
-      <description>ARGOS - Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme  [Bilder wurden erzeugt mit dem KI-Tool DALL-E 2]
-  Die Erkennung von Industriebrachflächen ist in einem dicht besiedeltem Land wie Deutschland von besonders großer Bedeutung. Bodenfläche ist ein rares Gut und der Klima- und Umweltschutz verlangt die Schonung der noch vorhandenen Grünflächen. Es ist daher sinnvoll, für Bauvorhaben in der Industrie bereits vorhandene, aber nicht mehr genutzte Flächen zu nutzen.</description>
-    </item>
-    
-    <item>
-      <title>Arbeit</title>
-      <link>https://frank-roesler.github.io/de/work_siding/</link>
-      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
-      
-      <guid>https://frank-roesler.github.io/de/work_siding/</guid>
-      <description>SIDING - Schienenanschluss-Identifikation durch intelligente Geolokalisierung  [Bilder wurden erzeugt mit dem KI-Tool DALL-E 2]
-  Eine wichtige Maßnahme zur Reduktion der CO2-Emmissionen in Deutschland ist die Verlagerung von Güterverkehr auf die Schiene. Produzierende Unternehmen benötigen hierzu Zugangspunkte zum Schienennetz der Deutschen Bahn. Viele solche Gleisanschlüsse liegen auf dem Gelände privater Unternehmen und sind in keinem zentralen Register zu finden. Das Projekt SIDING nutzt Satellitenbilder und automatisierte Bilderkennung mittels Machine Learning, um private Gleisanschlüsse aus der Luft zu detektieren.</description>
-    </item>
-    
-    <item>
       <title>Forschung</title>
       <link>https://frank-roesler.github.io/de/research_graphs/</link>
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_graphs/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-A Strange Vertex Condition Coming from Nowhere Research article:  Frank Rösler; A Strange Vertex Condition Coming from Nowhere. SIAM J. Math. Anal., 53(3), 3098&amp;ndash;3122, 2021  Overview: This is one of my single author papers in the field of asymptotic analysis. It is concerned with the combined effect of two domain properties: thin geometry and perforation.</description>
+      <description>A Strange Vertex Condition Coming from Nowhere Forschungsartikel:  Frank Rösler; A Strange Vertex Condition Coming from Nowhere, SIAM J. Math. Anal., 53(3), 3098–3122, 2021  Überblick: Dies ist eine meiner Einzelautor-Publikationen im Bereich der asymptotischen Analysis. Der Artikel untersucht die kombinierte Wirkung zweier Eigenschaften einer Domäne: dünne Geometrie und Perforation.
+Dünne Geometrie: Betrachte den Laplace-Operator $-\Delta$ auf einer Domäne $\mathsf{\Omega_\epsilon \subset \mathbb R^d}$, die im Limes $\mathsf{\epsilon \to 0}$ einen Graphen $\mathsf{\Gamma}$ approximiert.</description>
     </item>
     
     <item>
@@ -251,8 +218,9 @@ A Strange Vertex Condition Coming from Nowhere Research article:  Frank Rösler;
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_helmholtz/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Computing the Sound of the Sea in a Seashell Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Found. Comput. Math., 2021. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) Click here to download the slides of a recent talk on the subject.</description>
+      <description>Den Klang des Meeres in einer Muschel berechnen Forschungsartikel:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Computing the Sound of the Sea in a Seashell. Found. Comput. Math., 2021.
+(unterstützt durch das Horizon 2020 Forschungs- und Innovationsprogramm der Europäischen Union im Rahmen des Marie Skłodowska-Curie-Stipendiums Nr. 885904.)
+Hier klicken, um die Folien eines aktuellen Vortrags zu diesem Thema herunterzuladen. Ein Matlab-Paket basierend auf dem Artikel ist hier verfügbar.  Überblick: In dieser Arbeit wird die Streuung von Wellen an Hindernissen in zwei Dimensionen untersucht.</description>
     </item>
     
     <item>
@@ -261,8 +229,10 @@ Computing the Sound of the Sea in a Seashell Research article:  Jonathan Ben-Art
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_inverse/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Reconstructing a Potential From its Scattering Data Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Universal algorithms for solving inverse spectral problems, Preprint, arXiv:2203.13078. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: The so-called spectral problem for a Hamiltonian operator $\mathsf{-\frac{d^2}{dx^2}+q}$ consists of finding its spectrum given the potential function $\mathsf q$.</description>
+      <description>Rekonstruktion eines Potentials aus seinen Streudaten Forschungsartikel:  Jonathan Ben-Artzi, Marco Marletta und Frank Rösler. On the complexity of the inverse Sturm-Liouville problem, Pure and Applied Analysis 5, 895-925 (2023).
+(unterstützt durch das Horizon 2020 Forschungs- und Innovationsprogramm der Europäischen Union im Rahmen des Marie Skłodowska-Curie-Stipendiums Nr. 885904.)
+(Eine Matlab-Implementierung des Algorithmus ist hier verfügbar.)  Überblick: Das sogenannte Spektralproblem für einen Hamilton-Operator
+$$ \mathsf{-\frac{d^2}{dx^2}+q} $$ besteht darin, dessen Spektrum bei gegebener Potentialfunktion $\mathsf{q}$ zu bestimmen.</description>
     </item>
     
     <item>
@@ -271,8 +241,9 @@ Reconstructing a Potential From its Scattering Data Research article:  Jonathan 
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_kg/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Computing Bound States in Relativistic Quantum Mechanics Research article:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Eigenvalues, in preparation. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: The computational spectral problem in quantum mechanics is slowly becoming more and more well understood.</description>
+      <description>Berechnung gebundener Zustände in der relativistischen Quantenmechanik Forschungsartikel:  Frank Rösler, Christiane Tretter; Computing Klein-Gordon Spectra, IMA Journal of Numerical Analysis, Band 45, Ausgabe 2, März 2025, Seiten 734-776.
+(unterstützt durch das Horizon 2020 Forschungs- und Innovationsprogramm der Europäischen Union im Rahmen des Marie Skłodowska-Curie-Stipendiums Nr. 885904.)
+(Eine Matlab-Implementierung des Algorithmus ist hier verfügbar.)  Überblick: Das numerische Spektralproblem in der Quantenmechanik wird langsam immer besser verstanden. Insbesondere die numerische Komplexität der klassischen (nichtrelativistischen) Theorie, die auf Schrödinger und Heisenberg zurückgeht, wurde in verschiedenen Situationen von verschiedenen Autoren (darunter ich und meine Kooperationspartner) untersucht, siehe hier, hier oder hier.</description>
     </item>
     
     <item>
@@ -281,8 +252,7 @@ Computing Bound States in Relativistic Quantum Mechanics Research article:  Fran
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_perfdom/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Homogenisation in Perforated Domains Research article:  Patrick Dondl, Kirill Cherednichenko, Frank Rösler; Norm-Resolvent Convergence in Perforated Domains. Asymptotic Analysis, vol. 110, no. 3-4, pp. 163-184, 2018  Overview: A perforated domain is a domain, from which a periodic arrangement of balls is removed, where both the distance $\mathsf \epsilon$ and the radii $\mathsf{r_\epsilon}$ of the balls are much smaller than the diameter of the domain, as shown in the following figure.</description>
+      <description>Homogenisierung in perforierten Gebieten Forschungsartikel:  Patrick Dondl, Kirill Cherednichenko, Frank Rösler; Norm-Resolvent Convergence in Perforated Domains. Asymptotic Analysis, Bd. 110, Nr. 3-4, S. 163-184, 2018  Überblick: Ein perforiertes Gebiet ist ein Gebiet, aus dem periodisch angeordnete Kugeln entfernt wurden, wobei sowohl der Abstand $\mathsf \epsilon$ als auch die Radien $\mathsf{r_\epsilon}$ der Kugeln viel kleiner als der Durchmesser des Gebiets sind, wie in der folgenden Abbildung dargestellt.   Diese Perforierung führt zu einem Gebiet $\mathsf{\Omega_\epsilon}$, auf dem eine partielle Differentialgleichung untersucht werden kann (je nach Gleichung modelliert dies Materialien mit feiner Mikrostruktur).</description>
     </item>
     
     <item>
@@ -291,8 +261,8 @@ Homogenisation in Perforated Domains Research article:  Patrick Dondl, Kirill Ch
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_periodic/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) A Matlab implementation of the algorithm is available here.  Overview: Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals.</description>
+      <description>Spektren periodischer Operatoren berechnen Forschungsartikel:  Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; Universal Algorithms for Computing Spectra of Periodic Operators, Numer. Math. (2022). (Gefördert durch das Horizon 2020 Forschungs- und Innovationsprogramm der Europäischen Union im Rahmen des Marie Skłodowska-Curie Stipendiums Nr. 885904.)
+Eine Matlab-Implementierung des Algorithmus ist hier verfügbar.  Überblick: Hamiltonoperatoren $\mathsf{H=-\Delta+V}$ mit periodischen Potentialen beschreiben die Bewegung von Elektronen in periodischen Medien wie Kristallen. Die Spektren solcher Hamiltonoperatoren, die bezüglich eines Gitters $\mathsf L$ periodisch sind, besitzen eine sogenannte Bandstruktur.</description>
     </item>
     
     <item>
@@ -301,8 +271,7 @@ Computing Spectra of Periodic Operators Research article:  Jonathan Ben-Artzi, M
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_pseudospectrum/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Pseudospectra of Non-Hermitian Hamiltonians Research article:  Patrick W. Dondl, Patrick Dorey, Frank Rösler; A Bound on the Pseudospectrum for a Class of Non-normal Schrödinger Operators. Appl. Math. Res. Express 2016.  Overview: This was the first project of my PhD. The work is concerned with the Schrödinger equation with complex-valued potentials. In general, the eigenvalues (or the spectrum) of such operators could be any complex number, however, some potentials exhibit special symmetries (called PT-symmetry), which constrain their eigenvalues to lie on the real axis.</description>
+      <description>Pseudospektren nicht-hermitescher Hamiltonoperatoren Forschungsartikel:  Patrick W. Dondl, Patrick Dorey, Frank Rösler; A Bound on the Pseudospectrum for a Class of Non-normal Schrödinger Operators. Appl. Math. Res. Express 2016.  Überblick: Dies war das erste Projekt meiner Promotion. Die Arbeit beschäftigt sich mit der Schrödinger-Gleichung mit komplexwertigen Potentialen. Im Allgemeinen kann das Spektrum (die Menge der Eigenwerte) solcher Operatoren irgendwo in der komplexen Ebene liegen. Es gibt jedoch Potentiale mit speziellen Symmetrien – sogenannte PT-Symmetrien – die ihre Eigenwerte auf die reelle Achse zwingen.</description>
     </item>
     
     <item>
@@ -311,8 +280,9 @@ Pseudospectra of Non-Hermitian Hamiltonians Research article:  Patrick W. Dondl,
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_resonances/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artzi, Marco Marletta, and Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: Quantum resonances can be defined as states whose wave function disperses very slowly in time and can therefore be considered as &amp;ldquo;almost bound states&amp;rdquo;.</description>
+      <description>Quantenresonanzen beim Potentialstreuungsproblem Forschungsartikel:  Jonathan Ben-Artzi, Marco Marletta und Frank Rösler. Computing scattering resonances. J. Eur. Math. Soc. (JEMS), 2022.
+(gefördert durch das Forschungs- und Innovationsprogramm Horizont 2020 der Europäischen Union im Rahmen des Marie Skłodowska-Curie-Stipendiums Nr. 885904)
+(Eine MATLAB-Implementierung des Algorithmus ist hier verfügbar)  Überblick: Quantenresonanzen lassen sich als Zustände verstehen, deren Wellenfunktion sich nur sehr langsam über die Zeit zerstreut – sie können daher als „fast gebundene Zustände“ angesehen werden.</description>
     </item>
     
     <item>
@@ -321,8 +291,9 @@ Quantum Resonances for Potential Scattering Research article:  Jonathan Ben-Artz
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_rough_domains/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Computing Vibration Modes of Fractal Drums Research article:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Preprint, arXiv:2104.09444. (supported by the European Union&amp;rsquo;s Horizon 2020 Research and Innovation Programme under the Marie Sklodowska-Curie grant agreement No 885904.) (A Matlab implementation of the algorithm is available here)  Overview: In this recent research project my collaborator Alexei Stepanenko and I studied computational aspects of a classical problem in spectral theory: Computing the eigenmodes of the 2d surface of a drum.</description>
+      <description>Berechnung von Schwingungsmoden fraktaler Trommeln Forschungsartikel:  Frank Rösler, Alexei Stepanenko; Computing Eigenvalues of the Laplacian on Rough Domains, Math. Comp. 93 (2024), 111–161.
+(gefördert durch das Forschungs- und Innovationsprogramm Horizont 2020 der Europäischen Union im Rahmen des Marie Skłodowska-Curie-Stipendiums Nr. 885904)
+(Eine MATLAB-Implementierung des Algorithmus ist hier verfügbar)  Überblick: In diesem aktuellen Forschungsprojekt haben mein Kollege Alexei Stepanenko und ich rechnerische Aspekte eines klassischen Problems der Spektraltheorie untersucht: die Berechnung der Eigenschwingungen einer zweidimensionalen Trommeloberfläche.</description>
     </item>
     
     <item>
@@ -331,8 +302,45 @@ Computing Vibration Modes of Fractal Drums Research article:  Frank Rösler, Ale
       <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/research_selfadjoint/</guid>
-      <description>Diesen Eintrag gibt es bisher nur auf englisch. Deutsche Übersetzung folgt in Kürze!
-Computational Quantum Mechanics Research article:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54. (A Matlab implementation of the algorithm is available here)  Overview: This work is concerned with the computational solution of the Schröinger eigenvalue problem. The Schrödinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels.</description>
+      <description>Computational Quantum Mechanics Forschungsartikel:  Frank Rösler; On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators. Integral Equations and Operator Theory, (2019) 91:54.
+(Eine MATLAB-Implementierung des Algorithmus ist hier verfügbar)  Überblick: Diese Arbeit beschäftigt sich mit der numerischen Lösung des Eigenwertproblems der Schrödinger-Gleichung. Die Schrödinger-Gleichung steht im Zentrum der Quantenmechanik; ihre Eigenfunktionen und Eigenwerte beschreiben die gebundenen Zustände eines Quantensystems sowie deren Energieniveaus. In dimensionsloser Form lautet das Problem: Finde eine Funktion $\mathsf\psi$ und eine komplexe Zahl $\mathsf\lambda$, so dass $$ \mathsf{-\Delta \psi + V\psi = \lambda\psi} \tag{1} $$ gilt.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/research_sms/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/research_sms/</guid>
+      <description>Erzeugung neuer RF-Pulse für die MR-Spektroskopie Dies ist laufende Forschung. Das Code-Repository in der aktuellen Form ist hier verfügbar: https://github.com/frank-roesler/Inverse_Bloch
+Überblick: Simultaneous Multi-Slice (SMS) ist eine etablierte Technik in der Magnetresonanztomographie, die es ermöglicht, die Messzeit drastisch zu verkürzen, indem gleichzeitig Bilddaten aus mehreren Schichten im Körper des Patienten aufgenommen werden. Die Nutzung von SMS erfordert die parallele Anregung mehrerer Gewebeschichten mit demselben Hochfrequenz-(RF)-Impuls (die Grundlagen habe ich hier erklärt).</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/work_argos/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/work_argos/</guid>
+      <description>ARGOS - Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme Die Erkennung von Industriebrachflächen ist in einem dicht besiedeltem Land wie Deutschland von besonders großer Bedeutung. Bodenfläche ist ein rares Gut und der Klima- und Umweltschutz verlangt die Schonung der noch vorhandenen Grünflächen. Es ist daher sinnvoll, für Bauvorhaben in der Industrie bereits vorhandene, aber nicht mehr genutzte Flächen zu nutzen. Für brach liegende Industrieflächen existiert allerdings kein flächendeckender Datensatz in Deutschland.</description>
+    </item>
+    
+    <item>
+      <title>Forschung</title>
+      <link>https://frank-roesler.github.io/de/work_siding/</link>
+      <pubDate>Tue, 26 May 2020 11:53:04 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/work_siding/</guid>
+      <description>SIDING - Schienenanschluss-Identifikation durch intelligente Geolokalisierung Eine wichtige Maßnahme zur Reduktion der CO2-Emmissionen in Deutschland ist die Verlagerung von Güterverkehr auf die Schiene. Produzierende Unternehmen benötigen hierzu Zugangspunkte zum Schienennetz der Deutschen Bahn. Viele solche Gleisanschlüsse liegen auf dem Gelände privater Unternehmen und sind in keinem zentralen Register zu finden. Das Projekt SIDING nutzt Satellitenbilder und automatisierte Bilderkennung mittels Machine Learning, um private Gleisanschlüsse aus der Luft zu detektieren. Auf diese Weise entsteht ein flächendeckender Datensatz für Deutschland, der es Unternehmen ermöglicht, Zugangspunkte zum Streckennetz der Bahn zu finden und ihre Güter auf die Schiene zu bringen.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://frank-roesler.github.io/de/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/work/</guid>
+      <description></description>
     </item>
     
   </channel>
