@@ -7,18 +7,16 @@ draft: false
 research_menu: "german"
 ---
 
-Diesen Eintrag gibt es bisher nur auf englisch. Deutsche &Uuml;bersetzung folgt in K&uuml;rze!
+Spektren periodischer Operatoren berechnen  
+-------------------------------------------
 
-Computing Spectra of Periodic Operators
----------------------------------------
+### Forschungsartikel:  
+* Jonathan Ben-Artzi, Marco Marletta, Frank Rösler; [Universal Algorithms for Computing Spectra of Periodic Operators](https://link.springer.com/article/10.1007/s00211-021-01265-w), *Numer. Math. (2022)*. (Gefördert durch das Horizon 2020 Forschungs- und Innovationsprogramm der Europäischen Union im Rahmen des Marie Skłodowska-Curie Stipendiums Nr. 885904.)  
+Eine Matlab-Implementierung des Algorithmus ist [hier](https://github.com/frank-roesler/PeriodicSpectra) verfügbar.
 
-### Research article:
-*   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Universal Algorithms for Computing Spectra of Periodic Operators](https://link.springer.com/article/10.1007/s00211-021-01265-w), *Numer. Math. (2022)*.  
-A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/PeriodicSpectra).
-
-### Overview:
-Hamiltonians $\mathsf{H=-\Delta+V}$ with periodic potentials describe the movement of electrons in periodic media such as crystals. The spectra of Hamiltonians, which are periodic with respect to some lattice $\mathsf L$, are known to have a band structure, which provides a mathematical explanation for the existence of physical phenomena like conducting, insulating and semiconducting materials.  
-Their discrete analogues, which are obtained by replacing the derivatives in $\mathsf{-\Delta}$ by their finite difference approximations $\mathsf{\frac{\partial f(x)}{\partial x_i} \approx \frac{f(x+h_i)-f(x)}{h_i}}$, are of similar physical importance. Due to their discrete nature, such operators are generally more accessible for numerical algorithms than continuous operators. A notable physical application is the spectrum of graphene (a 2-dimensional material consisting of carbon atoms at the vertices of a hexagonal lattice) which has gained considerable attention in the analysis community in recent years. The general structure of periodic discrete Hamiltonians are infinite matrices of the form
+### Überblick:  
+Hamiltonoperatoren $\mathsf{H=-\Delta+V}$ mit periodischen Potentialen beschreiben die Bewegung von Elektronen in periodischen Medien wie Kristallen. Die Spektren solcher Hamiltonoperatoren, die bezüglich eines Gitters $\mathsf L$ periodisch sind, besitzen eine sogenannte Bandstruktur. Diese erklärt physikalische Phänomene wie leitende, isolierende und halbleitende Materialien mathematisch.  
+Die diskreten Analoga, die durch Ersetzen der Ableitungen in $\mathsf{-\Delta}$ durch endliche Differenzen $\mathsf{\frac{\partial f(x)}{\partial x_i} \approx \frac{f(x+h_i)-f(x)}{h_i}}$ entstehen, sind physikalisch ähnlich bedeutend. Aufgrund ihrer diskreten Natur sind sie für numerische Verfahren oft besser zugänglich als kontinuierliche Operatoren. Ein prominentes Beispiel ist das Spektrum von Graphen (einem zweidimensionalen Material mit Kohlenstoffatomen auf den Ecken eines hexagonalen Gitters), das in den letzten Jahren in der Analyse stark untersucht wurde. Die allgemeine Struktur periodischer diskreter Hamiltonoperatoren sind unendliche Matrizen der Form
 $$
 \mathsf
 A = \begin{pmatrix} \ddots & \ddots & \ddots & & & & \\\\
@@ -31,24 +29,28 @@ A = \begin{pmatrix} \ddots & \ddots & \ddots & & & & \\\\
 	\end{pmatrix} 
 	\tag{1}
 $$
-In either case (continuous or discrete), the periodicity assumption allows to perform a [Floquet-Bloch](https://en.wikipedia.org/wiki/Floquet_theory) decomposition of the operator. That is, the Hamiltonian $\mathsf H$ can be represented as a direct integral over fibres $\mathsf{\widetilde H(\theta)}$
+In beiden Fällen (kontinuierlich oder diskret) ermöglicht die Periodizitätsannahme eine [Floquet-Bloch](https://de.wikipedia.org/wiki/Floquet-Theorie)-Zerlegung des Operators. Das heißt, der Hamiltonoperator $\mathsf H$ kann als direktes Integral über Fasern $\mathsf{\widetilde H(\theta)}$ dargestellt werden
 $$
 	\mathsf{H = \int^\oplus_{Q^\*} \widetilde H(\theta)\,\mathrm{d}\theta,}
 $$
-where $\mathsf{Q^\*}$ is the fundamental cell of the dual lattice $\mathsf{L^\*}$ and $\mathsf{\widetilde H(\theta)}$ are operators on $\mathsf{Q^\*}$, which depend analytically on the parameter $\mathsf\theta$. It is well known that $\mathsf{\sigma(H)=\bigcup_{\theta\in Q^\*}\sigma(\widetilde H(\theta))}$. Hence, the spectrum of $\mathsf H$ can be computed by computing the spectra of all $\mathsf{\widetilde H(\theta)}$ individually.  
-In the case of discrete Hamiltonians, the $\mathsf{\widetilde H(\theta)}$ are finite matrices, which vary continuously with $\mathsf\theta$. Accordingly, their spectra are given by a collection of one-parameter curves in the complex plane.  
-The following figure shows our numerical approximation of these curves for an operator of the form (1) with 
+wobei $\mathsf{Q^\*}$ die Fundamentaleinheit des dualen Gitters $\mathsf{L^\*}$ ist und $\mathsf{\widetilde H(\theta)}$ Operatoren auf $\mathsf{Q^\*}$ sind, die analytisch vom Parameter $\mathsf\theta$ abhängen. Es ist wohlbekannt, dass $\mathsf{\sigma(H)=\bigcup_{\theta\in Q^\*}\sigma(\widetilde H(\theta))}$. Das Spektrum von $\mathsf H$ kann somit durch die Spektren aller einzelnen $\mathsf{\widetilde H(\theta)}$ berechnet werden.  
+
+Bei diskreten Hamiltonoperatoren sind die $\mathsf{\widetilde H(\theta)}$ endliche Matrizen, die stetig von $\mathsf\theta$ abhängen. Dementsprechend bestehen ihre Spektren aus einer Sammlung von eindimensionalen Kurven in der komplexen Ebene.  
+
+Die folgende Abbildung zeigt unsere numerische Näherung dieser Kurven für einen Operator der Form (1) mit
 $$ \mathsf{(a_i) = (1, 0, 1, 0, 2)} $$
 $$ \mathsf{(b_i) = (-1, -2, 1, 3\mathrm i, -5)} $$
 $$ \mathsf{(c_i) = (2\mathrm i, -3\mathrm i, 2\mathrm i, 0, \mathrm i) }$$
 {{< figure src="/images/research/periodic1.png" link="https://frank-roesler.github.io/images/research/periodic1.png" >}}
-In order to tackle the *continuous* problem numerically, a Fourier basis on $\mathsf{Q^\*}$ can be used. This has the advantage that the matrix elements of $\mathsf{-\Delta}$ in this basis can be calculated explicitly. The matrix elements of the potential $\mathsf V$ can be computed via standard numerical quadrature  schemes. Finally, the compactness of the resolvents of $\mathsf{\widetilde H(\theta)}$ can be used to prove that [spectral pollution issues](https://arxiv.org/pdf/math/0302145.pdf) are absent and the procedure will yield the correct spectrum. The result will again be a subset of the complex plane, parameterised by $\mathsf\theta$, but in general this set will not be bounded. We implemented the numerical procedure described above in MATLAB, which yields an algorithm that can be applied to periodic potentials of arbitrary shape. As a case study, we considered the 1d operator 
+
+Zur numerischen Behandlung des *kontinuierlichen* Problems kann eine Fourierbasis auf $\mathsf{Q^\*}$ verwendet werden. Das hat den Vorteil, dass die Matrixelemente von $\mathsf{-\Delta}$ in dieser Basis explizit berechnet werden können. Die Matrixelemente des Potentials $\mathsf V$ lassen sich mit Standardverfahren der numerischen Quadratur approximieren. Schließlich kann die Kompaktheit der Resolventen von $\mathsf{\widetilde H(\theta)}$ genutzt werden, um zu zeigen, dass keine [spectral pollution](https://arxiv.org/pdf/math/0302145.pdf) auftritt und das Verfahren das korrekte Spektrum liefert. Das Ergebnis ist erneut eine Teilmenge der komplexen Ebene, parametrisiert durch $\mathsf\theta$, die aber im Allgemeinen unbeschränkt sein kann. Wir haben das beschriebene numerische Verfahren in MATLAB implementiert, was einen Algorithmus ergibt, der auf periodische Potentiale beliebiger Form anwendbar ist.  
+
+Als Anwendungsbeispiel haben wir den eindimensionalen Operator  
 $$\mathsf{H_\mu = -\frac{d^2}{dx^2} + \mu\cos(2\pi x),}$$
-where $\mu$ can be any fixed complex number. One can prove theoretically that the spectrum of $\mathsf{H_q}$ always consists of a union of straight lines and arcs, as in the following figure.[^1]
+betrachtet, wobei $\mu$ eine beliebige komplexe Zahl sein kann. Es lässt sich theoretisch beweisen, dass das Spektrum von $\mathsf{H_\mu}$ stets aus einer Vereinigung von Geraden und Bögen besteht, wie in der folgenden Abbildung dargestellt.[^1]  
 {{< figure src="/images/research/periodic2.png" link="https://frank-roesler.github.io/images/research/periodic2.png" >}}
-Below we show the output of our own algorithm, applied to the operator $\mathsf{H_\mu}$, for 3 different values of the parameter $\mathsf\mu$. Our results clearly exhibit the qualitative features from the figure above.
+
+Unten zeigen wir die Ausgabe unseres Algorithmus für den Operator $\mathsf{H_\mu}$, angewendet auf drei verschiedene Werte des Parameters $\mathsf\mu$. Unsere Ergebnisse zeigen klar die qualitativen Eigenschaften der obigen Abbildung.  
 {{< figure src="/images/research/periodic3.png" link="https://frank-roesler.github.io/images/research/periodic3.png" >}}
 
-[^1]: [Shin. *On the shape of spectra for non-self-adjoint periodic Schrodinger operators.* J. Phys. A, 37(34):8287-8291, 2004]
-
-
+[^1]: [Shin. *On the shape of spectra for non-self-adjoint periodic Schrödinger operators.* J. Phys. A, 37(34):8287-8291, 2004]

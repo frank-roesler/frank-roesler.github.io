@@ -62,6 +62,12 @@
 	{{ else if eq .Params.research_menu "german"}}
 	{{ partial "anchor_menu_research_german.html" . }}
 	{{ end }}
+	
+	{{ if eq .Params.work_menu "english"}}
+		{{ partial "anchor_menu_work.html" . }}
+	{{ else if eq .Params.work_menu "german"}}
+	{{ partial "anchor_menu_work_german.html" . }}
+	{{ end }}
 		  
       {{ block "main" . }}{{ end }}
     </main>

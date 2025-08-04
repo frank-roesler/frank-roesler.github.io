@@ -7,24 +7,24 @@ draft: false
 research_menu: "german"
 ---
 
-Diesen Eintrag gibt es bisher nur auf englisch. Deutsche &Uuml;bersetzung folgt in K&uuml;rze!
+Berechnung von Schwingungsmoden fraktaler Trommeln  
+----------------------------------------------------
 
-Computing Vibration Modes of Fractal Drums
-------------------------------------------
+### Forschungsartikel:
+* Frank Rösler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://www.ams.org/journals/mcom/2024-93-345/S0025-5718-2023-03827-3/home.html), *Math. Comp.* 93 (2024), 111–161.  
+(gefördert durch das Forschungs- und Innovationsprogramm Horizont 2020 der Europäischen Union im Rahmen des Marie Skłodowska-Curie-Stipendiums Nr. 885904)  
+(Eine MATLAB-Implementierung des Algorithmus ist [hier verfügbar](https://github.com/frank-roesler/PixelSpectra))
 
-### Research article:
-*	Frank R&ouml;sler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://arxiv.org/abs/2104.09444), *Preprint*, arXiv:2104.09444.  
-	(A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/PixelSpectra))
+### Überblick:
+In diesem aktuellen Forschungsprojekt haben mein Kollege Alexei Stepanenko und ich rechnerische Aspekte eines klassischen Problems der Spektraltheorie untersucht: die Berechnung der Eigenschwingungen einer zweidimensionalen Trommeloberfläche. Diese sind gegeben durch die Eigenfunktionen und Eigenwerte des Laplace-Operators mit homogenen Randbedingungen:
+$$\mathsf{-\Delta u = \lambda u \quad\text{auf der Trommel }\mathcal{O}} \tag{1}$$
+wobei $u$ die vertikale Auslenkung der Membran und $\lambda$ deren Frequenz beschreibt. Ist die Form der Trommel stark symmetrisch (z. B. kreisförmig), lässt sich dieses Problem [explizit lösen](https://en.wikipedia.org/wiki/Vibrations_of_a_circular_membrane?wprov=sfti1). Bei komplexeren Formen wird das Problem jedoch sehr schwierig und kann im Allgemeinen nur numerisch behandelt werden.
 
-### Overview:
-In this recent research project my collaborator Alexei Stepanenko and I studied computational aspects of a classical problem in spectral theory: Computing the eigenmodes of the 2d surface of a drum. Those are given by the eigenfunctions and eigenvalues of the Laplace operator with zero boundary conditions: 
-$$\mathsf{-\Delta u = \lambda u \quad\text{on the drum }\mathcal{O},} \tag{1}$$
-where $u$ models the vertical displacement of the drum's membrane and $\lambda$ its frequency. If the shape of the drum is highly symmectric (e.g. circular), this problem can be [solved explicitly](https://en.wikipedia.org/wiki/Vibrations_of_a_circular_membrane?wprov=sfti1). However, if the drum has a more complicated shape, the problem becomes very difficult and can in general only be solved numerically. In our research article we study a numerical procedure for solving precisely this problem. We demonstrate that even for drums whose boundary is a *fractal* (i.e. varies wildly on every length scale, no matter how small) the eigenmodes $\mathsf u$ and eigenfrequencies $\mathsf\lambda$ can be computed reliably. Our method relies on increasingly fine pixelations $\mathsf{\mathcal{O}\_n}$ of the original drum, see the next figure.
+In unserem Artikel stellen wir ein numerisches Verfahren zur Lösung genau dieses Problems vor. Wir zeigen, dass selbst bei Trommeln mit einem *fraktalen* Rand (d. h. mit extrem unregelmäßiger Geometrie auf allen Längenskalen) die Eigenfunktionen $\mathsf u$ und Eigenfrequenzen $\mathsf\lambda$ zuverlässig berechnet werden können. Unsere Methode basiert auf immer feineren Pixelierungen $\mathsf{\mathcal{O}_n}$ der ursprünglichen Trommel, siehe folgende Abbildung:
 {{< figure src="/images/research/koch.png" link="https://frank-roesler.github.io/images/research/koch.png" >}}
-These pixelated domains are suitable for a solution of $(1)$ based on the [finite element method](https://en.wikipedia.org/wiki/Finite_element_method?wprov=sfti1). We provide a freely available implementation of our algorithm that can indeed be applied off-the-shelf to 2-dimensional domains of any shape. As an illustrative example, the figure below shows the first 12 vibration eigenmodes of a drum that has the shape of the United Kingdom.
-<!-- {{< figure src="/images/research/uk_pixel.png" link="https://frank-roesler.github.io/images/research/uk_pixel.png" >}} -->
+
+Diese pixelbasierten Gebiete eignen sich hervorragend für eine numerische Lösung von Gleichung (1) mittels der [Finite-Elemente-Methode](https://en.wikipedia.org/wiki/Finite_element_method?wprov=sfti1). Wir stellen eine frei verfügbare Implementierung unseres Algorithmus zur Verfügung, der direkt auf zweidimensionale Domänen beliebiger Form angewendet werden kann.
+
+Als anschauliches Beispiel zeigt die folgende Abbildung die ersten zwölf Schwingungsmoden einer Trommel in der Form des Vereinigten Königreichs:
 
 {{< figure src="/images/research/uk_modes2.png" link="https://frank-roesler.github.io/images/research/uk_modes2.png" >}}
-
-
-

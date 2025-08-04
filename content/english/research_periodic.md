@@ -11,7 +11,7 @@ Computing Spectra of Periodic Operators
 ---------------------------------------
 
 ### Research article:
-*   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Universal Algorithms for Computing Spectra of Periodic Operators](https://link.springer.com/article/10.1007/s00211-021-01265-w), *Numer. Math. (2022)*.  
+*   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Universal Algorithms for Computing Spectra of Periodic Operators](https://link.springer.com/article/10.1007/s00211-021-01265-w), *Numer. Math. (2022)*.  (supported by the European Union's Horizon 2020 Research and Innovation Programme under the Marie Sk&#322;odowska-Curie grant agreement No 885904.)  
 A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/PeriodicSpectra).
 
 ### Overview:

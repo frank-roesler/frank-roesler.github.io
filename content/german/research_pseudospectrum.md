@@ -7,27 +7,33 @@ draft: false
 research_menu: "german"
 ---
 
-Diesen Eintrag gibt es bisher nur auf englisch. Deutsche &Uuml;bersetzung folgt in K&uuml;rze!
+Pseudospektren nicht-hermitescher Hamiltonoperatoren  
+-----------------------------------------------------
 
-Pseudospectra of Non-Hermitian Hamiltonians
--------------------------------------------
+### Forschungsartikel:
+* Patrick W. Dondl, Patrick Dorey, Frank Rösler; [A Bound on the Pseudospectrum for a Class of Non-normal Schrödinger Operators.](https://academic.oup.com/amrx/article/2017/2/271/2769429?searchresult=1) *Appl. Math. Res. Express* 2016.
 
-### Research article:
-*   Patrick W. Dondl, Patrick Dorey, Frank R&ouml;sler; [A Bound on the Pseudospectrum for a Class of Non-normal Schr&ouml;dinger Operators.](https://academic.oup.com/amrx/article/2017/2/271/2769429?searchresult=1) *Appl. Math. Res. Express* 2016.
-
-### Overview:
-This was the first project of my PhD. The work is concerned with the [Schr&ouml;dinger equation](/research_selfadjoint) with complex-valued potentials. In general, the eigenvalues (or the *spectrum*) of such operators could be any complex number, however, some potentials exhibit special symmetries (called PT-symmetry), which constrain their eigenvalues to lie on the real axis. An example is the *imaginary cubic oscillator*, defined as
+### Überblick:
+Dies war das erste Projekt meiner Promotion. Die Arbeit beschäftigt sich mit der [Schrödinger-Gleichung](/research_selfadjoint) mit komplexwertigen Potentialen. Im Allgemeinen kann das Spektrum (die Menge der Eigenwerte) solcher Operatoren irgendwo in der komplexen Ebene liegen. Es gibt jedoch Potentiale mit speziellen Symmetrien – sogenannte PT-Symmetrien – die ihre Eigenwerte auf die reelle Achse zwingen. Ein Beispiel ist der *imaginäre kubische Oszillator*, definiert durch
 $$
-	\mathsf{H = -\frac{d^2}{dx^2} + ix^3} \quad \textsf{ on }\quad \mathsf{L^2(\mathbb R)}
-	\tag{1}
+	\mathsf{H = -\frac{d^2}{dx^2} + ix^3} \quad \textsf{ auf }\quad \mathsf{L^2(\mathbb R)} \tag{1}
 $$
-Indeed, this operator can be shown to be PT-symmetric and its eigenvalues are purely real, as the following numerical plot illustrates.
+Dieser Operator ist tatsächlich PT-symmetrisch, und es lässt sich zeigen, dass seine Eigenwerte rein reell sind, wie der folgende numerische Plot zeigt.
+
 {{< figure src="/images/research/ho_spectrum.png" link="/images/research/ho_spectrum.png" >}}
-Operators like $(1)$ are of interest in the theory of [Non-Hermitian Quantum Mechanics](https://en.wikipedia.org/wiki/Non-Hermitian_quantum_mechanics)[^1]. This example shows that, given only the spectrum of an operator, it is impossible to decide whether its potential is real-valued or not (i.e. whether the operator is *selfadjoint* or not). This motivates the introduction of a finer indicator, called the *pseudospectrum*. The pseudospectrum is the collection of level sets of the function $\mathsf{R(z) := \\|(H-z)^{-1}\\|}$. It can be shown that the eigenvalues of $\mathsf H$ are precisely the poles of $\mathsf{R(z)}$ and that for *real-valued* potentials $\mathsf{R(z)}$ is determined completely by the distance of $\mathsf z$ to the set of eigenvalues of $\mathsf H$ (accordingly, the level sets of $\mathsf{R(z)}$ are circles around the eigenvalues). For *non-real* potential, however, the pseudospectrum can deviate very strongly from the set of eigenvalues. Indeed, the next plot shows a contour plot of $\mathsf{R(z)}$ for the imaginary cubic oscillator $(1)$.
+
+Operatoren wie $(1)$ sind von Interesse in der Theorie der [nicht-hermiteschen Quantenmechanik](https://en.wikipedia.org/wiki/Non-Hermitian_quantum_mechanics)[^1]. Dieses Beispiel zeigt, dass man allein anhand des Spektrums eines Operators nicht entscheiden kann, ob sein Potential reell ist (d. h. ob der Operator *selbstadjungiert* ist). Dies motiviert die Einführung eines feineren Konzepts: des *Pseudospektrums*.  
+
+Das Pseudospektrum ist die Menge der Niveauflächen der Funktion $\mathsf{R(z) := \|(H - z)^{-1}\|}$. Es lässt sich zeigen, dass die Eigenwerte von $\mathsf{H}$ genau die Pole von $\mathsf{R(z)}$ sind. Für *reellwertige* Potentiale ist $\mathsf{R(z)}$ vollständig durch den Abstand von $\mathsf{z}$ zur Menge der Eigenwerte bestimmt (die Niveauflächen von $\mathsf{R(z)}$ sind dann Kreise um die Eigenwerte). Für *nicht-reelle* Potentiale hingegen kann das Pseudospektrum stark vom Spektrum abweichen.
+
+Der folgende Plot zeigt eine Konturzeichnung von $\mathsf{R(z)}$ für den imaginären kubischen Oszillator $(1)$:
+
 {{< figure src="/images/research/ho_pseudospectrum.png" link="/images/research/ho_pseudospectrum.png" >}}
-As the figure shows, the function $\mathsf{R(z)}$ may assume very large values far away from the eigenvalues. This behaviour would be impossible for a hamiltonian with a real-valued potential.  
-Other examples from the literature show that the pseudospectrum of non-hermitian operators can indeed look arbitrarily chaotic. Our own contribution in the paper mentioned above was to prove that for a class of examples such as the imaginary cubic oscillator the situation is not all bad: Even though the pseudospectrum is not simply given by the distance to the spectrum, we prove certain bounds on $\mathsf{R(z)}$, which imply that on any half plane which extends to the left in the complex plane, the function *is* determined, to some extent, by the eigenvalues in that half plane. Even though suggested by the numerical figure above, this result is highly nontrivial and not guaranteed except for a very limited class of operators.
 
+Wie man sieht, kann $\mathsf{R(z)}$ sehr große Werte annehmen – weit entfernt von den Eigenwerten. Ein solches Verhalten wäre für einen Hamiltonoperator mit reellwertigem Potential unmöglich.
 
+Weitere Beispiele in der Literatur zeigen, dass das Pseudospektrum nicht-hermitescher Operatoren in der Tat beliebig chaotisch aussehen kann. Unser eigener Beitrag im oben genannten Artikel bestand darin, zu zeigen, dass für eine bestimmte Klasse von Operatoren – wie etwa den imaginären kubischen Oszillator – die Situation nicht völlig außer Kontrolle ist:  
+
+Auch wenn das Pseudospektrum nicht einfach durch den Abstand zum Spektrum gegeben ist, gelingt es uns, gewisse Schranken für $\mathsf{R(z)}$ herzuleiten. Diese zeigen, dass in jeder Halbebene, die sich nach links in die komplexe Ebene erstreckt, die Funktion $\mathsf{R(z)}$ bis zu einem gewissen Grad durch die Eigenwerte in dieser Halbebene bestimmt wird. Obwohl dies durch die obige Grafik nahegelegt wird, ist das mathematische Ergebnis keineswegs trivial und gilt nur für eine sehr eingeschränkte Klasse von Operatoren.
 
 [^1]: [Bender, Carl M. *Making sense of non-Hermitian Hamiltonians.* Reports on Progress in Physics 70.6 (2007): 947.]

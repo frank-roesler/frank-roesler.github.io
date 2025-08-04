@@ -8,6 +8,16 @@ menu: "main"
 weight: 3
 ---
 
+### Spring term 2023
+
+*   Hosting seminar on [Sobolev Spaces](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/fruehjahr_2023/master_mathematik/seminar_sobolev_spaces_fs_2023/index_ger.html) at University of Bern.
+*	Assistant for [Mathematics for Scientists II](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/fruehjahr_2022/andere/mathematik_ii_fuer_naturwissenschaften_fs_2022/index_ger.html) at University of Bern.
+
+### Fall term 2022/23
+
+*   Assistant for [Functional Analysis](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/herbst_2022/master_mathematik/functional_analysis_hs_2022/index_ger.html) at University of Bern.
+*	Assistant for [Mathematics for Scientists I](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/herbst_2022/andere/mathematik_i_fuer_naturwissenschaften_hs_2022/index_ger.html) at University of Bern.
+
 ### Winter term 2019/20
 
 *   Lecture on [Measure Theory](https://data.cardiff.ac.uk/legacy/grails/module/MA4007/19A.html) at Cardiff University.

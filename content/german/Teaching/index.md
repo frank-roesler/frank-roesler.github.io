@@ -5,8 +5,18 @@ omit_header_text: true
 date: 2020-05-26T14:23:52+01:00
 draft: false
 menu: "main"
-weight: 3
+weight: 4
 ---
+
+### Fr&uuml;hjahr 2023
+
+*   Seminar &uuml;ber [Sobolevr&auml;ume](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/fruehjahr_2023/master_mathematik/seminar_sobolev_spaces_fs_2023/index_ger.html) an der Universi&auml;t Bern.
+*	Assistent f&uuml;r [Mathematik II f&uuml;r Naturwissenschaftler](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/fruehjahr_2022/andere/mathematik_ii_fuer_naturwissenschaften_fs_2022/index_ger.html)  an der Universi&auml;t Bern.
+
+### Herbst 2022/23
+
+*   Assistent f&uuml;r [Funktionalanalysis](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/herbst_2022/master_mathematik/functional_analysis_hs_2022/index_ger.html) an der Universi&auml;t Bern.
+*	Assistent f&uuml;r [Mathematik I f&uuml;r Naturwissenschaftler](https://www.math-stat.unibe.ch/studium/lehrveranstaltungen/herbst_2022/andere/mathematik_i_fuer_naturwissenschaften_hs_2022/index_ger.html) a an der Universi&auml;t Bern.
 
 ### Wintersemester 2019/20
 

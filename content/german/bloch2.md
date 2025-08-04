@@ -1,11 +1,13 @@
 ---
-title: "Hobby Projects"
+title: "Hobbyprojekte"
 featured_image: '/images/banner_blackboard2.jpg'
 omit_header_text: true
 date: 2020-06-01T16:49:58+01:00
 draft: false
-video: "english"
+video: "german"
 ---
+
+Diesen Eintrag gibt es bisher nur auf englisch. Deutsche &Uuml;bersetzung folgt in K&uuml;rze!
 
 Deep Learning for MRI Pulse Sequences
 -------------------------------------

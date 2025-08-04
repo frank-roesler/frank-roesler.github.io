@@ -10,46 +10,34 @@ weight: 5
 
 This page contains links to recent or upcoming events and other activities and works of current interest to me.
 
-Cardiff Online Analysis Seminar (CAOS):
----------------------------------------
-
-During the COVID-19 restrictions, Cardiff University has set up an online version of their analysis seminar. It is currently being continued as a hybrid version with both in person and online talks: https://jbenartzi.github.io/seminars.html
-
-(Related: a great number of online research seminars are listed here: https://researchseminars.org/)
-
-Springer E-Books:
------------------
-Springer have recently released over 400 ebooks for free on line.  
-A full listing is here: https://www.reddit.com/r/FreeEBOOKS/comments/g34xi5/408_free_ebooks_from_springer/
-
 Research Projects:
 ------------------
+*	SIDING: [Schienenanschluss-Identifikation durch intelligente Geolokalisierung](https://zenodo.org/record/8095902)
+*	ARGOS [Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme](https://www.scs.fraunhofer.de/de/referenzen/argos.html)
 *   COCONUT: [Computational Complexity in Quantum Mechanics](https://cordis.europa.eu/project/id/885904)
+*	SNF funded project [Non-selfadjoint problems in spectral theory and mathematical physics](https://data.snf.ch/grants/grant/169104)
 *   QUEST@Cardiff: https://cardiffquest.blog/
-*   Jonathan Ben-Artzi (group leader): https://jbenartzi.github.io/research.html
 
 Conferences, Workshops and Seminars:
---------------------------
-
-### Upcoming:
-*	June 19-22, 2023, Stockholm (Sweden): [Analysis and mathematical physics](https://staff.math.su.se/kurasov/AMP2022/AMP2022.html) – AMP2022 (in memory of Sergey Naboko)
-
-### Past:
-
-*	[International Workshop on Operator Theory and its Applications](https://iwota2022.urk.edu.pl/) 6-10 September 2022, Kraków, Poland.
-*	15th International Conference on Mathematical and Numerical Aspects of Wave Propagation: [Waves 2022](https://waves2022.apps.math.cnrs.fr/) 25-29 July 2022, Paris, France.
-*	[Bern Data Science Day](https://www.dsl.unibe.ch/events/bdsd2022/), 6 May 2022, Bern, CH.
-*	[Bern Winter School on Machine Learning](https://www.math.unibe.ch/continuing_education/bern_winter_school_on_machine_learning/index_eng.html) 24 – 28 January 2022, Mürren, CH.
-*   [8th European Congress of Mathematics](https://8ecm.si/) 20 - 26 June 2021, Portorož, Slovenia.
-*   Conference [Mathematical aspects of the physics with non-self-adjoint operators: 10 years after,](http://nsa.fjfi.cvut.cz/CIRM2020/) Marseille, France, 1-5 February 2021.
-*   Conference [Small Scales and Homogenisation](http://smash-workshop.github.io) (SmaSH) at Cardiff University, 24-26 June 2019.
-*   Conference: [_Operators, Operator Families and Asymptotics II_](http://people.bath.ac.uk/kc525/OOFA19/OOFA19.html) in Bath, UK, 14-17 January 2019.
-*   [Workshop of the GAMM Activity Group "Applied Operator Theory"](https://www.mathematik.uni-kl.de/en/fuana/aktivitaeten/workshop-operator-theory/) Department of Mathematics TU Kaiserslautern, Kaiserslautern, Germany, May 29-31 2019
-
-### Recurring:
-
+------------------------------------
+*	A great number of online research seminars are listed here: https://researchseminars.org/
 *   [Cardiff Analysis Seminar](https://baptistemorisse.wordpress.com/cardiff-analysis-seminar/) at Cardiff University.
 *	[Spectral Theory in the Clouds](https://archimede.mat.ulaval.ca/agirouard/SpectralClouds/),  Intergalactic seminar on spectral theory and differential geometry, Each monday, 17h GMT.
 *   [Informal Analysis Seminar](https://jbenartzi.github.io/Cardiff.Informal/index.html) at Cardiff University.
 *   [South Wales Analysis and Probability Seminar](https://jbenartzi.github.io/SWAP/index.html)
 *   [Paris - London Analysis Seminar](http://www.london-analysis-seminar.org.uk/Paris-London/)
+
+My Lecture on Measure Theory at Cardiff University:
+---------------------------------------------------
+*   A video capture of the entire lecture is freely available online: [Measure Theory Cardiff 2019](https://www.youtube.com/watch?v=0WOh3O8hshw&list=PLSnm7woi8-KdY5ahBE03MNwftR3K1jIbX)
+
+Kollegen und Co-Autoren:
+------------------------
+*	[Christiane Tretter](https://www.math.unibe.ch/ueber_uns/personen/prof_dr_tretter_christiane/index_ger.html)
+*   [André Döring](https://www.epfl.ch/labs/metmrs/research/members/andre-doring-phd/)
+*	[Marco Marletta](https://profiles.cardiff.ac.uk/staff/marlettam)
+*	[Jonathan Ben-Artzi](https://jbenartzi.github.io/)
+*	[Alexei Stepanenko](https://alexeistepa.github.io/)
+*	[Patrick Dondl](https://aam.uni-freiburg.de/agdo/index.html)
+*	[Patrick Dorey](https://www.durham.ac.uk/staff/p-e-dorey/)
+*	[Kirill Cherednichenko](https://people.bath.ac.uk/kc525/)

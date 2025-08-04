@@ -11,7 +11,7 @@ Reconstructing a Potential From its Scattering Data
 ---------------------------------------------------
 
 ### Research article:
-*	Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Universal algorithms for solving inverse spectral problems](https://arxiv.org/abs/2203.13078), *Preprint*, arXiv:2203.13078.  
+*	Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [On the complexity of the inverse Sturm-Liouville problem](https://msp.org/paa/2023/5-4/p03.xhtml), *Pure and Applied Analysis 5, 895-925 (2023)*.  (supported by the European Union's Horizon 2020 Research and Innovation Programme under the Marie Sk&#322;odowska-Curie grant agreement No 885904.)
 (A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/inverse_SCI))
 
 ### Overview:

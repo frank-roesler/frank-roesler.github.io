@@ -15,16 +15,22 @@ Grants and Awards
 *	_2015:_ EPS Poster Prize, awarded by the European Physical Society, at workshop _[Pseudo-Hermitian Hamiltonians in Quantum Physics](http://www.math.unipa.it/~phhqp15/index.html)_.
 
 
-Education and Degrees
----------------------
-*   _2022-present:_ **Research Associate**, Department of Mathematics, University of Bern, Bern, Switzerland.
+Working experience
+------------------
+*	_2024-present:_ **Programmer / Actuary**, Life insurance, Nürnberger Versicherung, Nuremberg, Deutschland.
+*	_2023-2024:_ **Data Scientist**, Department for Risk and Location Analysis, Fraunhofer IIS/SCS, Nuremberg, Germany.
+*   _2022-2023:_ **Research Associate**, Department of Mathematics, University of Bern, Bern, Switzerland.
 *   _2018-2022:_ **Research Associate / Marie Curie Fellow**, School of Mathematics, Cardiff University, Cardiff, UK.
 *   _2014-2018:_ **PhD Mathematics**, Dept of Mathematical Sciences, Durham University, Durham, UK. _Topic:_ [Spectral Theory of non-selfadjoint Schr&ouml;dinger Operators and homogenisation of PDEs in perforated domains.](http://etheses.dur.ac.uk/12736/)
+
+Education and Degrees
+---------------------
 *   _2011-2014_: **MSc Physics**, Heidelberg University, Heidelberg, Germany. **Thesis**, Institute for Theoretical Physics, Heidelberg, Germany. _Topic_: [Surface Operators in Chern-Simons Theory.](https://frankroesler.files.wordpress.com/2019/07/ma_frank_roesler.pdf)
 *   _2008–2011:_ **BSc Physics**, Heidelberg University, Heidelberg, Germany.**Thesis**, Institute for Theoretical Physics, Heidelberg, Germany. _Topic:_ Distributions and Wave-Front Sets.
 
 Academic Presentations
 ----------------------
+*   _Jun. 2025:_ **Oral presentation**,  [Spectral Theory and Applications in Mathematical Physics](https://spectraltheory.wordpress.com/conferences-on-spectral-theory/), Bern, Schweiz. 
 *	_Sep. 2022:_ **Oral presentation**,  IWOTA-2022, [International workshop on operator theory and applications](https://iwota2022.urk.edu.pl/programm.html), Krakow, Poland.
 *   _Feb. 2022:_ **Seminar talk**, Imperial College, London, UK.
 *   _Nov. 2021:_ **[Colloquium talk](https://www.math.unibe.ch/unibe/portal/fak_naturwis/a_dept_math/a_inst_math/content/e19399/e590660/e637481/e637490/e1143962/Roesler_eng.pdf)**, University of Bern, Switzerland.

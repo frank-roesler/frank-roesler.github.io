@@ -11,7 +11,7 @@ Quantum Resonances for Potential Scattering
 -------------------------------------------
 
 ### Research article:
-*   Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Computing scattering resonances](https://ems.press/journals/jems/articles/7274199). J. Eur. Math. Soc. (JEMS), 2022.
+*   Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Computing scattering resonances](https://ems.press/journals/jems/articles/7274199). J. Eur. Math. Soc. (JEMS), 2022. (supported by the European Union's Horizon 2020 Research and Innovation Programme under the Marie Sk&#322;odowska-Curie grant agreement No 885904.)
 (A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/Resonances_SCI_1d))
 
 ### Overview:

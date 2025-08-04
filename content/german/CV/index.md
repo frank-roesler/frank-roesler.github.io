@@ -5,7 +5,7 @@ omit_header_text: true
 date: 2020-05-26T14:30:19+01:00
 draft: false
 menu: "main"
-weight: 4
+weight: 5
 ---
 
 Grants und Preise
@@ -14,16 +14,22 @@ Grants und Preise
 *  _2019:_ LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop "_[Small Scales and Homogenisation](https://smash-workshop.github.io)_"
 *	_2015:_ EPS Poster Prize, verliehen von der European Physical Society, im Rahmen des Workshops _[Pseudo-Hermitian Hamiltonians in Quantum Physics](http://www.math.unipa.it/~phhqp15/index.html)_.
 
-Ausbildung und Abschlüsse
--------------------------
-*   _seit 2022:_ **Wissenschaftlicher Mitarbeiter**, Departement Mathematik und Statistik, Universit&auml;t Bern, Bern, Schweiz.
+Arbeitserfahrung
+----------------
+*	_seit 2024:_ **Softwareentwickler / Aktuar**, Produktintegration Leben, Nürnberger Versicherung, Nürnberg, Deutschland.
+*	_2023-2024:_ **Data Scientist**, Abteilung Risiko- und Standortanalyse, Fraunhofer IIS/SCS, Nürnberg, Deutschland.
+*   _2022-2023:_ **Wissenschaftlicher Mitarbeiter**, Departement Mathematik und Statistik, Universit&auml;t Bern, Bern, Schweiz.
 *   _2018-2022:_ **Wissenschaftlicher Mitarbeiter / Marie Curie Fellow**, School of Mathematics, Cardiff University, Cardiff, UK.
 *   _2014-2018:_ **Promotion in Mathematik**, Dept of Mathematical Sciences, Durham University, Durham, UK. _Thema:_ [Spectral Theory of non-selfadjoint Schr&ouml;dinger Operators and homogenisation of PDEs in perforated domains.](ht&ouml;tp://etheses.dur.ac.uk/12736/)
+
+Ausbildung und Abschlüsse
+-------------------------
 *   _2011-2014_: **MSc Physik**, Universität Heidelberg, Deutschland. **Masterarbeit**, Institut für theoretische Physik, Heidelberg, Deutschland. _Thema_: [Surface Operators in Chern-Simons Theory.](https://frankroesler.files.wordpress.com/2019/07/ma_frank_roesler.pdf)
 *   _2008–2011:_ **BSc Physik**, Universität Heidelberg, Deutschland. **Bachelorarbeit**, Institut für theoretische Physik, Heidelberg, Deutschland. _Thema_:  Distributionen und Wellenfrontmengen.
 
 Akademische Vorträge
 --------------------
+*   _Jun. 2025:_ **Vortrag**,  [Spectral Theory and Applications in Mathematical Physics](https://spectraltheory.wordpress.com/conferences-on-spectral-theory/), Bern, Schweiz. 
 *	_Sep. 2022:_ **Vortrag**,  IWOTA-2022, [International workshop on operator theory and applications](https://iwota2022.urk.edu.pl/programm.html), Krakau, Polen.
 *   _Feb. 2022:_ **Seminarvortrag**, Imperial College, London, UK.
 *   _Nov. 2021:_ **[Kolloquiumsvortrag](https://www.math.unibe.ch/unibe/portal/fak_naturwis/a_dept_math/a_inst_math/content/e19399/e590660/e637481/e637490/e1143962/Roesler_eng.pdf)**, Universität Bern, Schweiz.

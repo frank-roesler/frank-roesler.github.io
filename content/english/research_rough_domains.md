@@ -11,7 +11,7 @@ Computing Vibration Modes of Fractal Drums
 ------------------------------------------
 
 ### Research article:
-*	Frank R&ouml;sler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://arxiv.org/abs/2104.09444), *Preprint*, arXiv:2104.09444.  
+*	Frank R&ouml;sler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://www.ams.org/journals/mcom/2024-93-345/S0025-5718-2023-03827-3/home.html), Math. Comp. 93 (2024), 111-161.  (supported by the European Union's Horizon 2020 Research and Innovation Programme under the Marie Sk&#322;odowska-Curie grant agreement No 885904.)
 	(A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/PixelSpectra))
 
 ### Overview:

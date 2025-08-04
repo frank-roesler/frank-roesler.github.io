@@ -11,7 +11,7 @@ Computing the Sound of the Sea in a Seashell
 --------------------------------------------
 
 ### Research article:
-*   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Computing the Sound of the Sea in a Seashell](https://link.springer.com/article/10.1007%2Fs10208-021-09509-9). *Found. Comput. Math.*, 2021.  
+*   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Computing the Sound of the Sea in a Seashell](https://link.springer.com/article/10.1007%2Fs10208-021-09509-9). *Found. Comput. Math.*, 2021.  (supported by the European Union's Horizon 2020 Research and Innovation Programme under the Marie Sk&#322;odowska-Curie grant agreement No 885904.)
 [Click here](/images/Slides_Resonances_Roesler.pdf) to download the slides of a recent talk on the subject. A Matlab package based on the article is available [here](https://github.com/frank-roesler/SeashellComp)
 
 ### Overview:

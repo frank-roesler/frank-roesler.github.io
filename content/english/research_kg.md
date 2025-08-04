@@ -11,7 +11,7 @@ Computing Bound States in Relativistic Quantum Mechanics
 --------------------------------------------------------
 
 ### Research article:
-*   Frank R&ouml;sler, Christiane Tretter; [Computing Klein-Gordon Eigenvalues,](https://arxiv.org/abs/2210.12516) *preprint*.
+*   Frank R&ouml;sler, Christiane Tretter; [Computing Klein-Gordon Spectra,](https://doi.org/10.1093/imanum/drae032) *IMA Journal of Numerical Analysis, Volume 45, Issue 2, March 2025, Pages 734-776*. (supported by the European Union's Horizon 2020 Research and Innovation Programme under the Marie Sk&#322;odowska-Curie grant agreement No 885904.)
 (A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/spectral_klein_gordon). A recent presentation on the topic is also [available online](/images/slides_kg.pdf))
 
 ### Overview:

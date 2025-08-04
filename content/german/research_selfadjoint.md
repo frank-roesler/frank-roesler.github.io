@@ -7,31 +7,25 @@ draft: false
 research_menu: "german"
 ---
 
-Diesen Eintrag gibt es bisher nur auf englisch. Deutsche &Uuml;bersetzung folgt in K&uuml;rze!
-
-Computational Quantum Mechanics
+Computational Quantum Mechanics  
 -------------------------------
 
-### Research article:
-*   Frank R&ouml;sler; [On The Solvability Complexity Index for Unbounded Selfadjoint and Schr&ouml;dinger Operators.](https://link.springer.com/article/10.1007%2Fs00020-019-2555-x) *Integral Equations and Operator Theory*, (2019) 91:54.
-(A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/Work))
+### Forschungsartikel:
+* Frank Rösler; [On The Solvability Complexity Index for Unbounded Selfadjoint and Schrödinger Operators.](https://link.springer.com/article/10.1007%2Fs00020-019-2555-x) *Integral Equations and Operator Theory*, (2019) 91:54.  
+(Eine MATLAB-Implementierung des Algorithmus ist [hier verfügbar](https://github.com/frank-roesler/Work))
 
-### Overview:
-This work is concerned with the computational solution of the Schr&ouml;inger eigenvalue problem. The Schr&ouml;dinger equation is at the heart of the theory of Quantum Mechanics and its eigenfunctions and eigenvalues describe the bound states of quantum systems and their corresponding energy levels. In its dimensionless form, the problem reads: *find a function $\mathsf\psi$ and a complex number $\mathsf\lambda$ such that the equation*
+### Überblick:
+Diese Arbeit beschäftigt sich mit der numerischen Lösung des Eigenwertproblems der Schrödinger-Gleichung. Die Schrödinger-Gleichung steht im Zentrum der Quantenmechanik; ihre Eigenfunktionen und Eigenwerte beschreiben die gebundenen Zustände eines Quantensystems sowie deren Energieniveaus. In dimensionsloser Form lautet das Problem: *Finde eine Funktion $\mathsf\psi$ und eine komplexe Zahl $\mathsf\lambda$, so dass*
 $$
 	\mathsf{-\Delta \psi + V\psi = \lambda\psi} \tag{1}
 $$
-*holds*. The scalar function $\mathsf V$ in the above equation describes the potential energy of the system (e.g. due to an electric field, in which the particle moves). In most practical applications, this equation cannot be solved analytically and numerical solution methods need to be applied. For potentials, which are both smooth and real-valued, there exist methods, which are efficient and mostly reliable (note however the issue of [spectral pollution](https://arxiv.org/pdf/math/0302145.pdf)). However, for complex-valued potentials, the computational eigenvalue problem becomes considerably more difficult and finding robust, reliable numerical algorithms that apply to a large class of potentials becomes a major challenge. In my article above, I contruct a new algorithm, which is taylored to precisely this situation. The procedure is guaranteed to converge to the correct solution of $(1)$ for any potential $\mathsf{V(x)}$, which decays to 0 as $\mathsf{|x|\to\infty}$.  
+*gilt*. Die skalare Funktion $\mathsf V$ beschreibt hierbei die potentielle Energie des Systems (z. B. verursacht durch ein elektrisches Feld, in dem sich das Teilchen bewegt). In den meisten praktischen Anwendungen ist eine analytische Lösung dieser Gleichung nicht möglich, sodass numerische Methoden erforderlich sind.
+
+Für Potentiale, die glatt und reellwertig sind, existieren effiziente und weitgehend zuverlässige Verfahren (siehe jedoch das Problem der [spectral pollution](https://arxiv.org/pdf/math/0302145.pdf)). Im Fall komplexwertiger Potentiale gestaltet sich das Eigenwertproblem jedoch deutlich schwieriger, und die Entwicklung robuster, zuverlässiger numerischer Algorithmen für eine breite Klasse solcher Potentiale stellt eine große Herausforderung dar.
+
+In meinem oben genannten Artikel konstruiere ich einen neuen Algorithmus, der speziell auf diese Situation zugeschnitten ist. Das Verfahren konvergiert garantiert zur korrekten Lösung von (1), für beliebige Potentiale $\mathsf{V(x)}$, die für $\mathsf{|x|\to\infty}$ gegen 0 abfallen.  
 {{< figure src="/images/research/sch_gauss.png" link="/images/research/sch_gauss.png" >}}
-The mathematical idea behind the algorithm is to replace the differential operator $\mathsf{-\Delta+V}$ by a matrix approximation and compute its [pseudospectrum](/research_pseudospectrum), whose singularities coincide with the eigenvalues. The convergence proofs use the so-called [essential numerical range](https://www.sciencedirect.com/science/article/abs/pii/S0022123620300525) to control spectral pollution. The figure above shows a sample output of the algorithm, implemented in MATLAB, for a complex valued potential. The algorithm correctly approximates the continuous spectrum on the ppositive real axis, as well as two eigenvalues at approximately $\mathsf{2\pm 3.9i}$.
 
+Die mathematische Idee hinter dem Algorithmus besteht darin, den Differentialoperator $\mathsf{-\Delta+V}$ durch eine Matrixapproximation zu ersetzen und dessen [Pseudospektrum](/research_pseudospectrum) zu berechnen. Die Singularitäten dieses Pseudospektrums stimmen mit den Eigenwerten überein. Die Konvergenzbeweise nutzen den sogenannten [essential numerical range](https://www.sciencedirect.com/science/article/abs/pii/S0022123620300525), um spektrale Störungen (spectral pollution) zu kontrollieren.
 
-
-
-
-
-
-
-
-
-
+Die obige Abbildung zeigt eine Beispielausgabe des Algorithmus (implementiert in MATLAB) für ein komplexwertiges Potential. Der Algorithmus approximiert sowohl das kontinuierliche Spektrum auf der positiven reellen Achse als auch zwei Eigenwerte bei ungefähr $\mathsf{2\pm 3.9i}$ korrekt.

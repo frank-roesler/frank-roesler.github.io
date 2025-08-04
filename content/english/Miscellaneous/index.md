@@ -9,7 +9,7 @@ menu: "main"
 weight: 6
 ---
 
-On this page I collected some small mathematical simulations that I coded as a hobby and that are nice to watch (choose from the menu). All simulations are implemented in basic Matlab or Python and the corresponding codes are freely available on [Github](https://github.com/frank-roesler).
+On this page I collected some small mathematical simulations that I coded as a hobby and that are nice to watch (choose from the menu). All simulations come with accessible implementations in Matlab or Python and the corresponding codes are freely available on [Github](https://github.com/frank-roesler).
   
 &nbsp;  
 

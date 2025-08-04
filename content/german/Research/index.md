@@ -6,24 +6,22 @@ date: 2020-05-26T11:53:04+01:00
 draft: false
 menu: "main"
 research_menu: "german"
-weight: 2
+weight: 3
 ---
 
 Hier ist eine aktuelle Liste meiner Forschungsartikel. Im Menu links gibt es zu jeder Arbeit einen kurzen &Uuml;berblick.
 
 {{< figure src="/images/research/collage2.png" link="/images/research/collage2.png" >}}
 
-Publikationen und Preprints
---------------------------
-#### Preprints:
-*   Frank R&ouml;sler, Christiane Tretter; [Computing Klein-Gordon Eigenvalues,](/images/slides_kg.pdf) *in Arbeit*.
+Publikationen
+-------------
+*   Frank R&ouml;sler, Christiane Tretter; [Computing Klein-Gordon Spectra,](https://doi.org/10.1093/imanum/drae032) *IMA Journal of Numerical Analysis, Volume 45, Issue 2, March 2025, Pages 734-776*.  
 (Eine Matlab-Implementierung des Algorithmus gibt es [hier](https://github.com/frank-roesler/spectral_klein_gordon))
-*	Frank R&ouml;sler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://arxiv.org/abs/2104.09444), *Preprint*, arXiv:2104.09444.  
-	(Eine Matlab-Implementierung des Algorithmus gibt es [hier](https://github.com/frank-roesler/PixelSpectra).)
-*	Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Universal algorithms for solving inverse spectral problems](https://arxiv.org/abs/2203.13078), *Preprint*, arXiv:2203.13078.  
+*	Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [On the complexity of the inverse Sturm-Liouville problem](https://msp.org/paa/2023/5-4/p03.xhtml), *Pure and Applied Analysis 5, 895-925 (2023)*.  
 	(Eine Matlab-Implementierung des Algorithmus gibt es [hier](https://github.com/frank-roesler/inverse_SCI))
-#### Peer-Reviewed:
-*   Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Computing scattering resonances](https://arxiv.org/abs/2006.03368). J. Eur. Math. Soc. (JEMS) (accepted), 2022.
+*	Frank R&ouml;sler, Alexei Stepanenko; [Computing Eigenvalues of the Laplacian on Rough Domains](https://www.ams.org/journals/mcom/2024-93-345/S0025-5718-2023-03827-3/home.html), *Math. Comp. 93 (2024), 111-161*.  
+(Eine Matlab-Implementierung des Algorithmus gibt es [hier](https://github.com/frank-roesler/PixelSpectra).)
+*   Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [Computing scattering resonances](https://arxiv.org/abs/2006.03368). *. Eur. Math. Soc. 25 (2023), no. 9, pp. 3633-3663*.
 *   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Universal Algorithms for Computing Spectra of Periodic Operators](https://link.springer.com/article/10.1007/s00211-021-01265-w), *Numer. Math. (2022)*.  
 Eine Matlab-Implementierung des Algorithmus gibt es [hier](https://github.com/frank-roesler/PeriodicSpectra).
 *   Jonathan Ben-Artzi, Marco Marletta, Frank R&ouml;sler; [Computing the Sound of the Sea in a Seashell](https://link.springer.com/article/10.1007%2Fs10208-021-09509-9). *Found. Comput. Math.*, 2021.  
