@@ -37,7 +37,7 @@ Overview: Simultaneous Multi-Slice (SMS) is an established technique in magnetic
 <meta itemprop="description" content="Generating new RF pulses for MR Spectroscopy This is ongoing work. The code repository in its current form is available here: https://github.com/frank-roesler/Inverse_Bloch
 Overview: Simultaneous Multi-Slice (SMS) is an established technique in magnetic resonance imaging, which enables the experimenter to drastically reduce scanning time by simultaneously measuring image data from more than one slice in the subject&rsquo;s body. Using SMS necessitates the parallel excitation of several layers of tissue by the same radiofrequency pulse (I have explained the basics of this here)."><meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="dateModified" content="2020-05-26T11:53:04+01:00" />
-<meta itemprop="wordCount" content="335">
+<meta itemprop="wordCount" content="365">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Research"/>
 <meta name="twitter:description" content="Generating new RF pulses for MR Spectroscopy This is ongoing work. The code repository in its current form is available here: https://github.com/frank-roesler/Inverse_Bloch
@@ -303,6 +303,10 @@ Overview: Simultaneous Multi-Slice (SMS) is an established technique in magnetic
 The figure above shows the result of my pulse generation tool for a 4-slice target. The resulting pulse is in the top left, the field gradient (which is also generated alongside) in the top center and the resulting slice profile is in the bottom right plot.<br>
 The figure below shows some preliminary measurement results using a 4-slice RF pulse to scan a spherical phantom. The top row shows the slices acquired with four individual single slice pulses, which can be regarded as a ground truth to be reproduced. The bottom row shows the corresponding result using a single pulse that excites four slices at the same time. As one can see they are in good agreement.
 <figure><a href="/images/research/4Slice.png"><img src="/images/research/4Slice.png"/></a>
+</figure>
+
+The next figure shows the spectra of a sample pixel in the fourth slice from the above measurement, together with the corresponding spectra (black: single slice pulse, blue: multislice pulse).
+<figure><a href="/images/research/slice4.png"><img src="/images/research/slice4.png"/></a>
 </figure>
 </p>
 
