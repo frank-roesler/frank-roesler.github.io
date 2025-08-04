@@ -37,7 +37,7 @@ Overview: Simultaneous Multi-Slice (SMS) is an established technique in magnetic
 <meta itemprop="description" content="Generating new RF pulses for MR Spectroscopy This is ongoing work. The code repository in its current form is available here: https://github.com/frank-roesler/Inverse_Bloch
 Overview: Simultaneous Multi-Slice (SMS) is an established technique in magnetic resonance imaging, which enables the experimenter to drastically reduce scanning time by simultaneously measuring image data from more than one slice in the subject&rsquo;s body. Using SMS necessitates the parallel excitation of several layers of tissue by the same radiofrequency pulse (I have explained the basics of this here)."><meta itemprop="datePublished" content="2020-05-26T11:53:04+01:00" />
 <meta itemprop="dateModified" content="2020-05-26T11:53:04+01:00" />
-<meta itemprop="wordCount" content="265">
+<meta itemprop="wordCount" content="335">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Research"/>
 <meta name="twitter:description" content="Generating new RF pulses for MR Spectroscopy This is ongoing work. The code repository in its current form is available here: https://github.com/frank-roesler/Inverse_Bloch
@@ -295,10 +295,14 @@ Overview: Simultaneous Multi-Slice (SMS) is an established technique in magnetic
 <p>This is ongoing work. The code repository in its current form is available here: <a href="https://github.com/frank-roesler/Inverse_Bloch">https://github.com/frank-roesler/Inverse_Bloch</a></p>
 <h3 id="overview">Overview:</h3>
 <p>Simultaneous Multi-Slice (SMS) is an established technique in magnetic resonance imaging, which enables the experimenter to drastically reduce scanning time by simultaneously measuring image data from more than one slice in the subject&rsquo;s body. Using SMS necessitates the parallel excitation of several layers of tissue by the same radiofrequency pulse (I have explained the basics of this <a href="/bloch">here</a>).</p>
-<p>In the related field of <a href="https://en.wikipedia.org/wiki/In_vivo_magnetic_resonance_spectroscopy">Magnetic Resonance Spectroscopy</a>, SMS is much less established and new pulse sequences are still at a research state. I am involved in a research project together with <a href="https://www.epfl.ch/labs/metmrs/research/members/andre-doring-phd/">André Döring</a> and <a href="https://people.epfl.ch/lijing.xin?lang=en">Lijing Xin</a> at EPFL Lausanne, which aims to utilise SMS to improve scanning time in Magnetic Resonance Spectroscopic Imaging. The generation of multi slice RF pulses in spectroscopy is considerably more delicate than in classical imaging and requires a gentle balancing of diverse constraints.</p>
-<p>To this end, I have contributed a machine learning tool that uses Bloch simulation in order to create RF pulses given a spatial slice profile with an arbitrary number of slices and a set of constraints. In experiments, such 2-slice pulses are found to yield comparable data quality to two single slice pulses (whose measurement takes twice as long).<br>
-The figure below shows the result of my pulse generation tool for a 2-slice target. The resulting pulse is in the top left, the field gradient (which is also generated alongside) in the top center and the resulting slice profile is in the bottom right plot.
-<figure><a href="/images/research/sms.png"><img src="/images/research/sms.png"/></a>
+<p>In the related field of <a href="https://en.wikipedia.org/wiki/In_vivo_magnetic_resonance_spectroscopy">Magnetic Resonance Spectroscopy</a>, SMS is much less established and new pulse sequences are still at a research state. I am involved in a research project together with <a href="https://www.epfl.ch/labs/metmrs/research/members/andre-doring-phd/">André Döring</a> and <a href="https://people.epfl.ch/lijing.xin?lang=en">Lijing Xin</a> at EPFL Lausanne, which aims to utilise SMS to improve acquisition time in Magnetic Resonance Spectroscopic Imaging. The generation of multi slice RF pulses in spectroscopy is considerably more delicate than in classical imaging and requires a gentle balancing of diverse constraints.</p>
+<p>To this end, I have contributed a machine learning tool that uses Bloch simulation in order to create RF pulses given a spatial slice profile with an arbitrary number of slices and a set of constraints. In experiments, such multislice pulses are found to yield comparable data quality to two single slice pulses (whose measurement takes twice as long).<br>
+<figure><a href="/images/research/sms3.png"><img src="/images/research/sms3.png"/></a>
+</figure>
+
+The figure above shows the result of my pulse generation tool for a 4-slice target. The resulting pulse is in the top left, the field gradient (which is also generated alongside) in the top center and the resulting slice profile is in the bottom right plot.<br>
+The figure below shows some preliminary measurement results using a 4-slice RF pulse to scan a spherical phantom. The top row shows the slices acquired with four individual single slice pulses, which can be regarded as a ground truth to be reproduced. The bottom row shows the corresponding result using a single pulse that excites four slices at the same time. As one can see they are in good agreement.
+<figure><a href="/images/research/4Slice.png"><img src="/images/research/4Slice.png"/></a>
 </figure>
 </p>
 
