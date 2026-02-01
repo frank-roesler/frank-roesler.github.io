@@ -22,3 +22,5 @@ To this end, I have contributed a machine learning tool that uses Bloch simulati
 The figure above shows the result of my pulse generation tool for a 4-slice target. The resulting pulse is in the top left, the field gradient (which is also generated alongside) in the top center and the resulting slice profile is in the bottom right plot.  
 The figure below shows some preliminary measurement results using a 4-slice RF pulse to scan a spherical phantom. The top row shows the slices acquired with four individual single slice pulses, which can be regarded as a ground truth to be reproduced. The bottom row shows the corresponding result using a single pulse that excites four slices at the same time. As one can see they are in good agreement.
 {{< figure src="/images/research/4Slice.png" link="/images/research/4Slice.png" >}}
+The next figure shows the spectra of a sample pixel in the fourth slice from the above measurement, together with the corresponding spectra (black: single slice pulse, blue: multislice pulse).
+{{< figure src="/images/research/slice4.png" link="/images/research/slice4.png" >}}

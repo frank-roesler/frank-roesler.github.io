@@ -15,6 +15,7 @@ This page contains an up-to-date list of my publications. Please choose from the
 
 Publications
 ------------
+*	Andr&eacute; D&ouml;ring, F. R&ouml;sler, K. &Scedil;im&scedil;ek, M. Afzali, R. Kreis, K. Landheer, D. Jones, J. Valette, M. Palombo; [Resolving Cellular Morphology in the Human Brain with Multiparametric Diffusion MR Spectroscopy.](https://www.biorxiv.org/content/10.1101/2025.10.12.681859v1) *Preprint*, (2025).
 *	Frank R&ouml;sler, Christiane Tretter; [Computing Klein-Gordon Spectra,](https://doi.org/10.1093/imanum/drae032) *IMA Journal of Numerical Analysis, Volume 45, Issue 2, March 2025, Pages 734-776*.  
 (A Matlab implementation of the algorithm is available [here](https://github.com/frank-roesler/spectral_klein_gordon))
 *	Jonathan Ben-Artzi, Marco Marletta, and Frank R&ouml;sler. [On the complexity of the inverse Sturm-Liouville problem](https://msp.org/paa/2023/5-4/p03.xhtml), *Pure and Applied Analysis 5, 895-925 (2023)*.  

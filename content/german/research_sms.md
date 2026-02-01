@@ -22,4 +22,6 @@ Zu diesem Zweck habe ich ein Machine-Learning-Werkzeug entwickelt, das mittels B
 Die obige Abbildung zeigt das Ergebnis meines Pulsgenerators für ein 4-Schicht-Ziel. Der erzeugte Puls ist oben links dargestellt, das zugehörig generierte Magnetfeldgradientenprofil befindet sich oben in der Mitte, und das resultierende Schicht-Profil ist unten rechts zu sehen.  
 Die folgende Abbildung zeigt erste Messergebnisse mit einem 4-Schicht-RF-Puls zur Aufnahme eines Kugel-Phantoms. Die oberste Reihe zeigt die Schichten, die mit vier einzelnen Einzelschicht-Pulsen aufgenommen wurden; diese können als Referenz betrachtet werden. Die unterste Reihe zeigt das entsprechende Ergebnis unter Verwendung eines einzigen Pulses, der gleichzeitig vier Schichten anregt. Wie man sieht, stimmen die Ergebnisse gut überein.
 {{< figure src="/images/research/4Slice.png" link="/images/research/4Slice.png" >}}
+Die nächste Abbildung zeigt die Spektren eines Beispiel-Pixels aus der vierten Schicht der obigen Messung, zusammen mit den entsprechenden Spektren (schwarz: Single-Slice-Puls, blau: Multi-Slice-Puls).
+{{< figure src="/images/research/slice4.png" link="/images/research/slice4.png" >}}
 
