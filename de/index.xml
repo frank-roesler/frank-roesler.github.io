@@ -31,7 +31,20 @@
       <pubDate>Tue, 26 May 2020 14:30:19 +0100</pubDate>
       
       <guid>https://frank-roesler.github.io/de/cv/</guid>
-      <description>Grants und Preise  2020: 2-Jahre Marie Skłodowska Curie Fellowship für das Projekt Computational Complexity in Quantum Mechanics (COCONUT) an der Universität Cardiff. 2019: LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop &amp;ldquo;Small Scales and Homogenisation&amp;rdquo; 2015: EPS Poster Prize, verliehen von der European Physical Society, im Rahmen des Workshops Pseudo-Hermitian Hamiltonians in Quantum Physics.  Arbeitserfahrung  seit 2024: Softwareentwickler / Aktuar, Produktintegration Leben, Nürnberger Versicherung, Nürnberg, Deutschland.</description>
+      <description>Grants und Preise  2020: 2-Jahre Marie Skłodowska Curie Fellowship für das Projekt Computational Complexity in Quantum Mechanics (COCONUT) an der Universität Cardiff. 2019: LMS Scheme 1 Conference Grant (amount £4,000) für den Workshop &amp;ldquo;Small Scales and Homogenisation&amp;rdquo; 2015: EPS Poster Prize, verliehen von der European Physical Society, im Rahmen des Workshops Pseudo-Hermitian Hamiltonians in Quantum Physics.  Arbeitserfahrung  seit 2026: Data Scientist, Seragy Analytics, Hannover, Deutschland. 2024-2026: Softwareentwickler / Aktuar, Produktintegration Leben, Nürnberger Versicherung, Nürnberg, Deutschland.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://frank-roesler.github.io/de/links-2/</link>
+      <pubDate>Tue, 26 May 2020 14:32:05 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/links-2/</guid>
+      <description>Diese Seite enthält Links zu aktuellen Events und Arbeiten, die für mich gegenwärtig von Interesse sind.
+Cardiff Online Analysis Seminar (CAOS): Während der COVID-19 Beschränkungen organisiert Cardiff ein online-Analysis-Seminar: https://jbenartzi.github.io/seminars.html
+(Related: Eine Große Zahl von online-Forschungsseminaren ist hier aufgelistet: https://researchseminars.org/)
+Springer E-Books: Springer hat kürzlich über 400 E-Books kostenlos zum Download zur Verfügung gestellt: https://www.reddit.com/r/FreeEBOOKS/comments/g34xi5/408_free_ebooks_from_springer/
+Forschungsprojekte:  SIDING: Schienenanschluss-Identifikation durch intelligente Geolokalisierung ARGOS Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme COCONUT: Computational Complexity in Quantum Mechanics QUEST@Cardiff: https://cardiffquest.</description>
     </item>
     
     <item>
@@ -42,6 +55,15 @@
       <guid>https://frank-roesler.github.io/de/links/</guid>
       <description>Diese Seite enthält Links zu aktuellen Events und Arbeiten, die für mich gegenwärtig von Interesse sind.
 Forschungsprojekte:  SIDING: Schienenanschluss-Identifikation durch intelligente Geolokalisierung ARGOS Aufklärung von reaktivierbaren Gewerbeflächen mittels optisch-basierter Systeme COCONUT: Computational Complexity in Quantum Mechanics SNF-Projekt Non-selfadjoint problems in spectral theory and mathematical physics QUEST@Cardiff: https://cardiffquest.blog/  Konferenzen und Workshops (Mathematik):  Eine Große Zahl von online-Forschungsseminaren ist hier aufgelistet: https://researchseminars.org/ Cardiff Analysis Seminar an der Universität Cardiff. Spectral Theory in the Clouds, Intergalactic seminar on spectral theory and differential geometry, Jeden Montag, 17 Uhr GMT.</description>
+    </item>
+    
+    <item>
+      <title>Hobbyprojekte</title>
+      <link>https://frank-roesler.github.io/de/miscellaneous-2/</link>
+      <pubDate>Tue, 26 May 2020 15:13:25 +0100</pubDate>
+      
+      <guid>https://frank-roesler.github.io/de/miscellaneous-2/</guid>
+      <description>Hier sammle ich einige kleine mathematische Simulationen, die ich als Hobby programmiert habe. Alle Simulationen sind simple Matlab- bzw. Python-Implementierungen und die zugehörigen Codes sind frei verfügbar auf Github.</description>
     </item>
     
     <item>
